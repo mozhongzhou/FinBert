@@ -1,0 +1,5 @@
+data/processed/*
+data/raw/*.txt*
+data/debug/*
+models/*
+resources/*
