@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "positive": 1,
+    "neutral": 0,
+    "negative": 0,
+    "positive_ratio": 1.0,
+    "neutral_ratio": 0.0,
+    "negative_ratio": 0.0
+  },
+  "sections": {
+    "md_and_a": {
+      "stats": {
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0
+      },
+      "proportions": {
+        "positive": 1.0,
+        "neutral": 0.0,
+        "negative": 0.0
+      },
+      "sentences": [
+        {
+          "text": "of Financial Condition and Results of Operations The followin g discussion and analysis of our financial condition and results of operations should be read in conjunction with “.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.027657944709062576,
+            "neutral": 0.024540724232792854,
+            "positive": 0.9478013515472412
+          }
+        }
+      ]
+    }
+  }
+}

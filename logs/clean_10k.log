@@ -1,0 +1,279 @@
+2025-03-28 22:05:59,287 - INFO - 开始处理 66 个文件
+2025-03-28 22:06:04,647 - INFO - 处理文件: AAPL_10-K_20100925.txt
+2025-03-28 22:06:04,655 - INFO - 处理文件: AAPL_10-K_20110924.txt
+2025-03-28 22:06:04,673 - INFO - 处理文件: AAPL_10-K_20120929.txt
+2025-03-28 22:06:04,704 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20100925_risk_factors.txt
+2025-03-28 22:06:04,709 - INFO - 已提取并保存章节 business: AAPL_10-K_20110924_business.txt
+2025-03-28 22:06:04,711 - INFO - 已提取并保存章节 business: AAPL_10-K_20100925_business.txt
+2025-03-28 22:06:04,713 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20120929_risk_factors.txt
+2025-03-28 22:06:04,718 - INFO - 已提取并保存章节 business: AAPL_10-K_20120929_business.txt
+2025-03-28 22:06:04,721 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20110924_financial_statements.txt
+2025-03-28 22:06:04,723 - INFO - 处理文件: AAPL_10-K_20130928.txt
+2025-03-28 22:06:04,724 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20100925_financial_statements.txt
+2025-03-28 22:06:04,725 - INFO - 处理文件: AAPL_10-K_20140927.txt
+2025-03-28 22:06:04,730 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20120929_financial_statements.txt
+2025-03-28 22:06:04,730 - INFO - 处理文件: AAPL_10-K_20150926.txt
+2025-03-28 22:06:04,757 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20130928_risk_factors.txt
+2025-03-28 22:06:04,759 - INFO - 已提取并保存章节 business: AAPL_10-K_20130928_business.txt
+2025-03-28 22:06:04,761 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20130928_financial_statements.txt
+2025-03-28 22:06:04,761 - INFO - 处理文件: AAPL_10-K_20160924.txt
+2025-03-28 22:06:04,763 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20150926_risk_factors.txt
+2025-03-28 22:06:04,765 - INFO - 已提取并保存章节 business: AAPL_10-K_20150926_business.txt
+2025-03-28 22:06:04,766 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20140927_risk_factors.txt
+2025-03-28 22:06:04,766 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20150926_financial_statements.txt
+2025-03-28 22:06:04,767 - INFO - 处理文件: AAPL_10-K_20170930.txt
+2025-03-28 22:06:04,768 - INFO - 已提取并保存章节 business: AAPL_10-K_20140927_business.txt
+2025-03-28 22:06:04,771 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20140927_financial_statements.txt
+2025-03-28 22:06:04,771 - INFO - 处理文件: AAPL_10-K_20180929.txt
+2025-03-28 22:06:04,798 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20160924_risk_factors.txt
+2025-03-28 22:06:04,800 - INFO - 已提取并保存章节 business: AAPL_10-K_20160924_business.txt
+2025-03-28 22:06:04,802 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20160924_financial_statements.txt
+2025-03-28 22:06:04,803 - INFO - 处理文件: AAPL_10-K_20190928.txt
+2025-03-28 22:06:04,806 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20180929_risk_factors.txt
+2025-03-28 22:06:04,808 - INFO - 已提取并保存章节 business: AAPL_10-K_20180929_business.txt
+2025-03-28 22:06:04,809 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20180929_financial_statements.txt
+2025-03-28 22:06:04,810 - INFO - 处理文件: AAPL_10-K_20200926.txt
+2025-03-28 22:06:04,810 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20170930_risk_factors.txt
+2025-03-28 22:06:04,812 - INFO - 已提取并保存章节 business: AAPL_10-K_20170930_business.txt
+2025-03-28 22:06:04,815 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20170930_financial_statements.txt
+2025-03-28 22:06:04,816 - INFO - 处理文件: AAPL_10-K_20210925.txt
+2025-03-28 22:06:04,833 - INFO - 处理文件: AAPL_10-K_20220924.txt
+2025-03-28 22:06:04,839 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20190928_risk_factors.txt
+2025-03-28 22:06:04,840 - INFO - 处理文件: AAPL_10-K_20230930.txt
+2025-03-28 22:06:04,840 - INFO - 已提取并保存章节 business: AAPL_10-K_20190928_business.txt
+2025-03-28 22:06:04,843 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20190928_financial_statements.txt
+2025-03-28 22:06:04,843 - INFO - 处理文件: AAPL_10-K_20240928.txt
+2025-03-28 22:06:04,845 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20210925_risk_factors.txt
+2025-03-28 22:06:04,847 - INFO - 已提取并保存章节 business: AAPL_10-K_20210925_business.txt
+2025-03-28 22:06:04,848 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20200926_risk_factors.txt
+2025-03-28 22:06:04,849 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20210925_financial_statements.txt
+2025-03-28 22:06:04,849 - INFO - 处理文件: GOOGL_10-K_20111231.txt
+2025-03-28 22:06:04,849 - INFO - 已提取并保存章节 business: AAPL_10-K_20200926_business.txt
+2025-03-28 22:06:04,852 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20200926_financial_statements.txt
+2025-03-28 22:06:04,852 - INFO - 处理文件: GOOGL_10-K_20131231.txt
+2025-03-28 22:06:04,864 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20220924_risk_factors.txt
+2025-03-28 22:06:04,866 - INFO - 已提取并保存章节 business: AAPL_10-K_20220924_business.txt
+2025-03-28 22:06:04,868 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20220924_financial_statements.txt
+2025-03-28 22:06:04,869 - INFO - 处理文件: GOOGL_10-K_20141231.txt
+2025-03-28 22:06:04,871 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20230930_risk_factors.txt
+2025-03-28 22:06:04,872 - INFO - 处理文件: GOOGL_10-K_20151231.txt
+K_20230930_business.txt
+2025-03-28 22:06:04,875 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20230930_financial_statements.txt
+2025-03-28 22:06:04,875 - INFO - 处理文件: GOOGL_10-K_20171231.txt
+2025-03-28 22:06:04,875 - INFO - 处理文件: GOOGL_10-K_20161231.txt
+2025-03-28 22:06:04,884 - INFO - 处理文件: GOOGL_10-K_20181231.txt
+2025-03-28 22:06:04,885 - INFO - 已提取并保存章节 md_and_a: GOOGL_10-K_20131231_md_and_a.txt
+2025-03-28 22:06:04,887 - INFO - 已提取并保存章节 risk_factors: AAPL_10-K_20240928_risk_factors.txt
+2025-03-28 22:06:04,888 - INFO - 已提取并保存章节 business: AAPL_10-K_20240928_business.txt
+2025-03-28 22:06:04,891 - INFO - 已提取并保存章节 financial_statements: AAPL_10-K_20240928_financial_statements.txt
+2025-03-28 22:06:04,891 - INFO - 处理文件: GOOGL_10-K_20191231.txt
+2025-03-28 22:06:04,892 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20131231_risk_factors.txt
+2025-03-28 22:06:04,897 - INFO - 已提取并保存章节 business: GOOGL_10-K_20131231_business.txt
+2025-03-28 22:06:04,905 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20111231_risk_factors.txt
+2025-03-28 22:06:04,905 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20141231_risk_factors.txt
+2025-03-28 22:06:04,907 - INFO - 已提取并保存章节 business: GOOGL_10-K_20111231_business.txt
+2025-03-28 22:06:04,907 - INFO - 处理文件: GOOGL_10-K_20201231.txt
+2025-03-28 22:06:04,910 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20131231_financial_statements.txt
+2025-03-28 22:06:04,910 - INFO - 已提取并保存章节 business: GOOGL_10-K_20141231_business.txt
+2025-03-28 22:06:04,910 - INFO - 处理文件: GOOGL_10-K_20211231.txt
+2025-03-28 22:06:04,910 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20111231_financial_statements.txt
+2025-03-28 22:06:04,910 - INFO - 处理文件: GOOGL_10-K_20221231.txt
+2025-03-28 22:06:04,912 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20171231_risk_factors.txt
+2025-03-28 22:06:04,912 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20161231_risk_factors.txt
+2025-03-28 22:06:04,914 - INFO - 已提取并保存章节 business: GOOGL_10-K_20171231_business.txt
+2025-03-28 22:06:04,914 - INFO - 已提取并保存章节 business: GOOGL_10-K_20161231_business.txt
+2025-03-28 22:06:04,915 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20171231_financial_statements.txt
+2025-03-28 22:06:04,916 - INFO - 处理文件: GOOGL_10-K_20231231.txt
+2025-03-28 22:06:04,916 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20161231_financial_statements.txt
+2025-03-28 22:06:04,916 - INFO - 处理文件: GOOGL_10-K_20241231.txt
+2025-03-28 22:06:04,923 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20151231_risk_factors.txt
+2025-03-28 22:06:04,925 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20181231_risk_factors.txt
+2025-03-28 22:06:04,926 - INFO - 已提取并保存章节 business: GOOGL_10-K_20151231_business.txt
+2025-03-28 22:06:04,927 - INFO - 已提取并保存章节 business: GOOGL_10-K_20181231_business.txt
+2025-03-28 22:06:04,927 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20141231_financial_statements.txt
+2025-03-28 22:06:04,929 - INFO - 处理文件: MSFT_10-K_20130630.txt
+2025-03-28 22:06:04,929 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20181231_financial_statements.txt
+2025-03-28 22:06:04,929 - INFO - 处理文件: MSFT_10-K_20140630.txt
+2025-03-28 22:06:04,930 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20151231_financial_statements.txt
+2025-03-28 22:06:04,931 - INFO - 处理文件: MSFT_10-K_20150630.txt
+2025-03-28 22:06:04,938 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20191231_risk_factors.txt
+2025-03-28 22:06:04,940 - INFO - 已提取并保存章节 business: GOOGL_10-K_20191231_business.txt
+2025-03-28 22:06:04,943 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20191231_financial_statements.txt
+2025-03-28 22:06:04,943 - INFO - 处理文件: MSFT_10-K_20160630.txt
+2025-03-28 22:06:04,951 - INFO - 已提取并保存章节 md_and_a: GOOGL_10-K_20221231_md_and_a.txt
+2025-03-28 22:06:04,953 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20221231_risk_factors.txt
+2025-03-28 22:06:04,956 - INFO - 已提取并保存章节 business: GOOGL_10-K_20221231_business.txt
+2025-03-28 22:06:04,958 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20221231_financial_statements.txt
+2025-03-28 22:06:04,958 - INFO - 处理文件: MSFT_10-K_20170630.txt
+2025-03-28 22:06:04,960 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20201231_risk_factors.txt
+2025-03-28 22:06:04,962 - INFO - 已提取并保存章节 business: GOOGL_10-K_20201231_business.txt
+2025-03-28 22:06:04,964 - INFO - 已提取并保存章节 md_and_a: GOOGL_10-K_20231231_md_and_a.txt
+2025-03-28 22:06:04,964 - INFO - 已提取并保存章节 md_and_a: GOOGL_10-K_20241231_md_and_a.txt
+2025-03-28 22:06:04,965 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20201231_financial_statements.txt
+2025-03-28 22:06:04,965 - INFO - 处理文件: MSFT_10-K_20180630.txt
+2025-03-28 22:06:04,966 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20231231_risk_factors.txt
+2025-03-28 22:06:04,966 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20241231_risk_factors.txt
+2025-03-28 22:06:04,966 - INFO - 已提取并保存章节 risk_factors: GOOGL_10-K_20211231_risk_factors.txt
+2025-03-28 22:06:04,968 - INFO - 已提取并保存章节 business: GOOGL_10-K_20231231_business.txt
+2025-03-28 22:06:04,968 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20150630_risk_factors.txt
+2025-03-28 22:06:04,968 - INFO - 已提取并保存章节 business: GOOGL_10-K_20241231_business.txt
+2025-03-28 22:06:04,969 - INFO - 已提取并保存章节 business: GOOGL_10-K_20211231_business.txt
+2025-03-28 22:06:04,970 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20231231_financial_statements.txt
+2025-03-28 22:06:04,971 - INFO - 已提取并保存章节 business: MSFT_10-K_20150630_business.txt
+2025-03-28 22:06:04,971 - INFO - 处理文件: MSFT_10-K_20190630.txt
+2025-03-28 22:06:04,971 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20241231_financial_statements.txt
+2025-03-28 22:06:04,971 - INFO - 已提取并保存章节 financial_statements: GOOGL_10-K_20211231_financial_statements.txt
+2025-03-28 22:06:04,971 - INFO - 处理文件: MSFT_10-K_20200630.txt
+2025-03-28 22:06:04,971 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20130630_risk_factors.txt
+2025-03-28 22:06:04,971 - INFO - 处理文件: MSFT_10-K_20210630.txt
+2025-03-28 22:06:04,971 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20140630_risk_factors.txt
+2025-03-28 22:06:04,974 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20150630_financial_statements.txt
+2025-03-28 22:06:04,974 - INFO - 处理文件: MSFT_10-K_20220630.txt
+2025-03-28 22:06:04,974 - INFO - 已提取并保存章节 business: MSFT_10-K_20140630_business.txt
+2025-03-28 22:06:04,975 - INFO - 已提取并保存章节 business: MSFT_10-K_20130630_business.txt
+2025-03-28 22:06:04,977 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20140630_financial_statements.txt
+2025-03-28 22:06:04,977 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20130630_financial_statements.txt
+2025-03-28 22:06:04,977 - INFO - 处理文件: MSFT_10-K_20230630.txt
+2025-03-28 22:06:04,977 - INFO - 处理文件: MSFT_10-K_20240630.txt
+2025-03-28 22:06:04,980 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20160630_risk_factors.txt
+2025-03-28 22:06:04,982 - INFO - 已提取并保存章节 business: MSFT_10-K_20160630_business.txt
+2025-03-28 22:06:04,985 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20160630_financial_statements.txt
+2025-03-28 22:06:04,985 - INFO - 处理文件: NVDA_10-K_20130127.txt
+2025-03-28 22:06:04,995 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20170630_risk_factors.txt
+2025-03-28 22:06:04,997 - INFO - 已提取并保存章节 business: MSFT_10-K_20170630_business.txt
+2025-03-28 22:06:05,001 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20170630_financial_statements.txt
+2025-03-28 22:06:05,001 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20180630_risk_factors.txt
+2025-03-28 22:06:05,001 - INFO - 处理文件: NVDA_10-K_20140126.txt
+2025-03-28 22:06:05,004 - INFO - 已提取并保存章节 business: MSFT_10-K_20180630_business.txt
+2025-03-28 22:06:05,007 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20190630_risk_factors.txt
+2025-03-28 22:06:05,007 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20180630_financial_statements.txt
+2025-03-28 22:06:05,008 - INFO - 处理文件: NVDA_10-K_20150125.txt
+2025-03-28 22:06:05,009 - INFO - 已提取并保存章节 business: MSFT_10-K_20190630_business.txt
+2025-03-28 22:06:05,009 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20200630_risk_factors.txt
+2025-03-28 22:06:05,010 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20210630_risk_factors.txt
+2025-03-28 22:06:05,011 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20190630_financial_statements.txt
+2025-03-28 22:06:05,011 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20220630_risk_factors.txt
+2025-03-28 22:06:05,012 - INFO - 处理文件: NVDA_10-K_20160131.txt
+2025-03-28 22:06:05,012 - INFO - 已提取并保存章节 business: MSFT_10-K_20200630_business.txt
+2025-03-28 22:06:05,012 - INFO - 已提取并保存章节 business: MSFT_10-K_20210630_business.txt
+2025-03-28 22:06:05,014 - INFO - 已提取并保存章节 business: MSFT_10-K_20220630_business.txt
+2025-03-28 22:06:05,015 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20200630_financial_statements.txt
+2025-03-28 22:06:05,015 - INFO - 处理文件: NVDA_10-K_20170129.txt
+2025-03-28 22:06:05,015 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20210630_financial_statements.txt
+2025-03-28 22:06:05,015 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20230630_risk_factors.txt
+2025-03-28 22:06:05,015 - INFO - 处理文件: NVDA_10-K_20180128.txt
+2025-03-28 22:06:05,017 - INFO - 已提取并保存章节 risk_factors: MSFT_10-K_20240630_risk_factors.txt
+2025-03-28 22:06:05,017 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20220630_financial_statements.txt
+2025-03-28 22:06:05,017 - INFO - 处理文件: NVDA_10-K_20190127.txt
+2025-03-28 22:06:05,017 - INFO - 已提取并保存章节 business: MSFT_10-K_20230630_business.txt
+2025-03-28 22:06:05,020 - INFO - 已提取并保存章节 business: MSFT_10-K_20240630_business.txt
+2025-03-28 22:06:05,021 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20230630_financial_statements.txt
+2025-03-28 22:06:05,021 - INFO - 处理文件: NVDA_10-K_20200126.txt
+2025-03-28 22:06:05,023 - INFO - 已提取并保存章节 financial_statements: MSFT_10-K_20240630_financial_statements.txt
+2025-03-28 22:06:05,023 - INFO - 处理文件: NVDA_10-K_20210131.txt
+2025-03-28 22:06:05,034 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20130127_risk_factors.txt
+2025-03-28 22:06:05,036 - INFO - 已提取并保存章节 business: NVDA_10-K_20130127_business.txt
+2025-03-28 22:06:05,039 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20130127_financial_statements.txt
+2025-03-28 22:06:05,040 - INFO - 处理文件: NVDA_10-K_20220130.txt
+2025-03-28 22:06:05,041 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20140126_risk_factors.txt
+2025-03-28 22:06:05,044 - INFO - 已提取并保存章节 business: NVDA_10-K_20140126_business.txt
+2025-03-28 22:06:05,046 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20140126_financial_statements.txt
+2025-03-28 22:06:05,046 - INFO - 处理文件: NVDA_10-K_20230129.txt
+2025-03-28 22:06:05,047 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20160131_risk_factors.txt
+2025-03-28 22:06:05,049 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20150125_risk_factors.txt
+2025-03-28 22:06:05,049 - INFO - 已提取并保存章节 business: NVDA_10-K_20160131_business.txt
+2025-03-28 22:06:05,051 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20200126_risk_factors.txt
+2025-03-28 22:06:05,052 - INFO - 已提取并保存章节 business: NVDA_10-K_20150125_business.txt
+2025-03-28 22:06:05,053 - INFO - 已提取并保存章节 business: NVDA_10-K_20200126_business.txt
+2025-03-28 22:06:05,053 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20160131_financial_statements.txt
+2025-03-28 22:06:05,053 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20180128_risk_factors.txt
+2025-03-28 22:06:05,053 - INFO - 处理文件: NVDA_10-K_20240128.txt
+2025-03-28 22:06:05,055 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20200126_financial_statements.txt
+2025-03-28 22:06:05,055 - INFO - 处理文件: NVDA_10-K_20250126.txt
+2025-03-28 22:06:05,055 - INFO - 已提取并保存章节 business: NVDA_10-K_20180128_business.txt
+2025-03-28 22:06:05,055 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20150125_financial_statements.txt
+2025-03-28 22:06:05,056 - INFO - 处理文件: TSLA_10-K_20121231.txt
+2025-03-28 22:06:05,058 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20180128_financial_statements.txt
+2025-03-28 22:06:05,058 - INFO - 处理文件: TSLA_10-K_20131231.txt
+2025-03-28 22:06:05,059 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20210131_risk_factors.txt
+2025-03-28 22:06:05,060 - INFO - 处理文件: TSLA_10-K_20141231.txt
+2025-03-28 22:06:05,061 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20190127_risk_factors.txt
+2025-03-28 22:06:05,062 - INFO - 已提取并保存章节 business: NVDA_10-K_20210131_business.txt
+2025-03-28 22:06:05,064 - INFO - 已提取并保存章节 business: NVDA_10-K_20190127_business.txt
+2025-03-28 22:06:05,065 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20210131_financial_statements.txt
+2025-03-28 22:06:05,065 - INFO - 处理文件: TSLA_10-K_20151231.txt
+2025-03-28 22:06:05,066 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20190127_financial_statements.txt
+2025-03-28 22:06:05,066 - INFO - 处理文件: TSLA_10-K_20161231.txt
+2025-03-28 22:06:05,075 - INFO - 处理文件: TSLA_10-K_20171231.txt
+2025-03-28 22:06:05,087 - INFO - 处理文件: TSLA_10-K_20181231.txt
+2025-03-28 22:06:05,095 - INFO - 已提取并保存章节 md_and_a: NVDA_10-K_20240128_md_and_a.txt
+2025-03-28 22:06:05,097 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20220130_risk_factors.txt
+2025-03-28 22:06:05,098 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20240128_risk_factors.txt
+2025-03-28 22:06:05,098 - INFO - 处理文件: TSLA_10-K_20191231.txt
+2025-03-28 22:06:05,100 - INFO - 已提取并保存章节 business: NVDA_10-K_20220130_business.txt
+2025-03-28 22:06:05,101 - INFO - 已提取并保存章节 business: NVDA_10-K_20240128_business.txt
+2025-03-28 22:06:05,104 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20220130_financial_statements.txt
+2025-03-28 22:06:05,104 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20240128_financial_statements.txt
+2025-03-28 22:06:05,104 - INFO - 处理文件: TSLA_10-K_20201231.txt
+2025-03-28 22:06:05,104 - INFO - 处理文件: TSLA_10-K_20211231.txt
+2025-03-28 22:06:05,111 - INFO - 处理文件: TSLA_10-K_20221231.txt
+2025-03-28 22:06:05,114 - INFO - 处理文件: TSLA_10-K_20231231.txt
+2025-03-28 22:06:05,115 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20170129_risk_factors.txt
+2025-03-28 22:06:05,116 - INFO - 已提取并保存章节 md_and_a: NVDA_10-K_20250126_md_and_a.txt
+2025-03-28 22:06:05,119 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20131231_risk_factors.txt
+2025-03-28 22:06:05,120 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20250126_risk_factors.txt
+2025-03-28 22:06:05,122 - INFO - 已提取并保存章节 business: NVDA_10-K_20170129_business.txt
+2025-03-28 22:06:05,123 - INFO - 已提取并保存章节 business: NVDA_10-K_20250126_business.txt
+2025-03-28 22:06:05,124 - INFO - 已提取并保存章节 business: TSLA_10-K_20131231_business.txt
+2025-03-28 22:06:05,126 - INFO - 处理文件: TSLA_10-K_20241231.txt
+2025-03-28 22:06:05,127 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20170129_financial_statements.txt
+2025-03-28 22:06:05,128 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20250126_financial_statements.txt
+2025-03-28 22:06:05,128 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20141231_risk_factors.txt
+2025-03-28 22:06:05,128 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20151231_risk_factors.txt
+2025-03-28 22:06:05,129 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20121231_risk_factors.txt
+2025-03-28 22:06:05,130 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20131231_financial_statements.txt
+2025-03-28 22:06:05,131 - INFO - 已提取并保存章节 business: TSLA_10-K_20141231_business.txt
+2025-03-28 22:06:05,133 - INFO - 已提取并保存章节 business: TSLA_10-K_20151231_business.txt
+2025-03-28 22:06:05,134 - INFO - 已提取并保存章节 business: TSLA_10-K_20121231_business.txt
+2025-03-28 22:06:05,135 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20141231_financial_statements.txt
+2025-03-28 22:06:05,136 - INFO - 已提取并保存章节 risk_factors: NVDA_10-K_20230129_risk_factors.txt
+2025-03-28 22:06:05,137 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20151231_financial_statements.txt
+2025-03-28 22:06:05,137 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20121231_financial_statements.txt
+2025-03-28 22:06:05,141 - INFO - 已提取并保存章节 business: NVDA_10-K_20230129_business.txt
+2025-03-28 22:06:05,142 - INFO - 已提取并保存章节 business: TSLA_10-K_20211231_business.txt
+2025-03-28 22:06:05,144 - INFO - 已提取并保存章节 financial_statements: NVDA_10-K_20230129_financial_statements.txt
+2025-03-28 22:06:05,147 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20211231_financial_statements.txt
+2025-03-28 22:06:05,171 - INFO - 已提取并保存章节 md_and_a: TSLA_10-K_20231231_md_and_a.txt
+2025-03-28 22:06:05,174 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20231231_risk_factors.txt
+2025-03-28 22:06:05,176 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20171231_risk_factors.txt
+2025-03-28 22:06:05,176 - INFO - 已提取并保存章节 business: TSLA_10-K_20231231_business.txt
+2025-03-28 22:06:05,178 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20161231_risk_factors.txt
+2025-03-28 22:06:05,179 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20231231_financial_statements.txt
+2025-03-28 22:06:05,180 - INFO - 已提取并保存章节 business: TSLA_10-K_20171231_business.txt
+2025-03-28 22:06:05,183 - INFO - 已提取并保存章节 business: TSLA_10-K_20161231_business.txt
+2025-03-28 22:06:05,184 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20171231_financial_statements.txt
+2025-03-28 22:06:05,188 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20161231_financial_statements.txt
+2025-03-28 22:06:05,194 - INFO - 已提取并保存章节 md_and_a: TSLA_10-K_20241231_md_and_a.txt
+2025-03-28 22:06:05,197 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20241231_risk_factors.txt
+2025-03-28 22:06:05,200 - INFO - 已提取并保存章节 business: TSLA_10-K_20241231_business.txt
+2025-03-28 22:06:05,203 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20241231_financial_statements.txt
+2025-03-28 22:06:05,211 - INFO - 已提取并保存章节 md_and_a: TSLA_10-K_20221231_md_and_a.txt
+2025-03-28 22:06:05,216 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20221231_risk_factors.txt
+2025-03-28 22:06:05,216 - INFO - 已提取并保存章节 md_and_a: TSLA_10-K_20191231_md_and_a.txt
+2025-03-28 22:06:05,220 - INFO - 已提取并保存章节 business: TSLA_10-K_20221231_business.txt
+2025-03-28 22:06:05,221 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20191231_risk_factors.txt
+2025-03-28 22:06:05,224 - INFO - 已提取并保存章节 business: TSLA_10-K_20191231_business.txt
+2025-03-28 22:06:05,225 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20221231_financial_statements.txt
+2025-03-28 22:06:05,227 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20191231_financial_statements.txt
+2025-03-28 22:06:05,241 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20181231_risk_factors.txt
+2025-03-28 22:06:05,246 - INFO - 已提取并保存章节 business: TSLA_10-K_20181231_business.txt
+2025-03-28 22:06:05,251 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20181231_financial_statements.txt
+2025-03-28 22:06:05,278 - INFO - 已提取并保存章节 md_and_a: TSLA_10-K_20201231_md_and_a.txt
+2025-03-28 22:06:05,284 - INFO - 已提取并保存章节 risk_factors: TSLA_10-K_20201231_risk_factors.txt
+2025-03-28 22:06:05,291 - INFO - 已提取并保存章节 business: TSLA_10-K_20201231_business.txt
+2025-03-28 22:06:05,297 - INFO - 已提取并保存章节 financial_statements: TSLA_10-K_20201231_financial_statements.txt
+2025-03-28 22:06:06,118 - INFO - 处理完成，章节提取统计:
+2025-03-28 22:06:06,118 - INFO - - risk_factors: 65 个文件
+2025-03-28 22:06:06,118 - INFO - - business: 66 个文件
+2025-03-28 22:06:06,118 - INFO - - financial_statements: 66 个文件
+2025-03-28 22:06:06,118 - INFO - - md_and_a: 11 个文件

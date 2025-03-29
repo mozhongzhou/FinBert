@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "positive": 7,
+    "neutral": 0,
+    "negative": 0,
+    "positive_ratio": 1.0,
+    "neutral_ratio": 0.0,
+    "negative_ratio": 0.0
+  },
+  "sections": {
+    "md_and_a": {
+      "stats": {
+        "positive": 7,
+        "neutral": 0,
+        "negative": 0
+      },
+      "proportions": {
+        "positive": 1.0,
+        "neutral": 0.0,
+        "negative": 0.0
+      },
+      "sentences": [
+        {
+          "text": "and Results of Operations,\" and those discussed in other documents we file with the SEC..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.026493560522794724,
+            "neutral": 0.02688649483025074,
+            "positive": 0.9466199278831482
+          }
+        },
+        {
+          "text": "We undertake no obligation to revise or publicly release the results of any revision to these forward-looking statements, except as required by law..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.024462975561618805,
+            "neutral": 0.026730705052614212,
+            "positive": 0.9488062858581543
+          }
+        },
+        {
+          "text": "Given these risks and uncertainties, readers are cautioned not to place undue reliance on such forward-looking statements..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.05896241217851639,
+            "neutral": 0.03888221085071564,
+            "positive": 0.9021553993225098
+          }
+        },
+        {
+          "text": "As used herein, \"Alphabet,\" \"the company,\" \"we,\" \"us,\" \"our,\" and similar terms include Alphabet Inc..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02085540071129799,
+            "neutral": 0.035636842250823975,
+            "positive": 0.9435077905654907
+          }
+        },
+        {
+          "text": "and its subsidiaries, unless the context indicates otherwise..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.026705458760261536,
+            "neutral": 0.030722489580512047,
+            "positive": 0.9425719976425171
+          }
+        },
+        {
+          "text": "\"Alphabet,\" \"Google,\" and other trademarks of ours appearing in this report are our property..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.018983548507094383,
+            "neutral": 0.06460516899824142,
+            "positive": 0.916411280632019
+          }
+        },
+        {
+          "text": "We do not intend our use or display of other companies' trade names or trademarks to imply an endorsement or sponsorship of us by such companies, or any relationship with any of these companies..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.026855172589421272,
+            "neutral": 0.03779863566160202,
+            "positive": 0.9353461265563965
+          }
+        }
+      ]
+    }
+  }
+}

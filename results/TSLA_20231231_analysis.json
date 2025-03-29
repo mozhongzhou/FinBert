@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "positive": 1,
+    "neutral": 0,
+    "negative": 0,
+    "positive_ratio": 1.0,
+    "neutral_ratio": 0.0,
+    "negative_ratio": 0.0
+  },
+  "sections": {
+    "md_and_a": {
+      "stats": {
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0
+      },
+      "proportions": {
+        "positive": 1.0,
+        "neutral": 0.0,
+        "negative": 0.0
+      },
+      "sentences": [
+        {
+          "text": "of Financial Condition and Results of Operations 33.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03109983168542385,
+            "neutral": 0.049509819597005844,
+            "positive": 0.9193903803825378
+          }
+        }
+      ]
+    }
+  }
+}

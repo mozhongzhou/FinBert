@@ -1,0 +1,2465 @@
+{
+  "summary": {
+    "positive": 152,
+    "neutral": 87,
+    "negative": 32,
+    "positive_ratio": 0.5608856088560885,
+    "neutral_ratio": 0.3210332103321033,
+    "negative_ratio": 0.11808118081180811
+  },
+  "sections": {
+    "risk_factors": {
+      "stats": {
+        "positive": 152,
+        "neutral": 87,
+        "negative": 32
+      },
+      "proportions": {
+        "positive": 0.5608856088560885,
+        "neutral": 0.3210332103321033,
+        "negative": 0.11808118081180811
+      },
+      "sentences": [
+        {
+          "text": "development and/or manufacture products resulting i n product delays; inability of customers, including channel partners, to obtain credit to finance purchases of the Company’ s products; and failure of derivative counterpartie s and other financial institutions..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.012979520484805107,
+            "neutral": 0.8302691578865051,
+            "positive": 0.1567513346672058
+          }
+        },
+        {
+          "text": "Other income an d expense also could vary materially from expectations depend ing on gains or losses realized on the sale or exch ange of financial instruments; impairment charges resulting from revaluations of debt and equ ity securities and other investments; interest rate s; cash balances; and changes in fair value of derivative instruments..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.026571029797196388,
+            "neutral": 0.30266621708869934,
+            "positive": 0.6707627773284912
+          }
+        },
+        {
+          "text": "Increased volatility in the financial markets and overall economic uncertainty would increase the risk of the actual amounts realized in the future on the Company’s fin ancial instruments differing significantly from the fair values currently assigned to them..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.07353272289037704,
+            "neutral": 0.7569796442985535,
+            "positive": 0.16948764026165009
+          }
+        },
+        {
+          "text": "Global markets for the Company’ s products and services are highly competitive and subject to rapid technological change, and the Comp any may be unable to compete effectively in these marke ts..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.05774308368563652,
+            "neutral": 0.8085396885871887,
+            "positive": 0.13371728360652924
+          }
+        },
+        {
+          "text": "The Company’ s products and services compete in highly competiti ve global markets characterized by aggressive price cutting and resulting downward pressure on gross margins, frequent introd uction of new products, short product life cycles, evolving industry standards, continual improvement in product price/performance characteri stics, rapid adoption of technological and product advancements by competitors, and price sensitivity on the part of consumers..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.8436720967292786,
+            "neutral": 0.04298986494541168,
+            "positive": 0.11333803087472916
+          }
+        },
+        {
+          "text": "The Company’ s ability to compete successfully depends heavily o n its ability to ensure a continuing and timely int roduction of innovative new products and technologies to the marketplace..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.7754087448120117,
+            "neutral": 0.007501415908336639,
+            "positive": 0.21708981692790985
+          }
+        },
+        {
+          "text": "The C ompany believes it is unique in that it designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications, and related servic es..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.2587739825248718,
+            "neutral": 0.006706587970256805,
+            "positive": 0.734519362449646
+          }
+        },
+        {
+          "text": "As a result, the Company must make significant investments in research and development and currently holds a significant number of patent s and copyrights and has registered and/or has applied to register numerous patents, trademark s and service marks..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.09104809910058975,
+            "neutral": 0.011542834341526031,
+            "positive": 0.8974090218544006
+          }
+        },
+        {
+          "text": "In contrast, many of the Compa ny’s competitors seek to compete primarily through aggressive pricing and very low c ost structures, and emulating the Company’ s products and infringing its intellectual property ..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.23464474081993103,
+            "neutral": 0.025417152792215347,
+            "positive": 0.7399380207061768
+          }
+        },
+        {
+          "text": "If the Company is unable to continue to develop and sell innovative new products with attractive margi ns or if competitors infringe on the Company’s intellectual property, the Company’s abil ity to maintain a competitive advantage could be ad versely affected..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.05663423612713814,
+            "neutral": 0.6619369387626648,
+            "positive": 0.28142881393432617
+          }
+        },
+        {
+          "text": "The Company markets certain mobile communication an d media devices based on the iOS mobile operating s ystem and also markets related third-party digital content and applications..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0631575658917427,
+            "neutral": 0.009650022722780704,
+            "positive": 0.9271923899650574
+          }
+        },
+        {
+          "text": "The Company faces substantial competition in these markets fro m companies that have significant technical, marketing, distribution and other resour ces, as well as established hardware, software and digital content supplier relationships..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.7102301120758057,
+            "neutral": 0.010660184547305107,
+            "positive": 0.2791096866130829
+          }
+        },
+        {
+          "text": "Additionally, the Company faces significant price c ompetition as competitors reduce their selling pric es and attempt to imitate the Company’ s product features and applications within their own products or, alternatively, collaborate with each o ther to offer solutions that are more competitive than those they currently offer..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.19041554629802704,
+            "neutral": 0.0611153319478035,
+            "positive": 0.7484691143035889
+          }
+        },
+        {
+          "text": "The Co mpany also competes with illegitimate ways to obtai n third-party digital content and applications..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04532520845532417,
+            "neutral": 0.343837171792984,
+            "positive": 0.6108376383781433
+          }
+        },
+        {
+          "text": "The Company has entered the mobile co mmunications and media device markets, and some of its competitors in these markets have greater experience, product breadth and distri bution channels than the Company..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.6362873911857605,
+            "neutral": 0.009315906092524529,
+            "positive": 0.3543967306613922
+          }
+        },
+        {
+          "text": "Because some curr ent and potential competitors have substantial resources and/or experience and a lower cost structure, they may be able to provide such p roducts and services at little or no profit or even at a loss..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1586773693561554,
+            "neutral": 0.23522146046161652,
+            "positive": 0.6061010956764221
+          }
+        },
+        {
+          "text": "The Company also expects competitio n to intensify as competitors attempt to imitate th e Company’ s approach to providing these components seamlessly within their individual offer ings or work collaboratively to offer integrated so lutions..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.7694101929664612,
+            "neutral": 0.007619721814990044,
+            "positive": 0.22297006845474243
+          }
+        },
+        {
+          "text": "The Company’ s financial condition and operating results depend substantially on the C ompany’s ability to continually improve iOS and iOS device s in order to maintain their functional and design advantages..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.4723677635192871,
+            "neutral": 0.0179782472550869,
+            "positive": 0.5096540451049805
+          }
+        },
+        {
+          "text": "The Company is the only authorized maker of hardwar e using OS X, which has a minority market share in the personal computer market..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.09482797235250473,
+            "neutral": 0.009293663315474987,
+            "positive": 0.8958783745765686
+          }
+        },
+        {
+          "text": "This market is dominated by computer makers using compet ing operating systems, most notably Windows..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.08163513243198395,
+            "neutral": 0.01031221728771925,
+            "positive": 0.9080525636672974
+          }
+        },
+        {
+          "text": "In the market for personal computers and peripherals, the Company faces a significant number of competitors, many of which have broader product lines, lower priced products, and a larger installed customer base..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.2626197040081024,
+            "neutral": 0.10228351503610611,
+            "positive": 0.6350967288017273
+          }
+        },
+        {
+          "text": "Historically, conso lidation in this market has resulted in larger comp etitors..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.2470022737979889,
+            "neutral": 0.012220402248203754,
+            "positive": 0.7407773733139038
+          }
+        },
+        {
+          "text": "Price competition has 10  been particularly intense as competitors selling Wi ndows-based personal computers have aggressively cut pric es and lowered product margins..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.017723945900797844,
+            "neutral": 0.9614620208740234,
+            "positive": 0.020813995972275734
+          }
+        },
+        {
+          "text": "An increasing number of Internetenabled devices that include software applications and are smaller and simpler than traditional person al computers compete for market share with the Company ’s existing products..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.4134100377559662,
+            "neutral": 0.01468401774764061,
+            "positive": 0.5719059109687805
+          }
+        },
+        {
+          "text": "The Company’ s financial condition and operating results depend substantially on its ability to continually improve the Mac platform to maintain its functional and de sign advantages..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.6306822896003723,
+            "neutral": 0.020806333050131798,
+            "positive": 0.34851133823394775
+          }
+        },
+        {
+          "text": "There can be no assurance the Company will be able to continue to provide products and services that c ompete effectively..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.2710123062133789,
+            "neutral": 0.009757488034665585,
+            "positive": 0.7192302346229553
+          }
+        },
+        {
+          "text": "To remain competitive and stimulate customer demand , the Company must successfully manage frequent pro duct introductions and transitions..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.8472537994384766,
+            "neutral": 0.008049593307077885,
+            "positive": 0.14469660818576813
+          }
+        },
+        {
+          "text": "Due to the highly volatile and competitive nature o f the industries in which the Company competes, the Company must continually introduce new products, services and technologies, enhance ex isting products and services, and effectively stimu late customer demand for new and upgraded products..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.8073623776435852,
+            "neutral": 0.008405602537095547,
+            "positive": 0.18423205614089966
+          }
+        },
+        {
+          "text": "The success of new product intro ductions depends on a number of factors including, but not limited to, timely and successful product development, market acceptance, the Company ’s ability to manage the risks associated with new product production rampup issues, the availability of application software for new produc ts, the effective management of purchase commitment s and inventory levels in line with anticipated product demand, the availability of pro ducts in appropriate quantities and costs to meet a nticipated demand, and the risk that new products may have quality or other defects in the e arly stages of introduction..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.3137384355068207,
+            "neutral": 0.020406104624271393,
+            "positive": 0.6658554673194885
+          }
+        },
+        {
+          "text": "Accordingly, the Compa ny cannot determine in advance the ultimate effect of new product introductions and tr ansitions..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.026115570217370987,
+            "neutral": 0.022791171446442604,
+            "positive": 0.9510931968688965
+          }
+        },
+        {
+          "text": "The Company faces substantial inventory and other a sset risk in addition to purchase commitment cancel lation risk..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.027132337912917137,
+            "neutral": 0.6643490791320801,
+            "positive": 0.308518648147583
+          }
+        },
+        {
+          "text": "The Company records a writedown for product and component inventories that hav e become obsolete or exceed anticipated demand or n et realizable value and accrues necessary cancellation fee reserves for orders of excess products and com ponents..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.008903737179934978,
+            "neutral": 0.9679185152053833,
+            "positive": 0.023177718743681908
+          }
+        },
+        {
+          "text": "The Company also reviews its long-lived assets, including capital assets held at its suppliers’ facilities, for impairment whenever events or circu mstances indicate the carrying amount of an asset may not be recoverable..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02444690279662609,
+            "neutral": 0.20845745503902435,
+            "positive": 0.7670956254005432
+          }
+        },
+        {
+          "text": "If the C ompany determines that impairment has occurred, it records a writedown equal to the amount by which the carrying value of the assets ex ceeds its fair market value..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.022148331627249718,
+            "neutral": 0.2994806170463562,
+            "positive": 0.678371012210846
+          }
+        },
+        {
+          "text": "Although the Company b elieves its provisions related to inventory, capital assets, other assets and purchas e commitments are currently adequate, no assurance can be given that the Company will not incur additional related charges given the rapid an d unpredictable pace of product obsolescence in the industries in which the Company competes..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.5638079643249512,
+            "neutral": 0.16065609455108643,
+            "positive": 0.2755359411239624
+          }
+        },
+        {
+          "text": "The Company must order components for its products and build inventory in advance of product announcem ents and shipments..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02850927598774433,
+            "neutral": 0.02336850017309189,
+            "positive": 0.9481222033500671
+          }
+        },
+        {
+          "text": "Consistent with industry practice, components are normally acquired through a combination of purchase orders, supplier contracts, open orders and, where appropriate, inventory component prepayments, in ea ch case based on projected demand..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0342336930334568,
+            "neutral": 0.018324915319681168,
+            "positive": 0.9474413990974426
+          }
+        },
+        {
+          "text": "Such purchase co mmitments typically cover forecasted component and manufacturing requirements for period s up to 150 days..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0254854504019022,
+            "neutral": 0.022522855550050735,
+            "positive": 0.9519916772842407
+          }
+        },
+        {
+          "text": "Because the Company’ s markets are volatile, competitive and subject to rapid technology and price changes, there is a risk the Company will forecast incorrectly and order or produce excess or insufficient amounts of components or products, or not fully utilize firm p urchase commitments..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.0181332565844059,
+            "neutral": 0.8626920580863953,
+            "positive": 0.11917475610971451
+          }
+        },
+        {
+          "text": "Future operating results depend upon the Company ’s ability to obtain components in sufficient quant ities..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06395243108272552,
+            "neutral": 0.015339521691203117,
+            "positive": 0.9207080602645874
+          }
+        },
+        {
+          "text": "Because the Company currently obtains components fr om single or limited sources, the Company is subjec t to significant supply and pricing risks..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.048417579382658005,
+            "neutral": 0.117218516767025,
+            "positive": 0.8343639373779297
+          }
+        },
+        {
+          "text": "Many components, including those that are av ailable from multiple sources, are at times subject to industrywide shortages and significant commodity pricing fluctuations..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04057144373655319,
+            "neutral": 0.4404262602329254,
+            "positive": 0.5190023183822632
+          }
+        },
+        {
+          "text": "While the Company h as entered into various agreements for the supply o f components, there can be no assurance that the Company will be able to extend o r renew these agreements on similar terms, or at al l..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.09080082923173904,
+            "neutral": 0.014879317954182625,
+            "positive": 0.8943198323249817
+          }
+        },
+        {
+          "text": "The follow-on effects from 11  global economic conditions on the Company’s supplie rs, described in “ Global economic conditions could materially adverse ly affect the Company” above, also could affect the Company’s ability to o btain components ..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.02474544569849968,
+            "neutral": 0.5604525208473206,
+            "positive": 0.41480201482772827
+          }
+        },
+        {
+          "text": "Therefore, the Company remains subject to significa nt risks of supply shortages and price increases..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.1387980431318283,
+            "neutral": 0.5433985590934753,
+            "positive": 0.3178033232688904
+          }
+        },
+        {
+          "text": "The Company e xpects to experience decreases in its gross margin percentage in future periods, as compared to levels achieved during 2012, largely du e to a higher mix of new and innovative products wi th flat or reduced pricing that have higher cost structures and deliver greater value to customers and anticipated component cost and other cost increases..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.13521708548069,
+            "neutral": 0.8330429196357727,
+            "positive": 0.031739987432956696
+          }
+        },
+        {
+          "text": "Future strengthening of the U.S..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.7087975144386292,
+            "neutral": 0.012246898375451565,
+            "positive": 0.2789555788040161
+          }
+        },
+        {
+          "text": "dollar could also negatively impact gross marg in..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.010243122465908527,
+            "neutral": 0.9414200186729431,
+            "positive": 0.048336900770664215
+          }
+        },
+        {
+          "text": "The Company and other participants in the markets f or mobile communication and media devices and perso nal computers also compete for various components with other industries that have experienced increased demand for their products..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.6601181030273438,
+            "neutral": 0.009917519986629486,
+            "positive": 0.32996442914009094
+          }
+        },
+        {
+          "text": "Th e Company uses some custom components that are not common to the rest of these industries..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.045010101050138474,
+            "neutral": 0.0185964647680521,
+            "positive": 0.9363934993743896
+          }
+        },
+        {
+          "text": "The Company’ s new products often utilize custom components avai lable from only one source..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.056801315397024155,
+            "neutral": 0.010433505289256573,
+            "positive": 0.9327651858329773
+          }
+        },
+        {
+          "text": "When a component or product uses n ew technologies, initial capacity constraints may e xist until the suppliers’ yields have matured or manufacturing capacity has increased..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.30279430747032166,
+            "neutral": 0.0461299754679203,
+            "positive": 0.6510757207870483
+          }
+        },
+        {
+          "text": "Co ntinued availability of these components at accepta ble prices, or at all, may be affected if those suppliers decided to concentrate on the produ ction of common components instead of components cu stomized to meet the Company’ s requirements..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.02918190322816372,
+            "neutral": 0.5539249777793884,
+            "positive": 0.4168931245803833
+          }
+        },
+        {
+          "text": "The supply of components for a new or existing product could be delayed or constrained, or a key manufacturing vendor could delay shipments of completed products to the Compan y..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.008496208116412163,
+            "neutral": 0.9439296126365662,
+            "positive": 0.047574155032634735
+          }
+        },
+        {
+          "text": "The Company depends on component and product manufa cturing and logistical services provided by outsour cing partners, many of whom are located outside of the U.S..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06536300480365753,
+            "neutral": 0.01185846608132124,
+            "positive": 0.9227785468101501
+          }
+        },
+        {
+          "text": "Substantially all of the Company’s manufacturing is performed in whole or in part by a few outsourcing partners located primarily in Asia..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.037991710007190704,
+            "neutral": 0.015169244259595871,
+            "positive": 0.9468390941619873
+          }
+        },
+        {
+          "text": "The Company has also outsourced much of its transportat ion and logistics management..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.05839954689145088,
+            "neutral": 0.022116288542747498,
+            "positive": 0.9194841980934143
+          }
+        },
+        {
+          "text": "While these arrangeme nts may lower operating costs, they also reduce the Company’ s direct control over production and distribution..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.8137623071670532,
+            "neutral": 0.03665705770254135,
+            "positive": 0.14958053827285767
+          }
+        },
+        {
+          "text": "It is uncertain what effect such diminished control will have on the quality or quantity of products or services, or the Company’ s flexibility to respond to changing conditions..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.048102494329214096,
+            "neutral": 0.13073062896728516,
+            "positive": 0.8211668729782104
+          }
+        },
+        {
+          "text": "Al though arrangements with these partners may contain provisions for warranty expens e reimbursement, the Company may remain responsible to the consumer for warranty service in the event of product defects and could e xperience an unanticipated product defect or warran ty liability..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.04372454062104225,
+            "neutral": 0.5310882925987244,
+            "positive": 0.4251870810985565
+          }
+        },
+        {
+          "text": "While the Company relies on its partners to adhere to its supplier code of cond uct, material violations of the supplier code of co nduct could occur..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.022668110206723213,
+            "neutral": 0.8372784852981567,
+            "positive": 0.1400533765554428
+          }
+        },
+        {
+          "text": "The supply and manufacture of many critical compone nts is performed by solesourced outsourcing partners in the U.S., Asia and Europe..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.07046713680028915,
+            "neutral": 0.00977710634469986,
+            "positive": 0.9197556972503662
+          }
+        },
+        {
+          "text": "Outsourcing partners in Asia perform final assembly of substantially all of the Company’ s hardware products..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.133981391787529,
+            "neutral": 0.010557282716035843,
+            "positive": 0.8554613590240479
+          }
+        },
+        {
+          "text": "Manufacturing or logistics in these locations or transit to final destinations ma y be disrupted for a variety of reasons including, but not limited to, natural and manmade disasters, information technology system failures, military actions or economic, business, labor, envi ronmental, public health, or political issues..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.015867531299591064,
+            "neutral": 0.6633241772651672,
+            "positive": 0.3208082914352417
+          }
+        },
+        {
+          "text": "The Company relies on thirdparty intellectual property and digital content, wh ich may not be available to the Company on commerci ally reasonable terms or at all..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02621431089937687,
+            "neutral": 0.023200595751404762,
+            "positive": 0.9505850672721863
+          }
+        },
+        {
+          "text": "Many of the Company’s products include thirdparty intellectual property, which requires license s from those third parties..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.024873176589608192,
+            "neutral": 0.02573353983461857,
+            "positive": 0.9493932723999023
+          }
+        },
+        {
+          "text": "Based on past experience and industry practice, the Company belie ves such licenses generally can be obtained on reas onable terms..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06018494814634323,
+            "neutral": 0.01069972850382328,
+            "positive": 0.929115355014801
+          }
+        },
+        {
+          "text": "There is, however, no assurance that the necessary licenses can be obtain ed on acceptable terms or at all..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.07083118706941605,
+            "neutral": 0.01403898373246193,
+            "positive": 0.9151298403739929
+          }
+        },
+        {
+          "text": "The Company also contracts with third parties to of fer their digital content through the iTunes Store..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.11203945428133011,
+            "neutral": 0.007879654876887798,
+            "positive": 0.8800808787345886
+          }
+        },
+        {
+          "text": "The licensing arrangements with these third parties are short-term and do not guarantee the con tinuation or renewal of these arrangements on reaso nable terms, if at all..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02817244827747345,
+            "neutral": 0.02426157332956791,
+            "positive": 0.9475659728050232
+          }
+        },
+        {
+          "text": "Some thirdparty content providers and distributors currently or in the future may offer competing products and service s, and could take action to make it more difficult or impossible for the Company to license their content in the future..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03896498307585716,
+            "neutral": 0.36681637167930603,
+            "positive": 0.5942186117172241
+          }
+        },
+        {
+          "text": "Other content owners, providers or distributors 12  may seek to limit the Company’ s access to, or increase the cost of, such content..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02909405343234539,
+            "neutral": 0.2824486792087555,
+            "positive": 0.6884572505950928
+          }
+        },
+        {
+          "text": "The Company may be unable to continue to offer a w ide variety of content at reasonable prices with acceptable usa ge rules, or continue to expand its geographic reac h..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.08801731467247009,
+            "neutral": 0.09159675985574722,
+            "positive": 0.8203859329223633
+          }
+        },
+        {
+          "text": "Many thirdparty content providers require the Company to prov ide digital rights management and other security so lutions..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.031234079971909523,
+            "neutral": 0.018687380477786064,
+            "positive": 0.9500784873962402
+          }
+        },
+        {
+          "text": "If requirements change, the Company may have to develop or license new technology to provide these solutions..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.044516440480947495,
+            "neutral": 0.025998881086707115,
+            "positive": 0.9294846057891846
+          }
+        },
+        {
+          "text": "There is no assurance the Company will be able to develop or license such solutions at a reasonabl e cost and in a timely manner..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.10186979919672012,
+            "neutral": 0.009934497065842152,
+            "positive": 0.8881956934928894
+          }
+        },
+        {
+          "text": "In addition, certain countries have passed or may propose and adopt legislation that would force the Company to l icense its digital rights management, which could l essen the protection of content and subject it to piracy and also could negatively affect arran gements with the Company’s content providers..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.02794494293630123,
+            "neutral": 0.5827562808990479,
+            "positive": 0.38929882645606995
+          }
+        },
+        {
+          "text": "The Company is frequently involved in intellectual property litigation, and could be found to have inf ringed on intellectual property rights..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.018580345436930656,
+            "neutral": 0.619296133518219,
+            "positive": 0.3621235489845276
+          }
+        },
+        {
+          "text": "Technology companies, including many of the Company ’s competitors, frequently enter into litigation bas ed on allegations of patent infringement or other violations of intellectual pr operty rights..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.01741000823676586,
+            "neutral": 0.7753242254257202,
+            "positive": 0.20726585388183594
+          }
+        },
+        {
+          "text": "In addition, patent holding companie s seek to monetize patents they have purchased or otherwise obtained..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.05135800316929817,
+            "neutral": 0.01337395142763853,
+            "positive": 0.9352680444717407
+          }
+        },
+        {
+          "text": "As the Company has grown, the intellectual property rights claims aga inst it have increased and may continue to increase..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.909442663192749,
+            "neutral": 0.010618832893669605,
+            "positive": 0.07993856072425842
+          }
+        },
+        {
+          "text": "In particular, the Company’ s cellular enabled products compete with mobile com munication and media device companies that hold significant patent portfolios, and the number of pa tent claims against the Company has significantly i ncreased..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.07138960808515549,
+            "neutral": 0.8864427208900452,
+            "positive": 0.04216760769486427
+          }
+        },
+        {
+          "text": "The Company is vigorously defending infringement actions in courts in a numbe r of U.S..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.3859129846096039,
+            "neutral": 0.15101788938045502,
+            "positive": 0.4630691707134247
+          }
+        },
+        {
+          "text": "jurisdictions and before the U.S..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02947486937046051,
+            "neutral": 0.027693359181284904,
+            "positive": 0.9428317546844482
+          }
+        },
+        {
+          "text": "Interna tional Trade Commission, as well as internationally in Europe and Asia..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.12065422534942627,
+            "neutral": 0.009344941936433315,
+            "positive": 0.8700008392333984
+          }
+        },
+        {
+          "text": "The plaintiffs in these actions frequently seek injunctions and su bstantial damages..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.025102922692894936,
+            "neutral": 0.4963034987449646,
+            "positive": 0.4785935580730438
+          }
+        },
+        {
+          "text": "Regardless of the scope or validity of such patents or other intellectual property rights, or the meri ts of any claims by potential or actual litigants, the Company may have to engage in protracted litiga tion..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.030159806832671165,
+            "neutral": 0.2612457871437073,
+            "positive": 0.7085943818092346
+          }
+        },
+        {
+          "text": "Such litigation is often expensive, time-cons uming, disruptive to the Company’ s operations, and distracting to management..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.010792074725031853,
+            "neutral": 0.8871825933456421,
+            "positive": 0.10202526301145554
+          }
+        },
+        {
+          "text": "If the C ompany is found to infringe one or more patents or other intellectual property rights, regardless of whether it can develop non-infringing technology, it may be required to pay substantial damages or royalties to a thirdparty, or it may be subject to a temporary or permanent injuncti on prohibiting the Company from marketing or sellin g certain products..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.019292864948511124,
+            "neutral": 0.3265382945537567,
+            "positive": 0.6541688442230225
+          }
+        },
+        {
+          "text": "In certain cases, the Company may consider the desi rability of entering into licensing agreements, alt hough no assurance can be given that such licenses can be obtained on acceptable terms or tha t litigation will not occur..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.043123457580804825,
+            "neutral": 0.05453590676188469,
+            "positive": 0.9023406505584717
+          }
+        },
+        {
+          "text": "These licenses may als o significantly increase the Company’ s operating expenses..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.23380953073501587,
+            "neutral": 0.6753923296928406,
+            "positive": 0.09079811722040176
+          }
+        },
+        {
+          "text": "In management’ s opinion, there is not at least a reasonable possi bility the Company may have incurred a material los s, or a material loss in excess of a recorded accrual, with respect to loss contingencies, including matters related to infring ement of intellectual property rights..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.050152793526649475,
+            "neutral": 0.47052425146102905,
+            "positive": 0.4793229401111603
+          }
+        },
+        {
+          "text": "However, the outcome of litigation is inherently un certain..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06504432111978531,
+            "neutral": 0.19937866926193237,
+            "positive": 0.7355770468711853
+          }
+        },
+        {
+          "text": "Therefore, although management considers t he likelihood of such an outcome to be remote, if one or more of these legal matters were resolved against the Company in a reporting period for amounts in excess of management’ s expectations, the Company’s consolidated financial statements for that reporting period could be mater ially adversely affected..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.020487353205680847,
+            "neutral": 0.7726846933364868,
+            "positive": 0.20682792365550995
+          }
+        },
+        {
+          "text": "The Company’s future performance depends in part on support from third-party software developers..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.09387446194887161,
+            "neutral": 0.014741918072104454,
+            "positive": 0.8913836479187012
+          }
+        },
+        {
+          "text": "The Company believes decisions by customers to purc hase its hardware products depend in part on the av ailability of thirdparty software applications and services..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.05670737102627754,
+            "neutral": 0.018801363185048103,
+            "positive": 0.9244912266731262
+          }
+        },
+        {
+          "text": "There is no assurance th at third-party developers will continue to develop and maint ain software applications and services for the Company’s products..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.15216054022312164,
+            "neutral": 0.008528490550816059,
+            "positive": 0.8393110036849976
+          }
+        },
+        {
+          "text": "If third-party software applications and services cease to be dev eloped and maintained for the Company’ s products, customers may choose not to buy the Compa ny’s products..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0278594009578228,
+            "neutral": 0.036141589283943176,
+            "positive": 0.9359989762306213
+          }
+        },
+        {
+          "text": "13  With respect to its Mac products, the Company belie ves the availability of thirdparty software applications and services depends in part on the developers’ perception and analysis of the relative benefits of developing, maintaining, and upgrading such software for the Company’ s products compared to Windowsbased products..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.5280689001083374,
+            "neutral": 0.010905335657298565,
+            "positive": 0.46102580428123474
+          }
+        },
+        {
+          "text": "This analysis may be based on facto rs such as the market position of the Company and i ts products, the anticipated revenue that may be generated, continue d growth of Mac sales, and the costs of developing such applications and services..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.10391337424516678,
+            "neutral": 0.011478614993393421,
+            "positive": 0.8846080303192139
+          }
+        },
+        {
+          "text": "If the Company’s minority share of the global personal com puter market causes developers to question the Comp any’s prospects, developers could be less inclined to develop or upgrade software for th e Company’ s products and more inclined to devote their resour ces to developing and upgrading software for the larger Windows market..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.11863184720277786,
+            "neutral": 0.1091516986489296,
+            "positive": 0.7722164988517761
+          }
+        },
+        {
+          "text": "With respect to iOS devices, the Company relies on the continued availability and development of compe lling and innovative software applications, which are distributed through a singl e distribution channel, the App Store..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.3854914903640747,
+            "neutral": 0.007017423864454031,
+            "positive": 0.6074910759925842
+          }
+        },
+        {
+          "text": "The absence of multiple distribution channels, which are available for competing platforms, may limit the av ailability and acceptance of third-party applicatio ns by the Company’ s customers, thereby causing developers to reduce or curtail development for the iOS platform..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.008930832147598267,
+            "neutral": 0.9484612941741943,
+            "positive": 0.04260791093111038
+          }
+        },
+        {
+          "text": "In addition, iOS devices are subject to rapid technological change, and, if third-party developers are unable to or cho ose not to keep up with this pace of change, thirdparty applications might not successfully operate and may result in dissatisfied customers..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.0112321637570858,
+            "neutral": 0.9575035572052002,
+            "positive": 0.03126433119177818
+          }
+        },
+        {
+          "text": "A s with applications for the Company’ s Mac products, the availability and development of these applications also depend on developers’ perce ptions and analysis of the relative benefits of dev eloping software for the Company’ s products rather than its competitors’ platforms, such as Android..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.15616081655025482,
+            "neutral": 0.00875356700271368,
+            "positive": 0.8350856304168701
+          }
+        },
+        {
+          "text": "If developers focus the ir efforts on these competing platforms, the availa bility and quality of applications for the Company’s iOS d evices may suffer..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.01615268364548683,
+            "neutral": 0.944969117641449,
+            "positive": 0.03887828066945076
+          }
+        },
+        {
+          "text": "The Company depends on the performance of distribut ors, carriers and other resellers..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04247041046619415,
+            "neutral": 0.01681317575275898,
+            "positive": 0.9407163858413696
+          }
+        },
+        {
+          "text": "The Company distributes its products through cellul ar network carriers, wholesalers, national and regi onal retailers, and valueadded resellers, many of whom distribute products from competing man ufacturers..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1090611070394516,
+            "neutral": 0.0077845086343586445,
+            "positive": 0.8831543326377869
+          }
+        },
+        {
+          "text": "The Company also sells its products and third-party products in most of its major markets directly to education, enterprise and government customers, and consumers and small and mid-sized businesses through its online and retail stores..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06904492527246475,
+            "neutral": 0.009602412581443787,
+            "positive": 0.9213526248931885
+          }
+        },
+        {
+          "text": "Carriers providing cellular network service for iPh one typically subsidize users’ purchase of the device..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.048756957054138184,
+            "neutral": 0.012257465161383152,
+            "positive": 0.9389855861663818
+          }
+        },
+        {
+          "text": "There is no assurance that such subsidies will be continued at all or in the same amounts upo n renewal of the Company’ s agreements with these carriers or in agreements t he Company enters into with new carriers..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.05365646630525589,
+            "neutral": 0.015515618026256561,
+            "positive": 0.9308279156684875
+          }
+        },
+        {
+          "text": "Many resellers have narrow operating margins and ha ve been adversely affected in the past by weak econ omic conditions..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.011743542738258839,
+            "neutral": 0.9568890333175659,
+            "positive": 0.03136749193072319
+          }
+        },
+        {
+          "text": "Some resellers have perceived the expansion of the Company’s direct sal es as conflicting with their business interests as distributors and resellers of the Company’ s products..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.014764274470508099,
+            "neutral": 0.9434048533439636,
+            "positive": 0.04183083027601242
+          }
+        },
+        {
+          "text": "Such a perception could discourage resell ers from investing resources in the distribution an d sale of the Company’ s products or lead them to limit or cease distribution of those produc ts..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.013344492763280869,
+            "neutral": 0.8011431694030762,
+            "positive": 0.18551242351531982
+          }
+        },
+        {
+          "text": "The Company has invested and will continue to i nvest in programs to enhance reseller sales, including staffing selected resellers’ stores with Company employees and contractors and i mproving product placement displays..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.8518947958946228,
+            "neutral": 0.007828922010958195,
+            "positive": 0.14027637243270874
+          }
+        },
+        {
+          "text": "These programs could require a substantial investment whi le providing no assurance of return or incremental revenue..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0583338662981987,
+            "neutral": 0.02167333848774433,
+            "positive": 0.9199927449226379
+          }
+        },
+        {
+          "text": "The financial condition of these resellers could weaken, these resellers could stop distributing the Company’s products, or uncertainty regarding demand for the Company’ s products could cause resellers to reduce their orde ring and marketing of the Company’s products..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.010675597004592419,
+            "neutral": 0.9134379029273987,
+            "positive": 0.07588646560907364
+          }
+        },
+        {
+          "text": "The Company’ s Retail segment has required and will continue to require a substantial investment and commitment of resources and is subject to numerous risks and uncertainties..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.6582289934158325,
+            "neutral": 0.014013287611305714,
+            "positive": 0.32775771617889404
+          }
+        },
+        {
+          "text": "The Company’ s retail stores have required substantial fixed inv estment in equipment and leasehold improvements, in formation systems, inventory and personnel..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.7220343351364136,
+            "neutral": 0.02842131070792675,
+            "positive": 0.24954432249069214
+          }
+        },
+        {
+          "text": "The Company also has enter ed into substantial operating lease commitments for retail space..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.6088600158691406,
+            "neutral": 0.012508404441177845,
+            "positive": 0.378631591796875
+          }
+        },
+        {
+          "text": "Certain stores have been designed and built to serve as highprofile venues to promote brand awareness and serve as vehicles for corporate sales and marketing acti vities..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1756131798028946,
+            "neutral": 0.007702099625021219,
+            "positive": 0.8166847229003906
+          }
+        },
+        {
+          "text": "Because of their unique design elements, locations and size, these stores require substantially more i nvestment than the 14  Company’ s more typical retail stores..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1465601921081543,
+            "neutral": 0.010790904983878136,
+            "positive": 0.8426489233970642
+          }
+        },
+        {
+          "text": "Due to the high fixed cost structure associated with the Retail segment, a decline in sales or the closure or poor performance of individual or multiple stores c ould result in significant lease termination costs, write-offs of equipment and leasehold improvements, and severance costs..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.00786340981721878,
+            "neutral": 0.9665575623512268,
+            "positive": 0.02557908371090889
+          }
+        },
+        {
+          "text": "Many factors unique to retail operations, some of w hich are beyond the Company’ s control, pose risks and uncertainties..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.023574188351631165,
+            "neutral": 0.07922631502151489,
+            "positive": 0.8971995115280151
+          }
+        },
+        {
+          "text": "These risk s and uncertainties include, but are not limited to, macr o-economic factors that could have an adverse effect on general retail activity, as well as the Company’ s inability to manage costs associated with store c onstruction and operation, failure to manage relati onships with its existing retail channel partners, more challenging environments in managing retail operations outside the U.S., costs associated with unanticipated fluctuations in the value of retail inventory, and inability to obtain and renew leases in quality retail locations at a reasonable cost..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.017476927489042282,
+            "neutral": 0.8342261910438538,
+            "positive": 0.14829695224761963
+          }
+        },
+        {
+          "text": "Investment in new business strategies and acquisiti ons could disrupt the Company ’s ongoing business and present risks not originally contemplated..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.013233857229351997,
+            "neutral": 0.9009035229682922,
+            "positive": 0.0858626589179039
+          }
+        },
+        {
+          "text": "The Company has invested, and in the future may inv est, in new business strategies or acquisitions..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.26335281133651733,
+            "neutral": 0.007308706175535917,
+            "positive": 0.729338526725769
+          }
+        },
+        {
+          "text": "Su ch endeavors may involve significant risks and uncertainties, including distraction of managem ent from current operations, greater than expected liabilities and expenses, inadequate return of capital, and unidentified issues not discovered in the Company’ s due diligence..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.013117445632815361,
+            "neutral": 0.9340152144432068,
+            "positive": 0.052867379039525986
+          }
+        },
+        {
+          "text": "These new ventures are inherently risky and may not be successful..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.05686115100979805,
+            "neutral": 0.24474593997001648,
+            "positive": 0.6983928680419922
+          }
+        },
+        {
+          "text": "The Company’ s products and services may experience quality prob lems from time to time that can result in decreased sales and operating margin..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.0075446306727826595,
+            "neutral": 0.9704979658126831,
+            "positive": 0.021957414224743843
+          }
+        },
+        {
+          "text": "The Company sells complex hardware and software pro ducts and services that can contain design and manu facturing defects..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.057057738304138184,
+            "neutral": 0.07503126561641693,
+            "positive": 0.8679109811782837
+          }
+        },
+        {
+          "text": "Sophisticated operating system software and applications, such as those sold by the Company, often contain “bugs” that can unexpectedly interfere with the software’s intended operation..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.01681431382894516,
+            "neutral": 0.7763490676879883,
+            "positive": 0.20683661103248596
+          }
+        },
+        {
+          "text": "The Company’ s online services may from time to time experience outages, service slowdowns, or errors..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.00825588684529066,
+            "neutral": 0.9511448740959167,
+            "positive": 0.04059923067688942
+          }
+        },
+        {
+          "text": "Defects may also occur in components and products the Compa ny purchases from third parties..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.016859538853168488,
+            "neutral": 0.8062469959259033,
+            "positive": 0.17689348757266998
+          }
+        },
+        {
+          "text": "There can be no as surance the Company will be able to detect and fix all defects in the hardware, softwar e and services it sells..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.6150245070457458,
+            "neutral": 0.012663782574236393,
+            "positive": 0.37231168150901794
+          }
+        },
+        {
+          "text": "Failure to do so could res ult in lost revenue, significant warranty and other expenses, and harm to the Company’s reputatio n..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.008556741289794445,
+            "neutral": 0.9666749238967896,
+            "positive": 0.024768255650997162
+          }
+        },
+        {
+          "text": "The Company is subject to laws and regulations worl dwide, changes to which could increase the Company’ s costs and individually or in the aggregate adversely affect the Company’s business..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.021448716521263123,
+            "neutral": 0.45571190118789673,
+            "positive": 0.522839367389679
+          }
+        },
+        {
+          "text": "The Company is subject to laws and regulations affe cting its domestic and international operations in a number of areas..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03776362165808678,
+            "neutral": 0.01674063690006733,
+            "positive": 0.9454957246780396
+          }
+        },
+        {
+          "text": "and foreign laws and regulations affect the Company’ s activities including, but not limited to, areas o f labor, advertising, digital content, consumer protection, real estate, billing, ecommerce, promotions, quality of services, telecomm unications, mobile communications and media, televi sion, intellectual property ownership and infringement, t ax, import and export requirements, anticorruption, foreign exchange controls and cash repatriation restrictions, data privacy requirement s, anti-competition, environmental, health, and saf ety..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0187386441975832,
+            "neutral": 0.03953828290104866,
+            "positive": 0.9417230486869812
+          }
+        },
+        {
+          "text": "By way of example, laws and regulations related to mobile communications and media devices in the many jurisdictions in which the Company operates are extensive and subject to change..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.034581273794174194,
+            "neutral": 0.02322913147509098,
+            "positive": 0.9421895742416382
+          }
+        },
+        {
+          "text": "Such changes could include, among others, restrictions o n the production, manufacture, distribution, and use of the device, locking the de vice to a carrier’s network, or mandating the use o f the device on more than one carrier’ s network..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.020690547302365303,
+            "neutral": 0.05420646816492081,
+            "positive": 0.925102949142456
+          }
+        },
+        {
+          "text": "These devices are also subject to certific ation and regulation by governmental and standardiz ation bodies, as well as by cellular network carriers for use on their networks..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02778329886496067,
+            "neutral": 0.018757859244942665,
+            "positive": 0.953458845615387
+          }
+        },
+        {
+          "text": "These c ertification processes are extensive and time consu ming, and could result in additional testing requirements, product modifications, delays in prod uct shipment dates, or preclude the Company from se lling certain products..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.018341775983572006,
+            "neutral": 0.7627807855606079,
+            "positive": 0.218877375125885
+          }
+        },
+        {
+          "text": "Compliance with these laws, regulations and similar requirements may be onerous and expensive, and the y may be inconsistent from jurisdiction to jurisdiction, further increasing the cost of com pliance..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.013834161683917046,
+            "neutral": 0.9129650592803955,
+            "positive": 0.07320067286491394
+          }
+        },
+        {
+          "text": "This increases the costs of doing business , and any such costs, which may rise in the future as a result of changes in these laws and 15  regulations or in their interpretation could indivi dually or in the aggregate make the Company’ s products and services less attractive to the Company’ s customers, delay the introduction of new products in one or more regions, or cause the Company to ch ange or limit its business practices..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.01162942685186863,
+            "neutral": 0.9112799167633057,
+            "positive": 0.07709069550037384
+          }
+        },
+        {
+          "text": "The Company has implemented policies and procedures designed to ensure compliance with thes e laws and regulations, but there can be no assurance that the Company’s employees, contr actors, or agents will not violate such laws and re gulations or the Company’s policies..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.041202131658792496,
+            "neutral": 0.03883776441216469,
+            "positive": 0.919960081577301
+          }
+        },
+        {
+          "text": "The Company’s success depends largely on the contin ued service and availability of key personnel..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.4830203652381897,
+            "neutral": 0.008324646390974522,
+            "positive": 0.5086549520492554
+          }
+        },
+        {
+          "text": "Much of the Company’ s future success depends on the continued availabil ity and service of key personnel, including its Chi ef Executive Officer, executive team and other highly skilled employees..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.7851883172988892,
+            "neutral": 0.0076119969598948956,
+            "positive": 0.20719969272613525
+          }
+        },
+        {
+          "text": "Experienced personnel in the technology industry ar e in high demand and competition for their talents is intense, especially in the Silicon Valley, where most of the Company’s key personnel are located..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.4694541394710541,
+            "neutral": 0.0239405520260334,
+            "positive": 0.5066052675247192
+          }
+        },
+        {
+          "text": "The Company’s business may be impacted by political events, war, terrorism, public health issues, natu ral disasters and other circumstances..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.01839827559888363,
+            "neutral": 0.1748993694782257,
+            "positive": 0.8067023158073425
+          }
+        },
+        {
+          "text": "War, terrorism, geopolitical uncertainties, public health issues, and other business interruptions hav e caused and could cause damage or disruption to international commerce and the global economy, and thus could have a material adverse ef fect on the Company, its suppliers, logistics providers, manufacturing vendors and cust omers, including channel partners..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.010274636559188366,
+            "neutral": 0.9328983426094055,
+            "positive": 0.05682709068059921
+          }
+        },
+        {
+          "text": "The Company’ s business operations are subject to interruption by natural disasters, fire, power shor tages, nuclear power plant accidents, terrorist att acks, and other hostile acts, labor disputes, public health issues, and other events beyond its c ontrol..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.017338387668132782,
+            "neutral": 0.46900317072868347,
+            "positive": 0.5136584639549255
+          }
+        },
+        {
+          "text": "Such events could decrease demand for the C ompany’s products, make it difficult or impossible for the Company to make and deliver prod ucts to its customers, including channel partners, or to receive components from its suppliers, and create delays and inefficiencies in the Company’ s supply chain..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.008292567916214466,
+            "neutral": 0.9636263251304626,
+            "positive": 0.028081145137548447
+          }
+        },
+        {
+          "text": "Should major public health issues, including pandemics, arise, the Company could be adversely affected by more stringe nt employee travel restrictions, additional limitat ions in freight services, governmental actions limiting the movement of products between r egions, delays in production ramps of new products, and disruptions in the operations of the Company’s manufacturing vendors and component suppl iers..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.00849598553031683,
+            "neutral": 0.9502756595611572,
+            "positive": 0.041228264570236206
+          }
+        },
+        {
+          "text": "The majority of the Company’ s research and development activities, its corporat e headquarters, information technology systems, and o ther critical business operations, including certai n component suppliers and manufacturing vendors, are in locations that could be affected by natural disasters..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.026571856811642647,
+            "neutral": 0.04059882089495659,
+            "positive": 0.9328293800354004
+          }
+        },
+        {
+          "text": "In the event of a natural disas ter, the Company could incur significant losses, require substantial recovery time and experience si gnificant expenditures in order to resume operation s..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.03764314949512482,
+            "neutral": 0.8562631607055664,
+            "positive": 0.10609374940395355
+          }
+        },
+        {
+          "text": "The Company’s business and reputation may be impact ed by information technology system failures or net work disruptions..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.00861180666834116,
+            "neutral": 0.9528862237930298,
+            "positive": 0.03850196674466133
+          }
+        },
+        {
+          "text": "The Company may be subject to information technolog y system failures and network disruptions..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.00932895764708519,
+            "neutral": 0.9225202798843384,
+            "positive": 0.06815068423748016
+          }
+        },
+        {
+          "text": "These ma y be caused by natural disasters, accidents, power disruptions, telecommunications fa ilures, acts of terrorism or war, computer viruses, physical or electronic breakins, or similar events or disruptions..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.019894246011972427,
+            "neutral": 0.4503040015697479,
+            "positive": 0.5298017263412476
+          }
+        },
+        {
+          "text": "System redundancy may be ine ffective or inadequate, and the Company’ s disaster recovery planning may not be sufficient for all eventualities..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.025476515293121338,
+            "neutral": 0.7759431600570679,
+            "positive": 0.19858033955097198
+          }
+        },
+        {
+          "text": "Such failures or disruptions could prevent access to the Company’ s online stores and services, preclude retail store transactions, compromise Company or customer data, and result in delayed or cancelled orders..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.007596117909997702,
+            "neutral": 0.9503410458564758,
+            "positive": 0.04206274822354317
+          }
+        },
+        {
+          "text": "System f ailures and disruptions could also impede the manufacturing and shipping of products, delivery of online services, transactions processin g and financial reporting..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.009822231717407703,
+            "neutral": 0.9158872961997986,
+            "positive": 0.07429048418998718
+          }
+        },
+        {
+          "text": "The Company may be subject to breaches of its infor mation technology systems, which could damage busin ess partner and customer relationships, curtail or otherwise adversely impac t access to online stores and services, and could s ubject the Company to significant reputational, financial, legal, and operational con sequences..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.010521428659558296,
+            "neutral": 0.9388466477394104,
+            "positive": 0.050631895661354065
+          }
+        },
+        {
+          "text": "The Company’s business requires it to use and store customer, employee, and business partner personall y identifiable information (“PII”)..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02442402020096779,
+            "neutral": 0.024339381605386734,
+            "positive": 0.9512365460395813
+          }
+        },
+        {
+          "text": "This may include names, addresses, phone numbers, email addresses, contact 16  preferences, tax identification numbers, and paymen t account information..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.01600753143429756,
+            "neutral": 0.05028359219431877,
+            "positive": 0.933708906173706
+          }
+        },
+        {
+          "text": "Although malicious attacks t o gain access to PII affect many companies across various industries, the Company ma y be at a relatively greater risk of being targeted because of its high profile and the amount of PII managed..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.07825799286365509,
+            "neutral": 0.05693434923887253,
+            "positive": 0.8648076057434082
+          }
+        },
+        {
+          "text": "The Company requires user names and passwords in or der to access its information technology systems..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.01828005723655224,
+            "neutral": 0.043447140604257584,
+            "positive": 0.9382727742195129
+          }
+        },
+        {
+          "text": "T he Company also uses encryption and authentication technologies to secure the transmiss ion and storage of data..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.045105136930942535,
+            "neutral": 0.013013043440878391,
+            "positive": 0.9418818354606628
+          }
+        },
+        {
+          "text": "These security measures ma y be compromised as a result of thirdparty security breaches, employee error, malfeasanc e, faulty password management, or other irregularit y, and result in persons obtaining unauthorized access to Company data or accounts..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.010970774106681347,
+            "neutral": 0.8921809196472168,
+            "positive": 0.09684832394123077
+          }
+        },
+        {
+          "text": "Th ird parties may attempt to fraudulently induce empl oyees or customers into disclosing user names, passwords or other sensitive information, wh ich may in turn be used to access the Company’ s information technology systems..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.018532877787947655,
+            "neutral": 0.18217237293720245,
+            "positive": 0.7992947697639465
+          }
+        },
+        {
+          "text": "To help protect customers and the Company, the Company moni tors accounts and systems for unusual activity and may freeze accounts under suspicious circumstances, which may result in the delay or los s of customer orders..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.012079475447535515,
+            "neutral": 0.8687900900840759,
+            "positive": 0.11913046985864639
+          }
+        },
+        {
+          "text": "The Company devotes significant resources to networ k security, data encryption, and other security mea sures to protect its systems and data, but these security measures cannot provide absolute sec urity..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.07588651776313782,
+            "neutral": 0.03893700987100601,
+            "positive": 0.885176420211792
+          }
+        },
+        {
+          "text": "The Company may experience a breach of its s ystems and may be unable to protect sensitive data..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.014157632365822792,
+            "neutral": 0.8836875557899475,
+            "positive": 0.10215477645397186
+          }
+        },
+        {
+          "text": "Moreover, if a computer security br each affects the Company’ s systems or results in the unauthorized release of PII, the Company’s reputation and brand could be materially damaged and use of the Company’ s products and services could decrease..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.010836027562618256,
+            "neutral": 0.9455990791320801,
+            "positive": 0.04356482997536659
+          }
+        },
+        {
+          "text": "The Company would also be exposed to a risk of loss or litigati on and possible liability..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.022858373820781708,
+            "neutral": 0.34069448709487915,
+            "positive": 0.6364471912384033
+          }
+        },
+        {
+          "text": "The Company’s business is subject to a variety of U .S..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.025668909773230553,
+            "neutral": 0.01741798222064972,
+            "positive": 0.9569130539894104
+          }
+        },
+        {
+          "text": "and international laws, rules, policies and oth er obligations regarding data protection..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03233770281076431,
+            "neutral": 0.023864926770329475,
+            "positive": 0.9437974095344543
+          }
+        },
+        {
+          "text": "The Company is subject to federal, state and intern ational laws relating to the collection, use, reten tion, security and transfer of PII..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.025480035692453384,
+            "neutral": 0.02161048911511898,
+            "positive": 0.9529094696044922
+          }
+        },
+        {
+          "text": "In many cases, these laws apply not only to thirdparty transactions, but also to transfers of inform ation between the Company and its subsidiaries, and among the Company, its subsidiaries and other parti es with which the Company has commercial relations..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.021702652797102928,
+            "neutral": 0.031043536961078644,
+            "positive": 0.9472538232803345
+          }
+        },
+        {
+          "text": "Several jurisdictions have passed new laws in this area, and other jurisdictions are cons idering imposing additional restrictions..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.12677127122879028,
+            "neutral": 0.04375477135181427,
+            "positive": 0.8294739723205566
+          }
+        },
+        {
+          "text": "These law s continue to develop and may be inconsistent from jurisdiction to jurisdiction..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.028910620138049126,
+            "neutral": 0.4521416425704956,
+            "positive": 0.5189477801322937
+          }
+        },
+        {
+          "text": "Com plying with emerging and changing international req uirements may cause the Company to incur substantial costs or require the Company to c hange its business practices..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.01309289038181305,
+            "neutral": 0.9289010167121887,
+            "positive": 0.05800604820251465
+          }
+        },
+        {
+          "text": "Noncompliance could r esult in penalties or significant legal liability..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.019809601828455925,
+            "neutral": 0.7642473578453064,
+            "positive": 0.2159431278705597
+          }
+        },
+        {
+          "text": "The Company’ s privacy policy and related practices concerning t he use and disclosure of data are posted on its web site..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.017905622720718384,
+            "neutral": 0.039880648255348206,
+            "positive": 0.9422137141227722
+          }
+        },
+        {
+          "text": "Any failure by the Company, its suppliers or other parties with whom t he Company does business to comply with its posted privacy policy or with other federal, state or international privacyrelated or data protection laws and regulations cou ld result in proceedings against the Company by gov ernmental entities or others..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02024831809103489,
+            "neutral": 0.3000444173812866,
+            "positive": 0.6797072887420654
+          }
+        },
+        {
+          "text": "The Company is also subject to payment card associa tion rules and obligations under its contracts with payment card processors..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02270950935781002,
+            "neutral": 0.03214447945356369,
+            "positive": 0.9451459646224976
+          }
+        },
+        {
+          "text": "Under these rules and obligations, if information is compromise d, the Company could be liable to payment card issu ers for the cost of associated expenses and penalties..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02164839208126068,
+            "neutral": 0.27685055136680603,
+            "positive": 0.7015010714530945
+          }
+        },
+        {
+          "text": "In addition, if the Company fails to follow payment card industry security standards, e ven if no customer information is compromised, the Company could incur significant fi nes or experience a significant increase in payment card transaction costs..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.015171682462096214,
+            "neutral": 0.9489530324935913,
+            "positive": 0.0358753576874733
+          }
+        },
+        {
+          "text": "The Company expects its quarterly revenue and opera ting results to fluctuate..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.02659902535378933,
+            "neutral": 0.9503668546676636,
+            "positive": 0.023034079000353813
+          }
+        },
+        {
+          "text": "The Company’s profit margins vary among its product s and its distribution channels..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.027738863602280617,
+            "neutral": 0.042941831052303314,
+            "positive": 0.9293192625045776
+          }
+        },
+        {
+          "text": "The Company’ s software, accessories, and service and support contracts generally have higher gross margi ns than certain of the Company’s other products..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.5498599410057068,
+            "neutral": 0.2919040322303772,
+            "positive": 0.1582360714673996
+          }
+        },
+        {
+          "text": "Gr oss margins on the Company’ s hardware products vary across product lines and can change o ver time as a result of product transitions, pricin g and configuration changes, and component, warranty, and other cost fluctuations..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.025626972317695618,
+            "neutral": 0.5033133029937744,
+            "positive": 0.4710597097873688
+          }
+        },
+        {
+          "text": "T he Company’s direct sales generally have higher ass ociated gross margins than its 17  indirect sales through its channel partners..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.7850676774978638,
+            "neutral": 0.05673568695783615,
+            "positive": 0.15819668769836426
+          }
+        },
+        {
+          "text": "In add ition, the Company’ s gross margin and operating margin percentages, as well as overall profitability, may be materially adversely impacted as a result of a shift in product, geographic or c hannel mix, new products, component cost increases, strengthening U.S..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.04582500085234642,
+            "neutral": 0.8624143004417419,
+            "positive": 0.09176070243120193
+          }
+        },
+        {
+          "text": "dollar, or price comp etition..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03563364967703819,
+            "neutral": 0.027038732543587685,
+            "positive": 0.9373276233673096
+          }
+        },
+        {
+          "text": "The Company has typically experienced high er net sales in the first fiscal quarter compared to other fiscal quarters due in part to ho liday seasonal demand..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.6328951120376587,
+            "neutral": 0.3325825333595276,
+            "positive": 0.03452245518565178
+          }
+        },
+        {
+          "text": "Actual and anticipated timin g of new product introductions by the Company can also significantly impact the level of net sales experienced by the Company in any particu lar quarter..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.028082281351089478,
+            "neutral": 0.7923024296760559,
+            "positive": 0.17961524426937103
+          }
+        },
+        {
+          "text": "The Company could be subject to unexpected developments late in a quarte r, such as lower-than-anticipated demand for the Co mpany’s products, issues with new product introductions, an internal systems failure, or failure of one of the Company’s logistics, comp onents supply, or manufacturing partners..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.009614900685846806,
+            "neutral": 0.9622464776039124,
+            "positive": 0.02813861332833767
+          }
+        },
+        {
+          "text": "The Company’s stock price is subject to volatility..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.028974900022149086,
+            "neutral": 0.06604800373315811,
+            "positive": 0.9049770832061768
+          }
+        },
+        {
+          "text": "The Company’ s stock continues to experience substantial price v olatility..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.6514725089073181,
+            "neutral": 0.16470465064048767,
+            "positive": 0.1838228702545166
+          }
+        },
+        {
+          "text": "Additionally, the Company, the technolog y industry, and the stock market as a whole have experienced extreme stock pr ice and volume fluctuations that have affected stoc k prices in ways that may have been unrelated to these companies’ operating performance..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.014084957540035248,
+            "neutral": 0.9370756149291992,
+            "positive": 0.04883945360779762
+          }
+        },
+        {
+          "text": "The Company believes its sto ck price reflects high future growth and profitabil ity expectations..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.8848185539245605,
+            "neutral": 0.007472081109881401,
+            "positive": 0.10770934075117111
+          }
+        },
+        {
+          "text": "If the Company fails to meet these ex pectations its stock price may significantly declin e, which could have a material adverse impact on investor confidence and employee retentio n..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.012473043985664845,
+            "neutral": 0.9537489414215088,
+            "positive": 0.03377813100814819
+          }
+        },
+        {
+          "text": "The Company’s business is subject to the risks of i nternational operations..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.025648407638072968,
+            "neutral": 0.03473518788814545,
+            "positive": 0.9396164417266846
+          }
+        },
+        {
+          "text": "The Company derives a significant portion of its re venue and earnings from its international operation s..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.08183708786964417,
+            "neutral": 0.008615808561444283,
+            "positive": 0.9095470905303955
+          }
+        },
+        {
+          "text": "Compliance with applicable U.S..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.05346290394663811,
+            "neutral": 0.030168425291776657,
+            "positive": 0.9163686633110046
+          }
+        },
+        {
+          "text": "and foreign laws and regulations, such as import and ex port requirements, anticorruption laws, tax laws, foreign exchange control s and cash repatriation restrictions, data privacy requirement s, environmental laws, labor laws, and anticompetition regulations, increases the costs of doi ng business in foreign jurisdictions..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.028081795200705528,
+            "neutral": 0.8042054176330566,
+            "positive": 0.16771282255649567
+          }
+        },
+        {
+          "text": "Although the Com pany has implemented policies and procedures to com ply with these laws and regulations, a violation by the Company’s employees, contractors, or agents could nevertheless occur..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03084595687687397,
+            "neutral": 0.48454907536506653,
+            "positive": 0.48460492491722107
+          }
+        },
+        {
+          "text": "The Company also could be significantly affected by other risks associated with international activiti es including, but not limited to, economic and labor conditions, increased duties, taxes and o ther costs, political instability, and changes in t he value of the U.S..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.017859552055597305,
+            "neutral": 0.8739626407623291,
+            "positive": 0.10817781835794449
+          }
+        },
+        {
+          "text": "dollar versus local currencies..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.229497492313385,
+            "neutral": 0.0339769646525383,
+            "positive": 0.7365255951881409
+          }
+        },
+        {
+          "text": "Margins on sales of the Company’ s products in foreign countries, and on sales of pr oducts that include components obtained from foreign suppliers, could be materially adversely af fected by foreign currency exchange rate fluctuatio ns and by international trade regulations, including duties, tariffs and antidumping penalties ..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.015718087553977966,
+            "neutral": 0.8566467761993408,
+            "positive": 0.127635195851326
+          }
+        },
+        {
+          "text": "The Company is also exposed to credit and collect ability risk on its trade receivables with customers in certain international markets..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.028120743110775948,
+            "neutral": 0.13268053531646729,
+            "positive": 0.8391987681388855
+          }
+        },
+        {
+          "text": "There c an be no assurance the Company can effectively limi t its credit risk and avoid losses..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.16174942255020142,
+            "neutral": 0.01511534396559,
+            "positive": 0.8231351971626282
+          }
+        },
+        {
+          "text": "The Company’s primary exposure to movements in fore ign currency exchange rates relates to nonU.S..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.024707671254873276,
+            "neutral": 0.03570839762687683,
+            "positive": 0.9395838975906372
+          }
+        },
+        {
+          "text": "dollar denominated sales and operating expenses worldwide..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.01663454994559288,
+            "neutral": 0.8877980709075928,
+            "positive": 0.09556733071804047
+          }
+        },
+        {
+          "text": "For example, the uncertainty re garding the ability of certain European countries t o continue to service their sovereign debt obligations and the related financial restructuring efforts by European governments may cause the valu e of several European currencies, including the euro, to fluctuate, which could adver sely affect the Company’s nonU.S..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.013095459900796413,
+            "neutral": 0.9484972357749939,
+            "positive": 0.038407277315855026
+          }
+        },
+        {
+          "text": "dollar sales and operating expenses in the imp acted jurisdictions..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.0447814017534256,
+            "neutral": 0.6398618221282959,
+            "positive": 0.3153567910194397
+          }
+        },
+        {
+          "text": "Weakening of foreign currencies rela tive to the U.S..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.7624192833900452,
+            "neutral": 0.21113356947898865,
+            "positive": 0.02644716575741768
+          }
+        },
+        {
+          "text": "dollar adversely affects the U.S..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.030770318582654,
+            "neutral": 0.7281162142753601,
+            "positive": 0.24111343920230865
+          }
+        },
+        {
+          "text": "dollar value of the Company ’s foreign currencydenominated sales and earnings, and generally leads the Company to raise international pricing, potent ially reducing demand for the Company’ s products..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.8605576157569885,
+            "neutral": 0.1133517175912857,
+            "positive": 0.026090703904628754
+          }
+        },
+        {
+          "text": "In some circumstances, for competitive or other reasons, the Company may decide not to rai se local prices to fully offset the dollar’s strengthening, or at all, which would adversely affect the U.S..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.3483821153640747,
+            "neutral": 0.22799906134605408,
+            "positive": 0.42361879348754883
+          }
+        },
+        {
+          "text": "dollar value of the Compa ny’s foreign currency denominated sales and earnings..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06957653909921646,
+            "neutral": 0.014727095142006874,
+            "positive": 0.9156963229179382
+          }
+        },
+        {
+          "text": "Conversely, a strengthening of foreign cu rrencies relative to the U.S..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.955485463142395,
+            "neutral": 0.023987751454114914,
+            "positive": 0.020526718348264694
+          }
+        },
+        {
+          "text": "dollar, while general ly beneficial to the Company’ s foreign currencydenominated sales and earnings, could cause the Com pany to reduce international pricing and incur loss es on its foreign currency derivative instruments, thereby limiting the benefi t..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.01357791293412447,
+            "neutral": 0.957632839679718,
+            "positive": 0.028789225965738297
+          }
+        },
+        {
+          "text": "Additionally, strengthening of foreign currencie s may also increase the Company’ s cost of product components denominated in those currencies, thus adversely affecting gross margins..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.03049382008612156,
+            "neutral": 0.9368358254432678,
+            "positive": 0.032670289278030396
+          }
+        },
+        {
+          "text": "18  The Company uses derivative instruments, such as fo reign currency forward and option contracts, to hed ge certain exposures to fluctuations in foreign currency exchange rates..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0502273365855217,
+            "neutral": 0.021821966394782066,
+            "positive": 0.9279507398605347
+          }
+        },
+        {
+          "text": "The use of such he dging activities may not offset any or more than a portion of the adverse financial effects of unfavorable movements in foreign exchange rates ove r the limited time the hedges are in place..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06372535228729248,
+            "neutral": 0.12542828917503357,
+            "positive": 0.8108463883399963
+          }
+        },
+        {
+          "text": "The Company is exposed to credit risk and fluctuati ons in the market values of its investment portfoli o..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03189282491803169,
+            "neutral": 0.3588106632232666,
+            "positive": 0.6092965006828308
+          }
+        },
+        {
+          "text": "The Company has not recognized any significant loss es on its cash, cash equivalents and marketable sec urities, but could experience significant declines in the market value of its investment port folio..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.0209489818662405,
+            "neutral": 0.9467043280601501,
+            "positive": 0.032346658408641815
+          }
+        },
+        {
+          "text": "Given the global nature of its business, the Company has both domestic and international investments..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.15625756978988647,
+            "neutral": 0.007382225710898638,
+            "positive": 0.8363602757453918
+          }
+        },
+        {
+          "text": "Credit ratings and pricing of these in vestments can be negatively affected by liquidity, credit deterioration, financial results, economic risk, political risk, sovereign risk or ot her factors..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.01945294626057148,
+            "neutral": 0.3595714867115021,
+            "positive": 0.6209754943847656
+          }
+        },
+        {
+          "text": "As a result, the value and liquidity o f the Company’ s cash, cash equivalents and marketable securities could decline and result in a significant impairment..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.00880710780620575,
+            "neutral": 0.9653529524803162,
+            "positive": 0.025839904323220253
+          }
+        },
+        {
+          "text": "The Company is exposed to credit risk on its trade accounts receivable, vendor non-trade receivables a nd prepayments related to longterm supply agreements, and this risk is heightened duri ng periods when economic conditions worsen..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06413786113262177,
+            "neutral": 0.23404181003570557,
+            "positive": 0.7018203139305115
+          }
+        },
+        {
+          "text": "The Company distributes its products through thirdparty cellular network carriers, wholesalers, retai lers and valueadded resellers..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06958664953708649,
+            "neutral": 0.008808809332549572,
+            "positive": 0.921604573726654
+          }
+        },
+        {
+          "text": "A substantial majority of the Company’s outstanding trade receiva bles are not covered by collateral or credit insura nce..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.027020493522286415,
+            "neutral": 0.019344011321663857,
+            "positive": 0.9536355137825012
+          }
+        },
+        {
+          "text": "The Company’ s exposure to credit and collectability risk on its trade receivables is hig her in certain international markets and its abilit y to mitigate such risks may be limited..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.25673943758010864,
+            "neutral": 0.06322845816612244,
+            "positive": 0.6800320744514465
+          }
+        },
+        {
+          "text": "The Company also has unsecured vendor nontrade receivables resulting from purchases of compo nents by outsourcing partners and other vendors that manufacture subassemblies or assemble final products for the Compa ny..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04834836721420288,
+            "neutral": 0.014159894548356533,
+            "positive": 0.937491774559021
+          }
+        },
+        {
+          "text": "In addition, the Company has made prepayments a ssociated with long-term supply agreements to secure supply of inv entory components..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.6939167976379395,
+            "neutral": 0.009871324524283409,
+            "positive": 0.29621192812919617
+          }
+        },
+        {
+          "text": "As of September 29, 2012, a sign ificant portion of the Company’ s trade receivables were concentrated within cellular netwo rk carriers, and its non-trade receivables and long -term supply agreements were concentrated among a few individual vendors located primarily in Asia..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0451568141579628,
+            "neutral": 0.014368998818099499,
+            "positive": 0.9404741525650024
+          }
+        },
+        {
+          "text": "While the Company has procedures to monitor and limit exposure to credit risk on its trade and vendor non-trade receivables as well as l ong-term prepayments, there can be no assurance such pr ocedures will effectively limit its credit risk and avoid losses..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.12099792808294296,
+            "neutral": 0.023776041343808174,
+            "positive": 0.8552260398864746
+          }
+        },
+        {
+          "text": "The Company could be impacted by unfavorable result s of legal proceedings..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.010759237222373486,
+            "neutral": 0.9216824769973755,
+            "positive": 0.06755832582712173
+          }
+        },
+        {
+          "text": "The Company is subject to various legal proceedings and claims that have not yet been fully resolved a nd that have arisen in the ordinary course of business, and additional claims may arise in the future..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.023312075063586235,
+            "neutral": 0.5383874177932739,
+            "positive": 0.43830057978630066
+          }
+        },
+        {
+          "text": "Results of legal proceedings are subject t o significant uncertainty and, regardless of the merit of the claims, litigation may be expensive, t ime-consuming, disruptive to the Company’ s operations, and distracting to management..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.01222936064004898,
+            "neutral": 0.9049128293991089,
+            "positive": 0.08285780251026154
+          }
+        },
+        {
+          "text": "In recognition of these considerations, the Company ma y enter into arrangements to settle litigation..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.7071872353553772,
+            "neutral": 0.012238715775310993,
+            "positive": 0.2805740535259247
+          }
+        },
+        {
+          "text": "Although management considers the likelihood of suc h an outcome to be remote, if one or more of these legal matters were resolved against the Company in a reporting period for amounts in excess of management’s expectations, the Company’ s consolidated financial statements for that reporting period could be materially adversely affe cted..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.014379149302840233,
+            "neutral": 0.9180461168289185,
+            "positive": 0.067574642598629
+          }
+        },
+        {
+          "text": "Further, such an outcome could result in sign ificant compensatory, punitive or trebled monetary damages, disgorgement of revenue or profit s, remedial corporate measures or injunctive relief against the Company that could materially adversely affect its financial condition and operating results..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.013585354201495647,
+            "neutral": 0.8706620931625366,
+            "positive": 0.11575258523225784
+          }
+        },
+        {
+          "text": "The Company could be subject to changes in its tax rates, the adoption of new U.S..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.056181591004133224,
+            "neutral": 0.021783526986837387,
+            "positive": 0.9220349192619324
+          }
+        },
+        {
+          "text": "or international ta x legislation or exposure to additional tax liabilities..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.022991269826889038,
+            "neutral": 0.04444923624396324,
+            "positive": 0.9325595498085022
+          }
+        },
+        {
+          "text": "The Company is subject to taxes in the U.S..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02760990895330906,
+            "neutral": 0.023050513118505478,
+            "positive": 0.9493396282196045
+          }
+        },
+        {
+          "text": "and num erous foreign jurisdictions..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.05043896660208702,
+            "neutral": 0.03519453853368759,
+            "positive": 0.9143664240837097
+          }
+        },
+        {
+          "text": "Current economic and p olitical conditions make tax rates in any jurisdiction, including the U.S., subject to signif icant change..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04197346419095993,
+            "neutral": 0.04415014386177063,
+            "positive": 0.9138764142990112
+          }
+        },
+        {
+          "text": "The Company ’s future effective tax rates could be affected by c hanges in the mix of earnings in countries with differing statutory 19  tax rates, changes in the valuation of deferred tax assets and liabilities, or changes in tax laws or their interpretation..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.019117025658488274,
+            "neutral": 0.6620003581047058,
+            "positive": 0.31888264417648315
+          }
+        },
+        {
+          "text": "The Company is also subject to the examination of its tax returns by the Intern al Revenue Service and other tax authorities..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03159578889608383,
+            "neutral": 0.02033974789083004,
+            "positive": 0.9480644464492798
+          }
+        },
+        {
+          "text": "The C ompany regularly assesses the likelihood of an adverse outcome resulting from these examination s to determine the adequacy of its provision for ta xes..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04720085859298706,
+            "neutral": 0.01956784911453724,
+            "positive": 0.9332312941551208
+          }
+        },
+        {
+          "text": "There can be no assurance as to the outcome of these examinations..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04663773253560066,
+            "neutral": 0.032549552619457245,
+            "positive": 0.9208127856254578
+          }
+        },
+        {
+          "text": "The Company’ s headquarters are located in Cupertino, California ..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03506613150238991,
+            "neutral": 0.01633342169225216,
+            "positive": 0.9486004114151001
+          }
+        },
+        {
+          "text": "As of September 29, 2012, the Company owned or le ased approximately 17.3 million square feet of building space, primari ly in the U.S., and to a lesser extent, in Europe, Japan, Canada, and the AsiaPacific regions..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04687565565109253,
+            "neutral": 0.012653392739593983,
+            "positive": 0.9404709935188293
+          }
+        },
+        {
+          "text": "Of that amount approximately 10.9 million square fe et was leased building space, which includes approx imately 4.1 million square feet related to retail store space..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04437386244535446,
+            "neutral": 0.014133576303720474,
+            "positive": 0.94149249792099
+          }
+        },
+        {
+          "text": "Of the Company’ s owned building space, approximately 2.6 million s quare feet that is located in Cupertino, California will be demolished to build a second corporate campus..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.022214431315660477,
+            "neutral": 0.03789761662483215,
+            "positive": 0.9398879408836365
+          }
+        },
+        {
+          "text": "A dditionally, the Company owns a total of 1,077 acre s of land in various locations..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04123425856232643,
+            "neutral": 0.01366223394870758,
+            "positive": 0.9451034665107727
+          }
+        },
+        {
+          "text": "As of September 29, 2012, the Company owned a manuf acturing facility in Cork, Ireland that also housed a customer support call center and facilities in Elk Grove, California that included w arehousing and distribution operations and a custom er support call center..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04212130978703499,
+            "neutral": 0.015128355473279953,
+            "positive": 0.9427503943443298
+          }
+        },
+        {
+          "text": "The Company also owned land in Austin, Texas where it will build off ice space and a customer support call center..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1306147426366806,
+            "neutral": 0.008316579274833202,
+            "positive": 0.861068606376648
+          }
+        },
+        {
+          "text": "In ad dition, the Company owned facilities for research and development and corporate functions in Cupertino, California, including land for the futu re development of the Company’ s second corporate campus..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.09139753878116608,
+            "neutral": 0.00879881251603365,
+            "positive": 0.8998035788536072
+          }
+        },
+        {
+          "text": "The Company also owned data cente rs in Newark, California; Maiden, North Carolina; a nd Prineville, Oregon..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02357036992907524,
+            "neutral": 0.02989851124584675,
+            "positive": 0.9465310573577881
+          }
+        },
+        {
+          "text": "Outside the U.S., the Company owned additional facilities for v arious purposes..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.07361433655023575,
+            "neutral": 0.009533355012536049,
+            "positive": 0.9168522953987122
+          }
+        },
+        {
+          "text": "The Company believes its existing facilities and eq uipment, which are used by all operating segments, are in good operating condition and are suitable for the conduct of its business..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.8385945558547974,
+            "neutral": 0.008473697118461132,
+            "positive": 0.15293174982070923
+          }
+        },
+        {
+          "text": "The Compa ny has invested in internal capacity and strategic relationships with outside manufacturing vendors and continues to make investments in capita l equipment as needed to meet anticipated demand fo r its products..",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.8399730920791626,
+            "neutral": 0.0070138610899448395,
+            "positive": 0.15301303565502167
+          }
+        },
+        {
+          "text": "The Company is subject to the various legal proceed ings and claims, including those discussed below as well as certain other legal proceedings and claims that have not been fully resolved and th at have arisen in the ordinary course of business..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02008790895342827,
+            "neutral": 0.1313336044549942,
+            "positive": 0.8485784530639648
+          }
+        },
+        {
+          "text": "In the opinion of management, there was not at least a reasonable possibility the Company may h ave incurred a material loss, or a material loss in excess of a recorded accrual, with respect to loss contingencies..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.023386511951684952,
+            "neutral": 0.7859378457069397,
+            "positive": 0.19067563116550446
+          }
+        },
+        {
+          "text": "However, the outcome of legal p roceedings and claims brought against the Company i s subject to significant uncertainty..",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04193607717752457,
+            "neutral": 0.1535651832818985,
+            "positive": 0.8044987320899963
+          }
+        },
+        {
+          "text": "Therefore, although management considers the likeli hood of such an outcome to be remote, if one or mor e of these legal matters were resolved against the Company in a reporting period for amoun ts in excess of management’s expectations, the Comp any’s consolidated financial statements for that reporting period could be mater ially adversely affected..",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.026469364762306213,
+            "neutral": 0.5509213209152222,
+            "positive": 0.4226093590259552
+          }
+        }
+      ]
+    }
+  }
+}
