@@ -202,7 +202,7 @@ import {
 } from "echarts/components";
 import VChart from "vue-echarts";
 
-// 注册ECharts组件
+// 注册必要的ECharts组件
 use([
   CanvasRenderer,
   PieChart,
@@ -212,67 +212,28 @@ use([
 ]);
 
 export default defineComponent({
-  name: "ReportDetailView",
+  name: "ReportDetail",
   components: {
     VChart,
   },
-  props: {
-    ticker: {
-      type: String,
-      required: true,
-    },
-    date: {
-      type: String,
-      required: true,
-    },
-  },
-  setup(props) {
+  setup() {
     const route = useRoute();
     const router = useRouter();
     const store = useReportStore();
 
-    const activeSection = ref("");
-    const sentenceDrawer = ref(false);
+    const ticker = computed(() => route.params.ticker as string);
+    const date = computed(() => route.params.date as string);
+    const activeSection = ref<string>("");
+
+    // 选中的句子和弹出抽屉
     const selectedSentence = ref<SectionSentence | null>(null);
+    const sentenceDrawer = ref<boolean>(false);
 
-    // 加载报告数据
-    onMounted(async () => {
-      await store.fetchReportData(props.ticker, props.date);
-
-      // 设置默认选中的章节
-      if (store.currentReport && store.currentReport.sections) {
-        const sections = Object.keys(store.currentReport.sections);
-        if (sections.length > 0) {
-          activeSection.value = sections[0];
-        }
-      }
-    });
-
-    // 主要情感倾向
-    const mainSentiment = computed(() => {
-      if (!store.currentReport) return "neutral";
-
-      const { positive_ratio, neutral_ratio, negative_ratio } =
-        store.currentReport.summary;
-      if (positive_ratio > neutral_ratio && positive_ratio > negative_ratio) {
-        return "positive";
-      } else if (
-        negative_ratio > neutral_ratio &&
-        negative_ratio > positive_ratio
-      ) {
-        return "negative";
-      } else {
-        return "neutral";
-      }
-    });
-
-    // 饼图配置
+    // 饼图选项
     const chartOption = computed(() => {
       if (!store.currentReport) return {};
 
-      const { positive_ratio, neutral_ratio, negative_ratio } =
-        store.currentReport.summary;
-
+      const summary = store.currentReport.summary;
       return {
         tooltip: {
           trigger: "item",
@@ -285,8 +246,9 @@ export default defineComponent({
         },
         series: [
           {
+            name: "情感分布",
             type: "pie",
-            radius: ["50%", "70%"],
+            radius: ["40%", "70%"],
             avoidLabelOverlap: false,
             label: {
               show: false,
@@ -304,17 +266,17 @@ export default defineComponent({
             },
             data: [
               {
-                value: (positive_ratio * 100).toFixed(1),
+                value: summary.positive_count,
                 name: "正面",
                 itemStyle: { color: "#67C23A" },
               },
               {
-                value: (neutral_ratio * 100).toFixed(1),
+                value: summary.neutral_count,
                 name: "中性",
                 itemStyle: { color: "#909399" },
               },
               {
-                value: (negative_ratio * 100).toFixed(1),
+                value: summary.negative_count,
                 name: "负面",
                 itemStyle: { color: "#F56C6C" },
               },
@@ -324,173 +286,144 @@ export default defineComponent({
       };
     });
 
-    // 格式化百分比
-    const formatPercent = (value: number) => {
-      return (value * 100).toFixed(1) + "%";
-    };
+    // 获取主要情感倾向
+    const mainSentiment = computed(() => {
+      if (!store.currentReport) return "neutral";
 
-    // 格式化日期
-    const formatDate = (dateString: string) => {
-      if (!dateString) return "";
-
-      // 将YYYYMMDD格式转换为YYYY-MM-DD
-      const year = dateString.substr(0, 4);
-      const month = dateString.substr(4, 2);
-      const day = dateString.substr(6, 2);
-
-      return `${year}-${month}-${day}`;
-    };
-
-    // 格式化章节名称
-    const formatSectionName = (section: string) => {
-      const sectionMap: Record<string, string> = {
-        md_and_a: "管理层讨论与分析",
-        risk_factors: "风险因素",
-        financial_statements: "财务报表",
-      };
-      return sectionMap[section] || section;
-    };
-
-    // 获取情感样式类
-    const getSentimentClass = (sentiment: string) => {
-      return {
-        positive: sentiment === "positive",
-        neutral: sentiment === "neutral",
-        negative: sentiment === "negative",
-      };
-    };
-
-    // 获取情感标签样式类型
-    const getSentimentTagType = (sentiment: string) => {
-      switch (sentiment) {
-        case "positive":
-          return "success";
-        case "neutral":
-          return "info";
-        case "negative":
-          return "danger";
-        default:
-          return "info";
+      const summary = store.currentReport.summary;
+      if (
+        summary.positive_count > summary.neutral_count &&
+        summary.positive_count > summary.negative_count
+      ) {
+        return "positive";
+      } else if (
+        summary.negative_count > summary.neutral_count &&
+        summary.negative_count > summary.positive_count
+      ) {
+        return "negative";
       }
-    };
+      return "neutral";
+    });
 
-    // 获取情感中文名称
-    const getSentimentName = (sentiment: string) => {
-      switch (sentiment) {
-        case "positive":
-          return "正面/利好";
-        case "neutral":
-          return "中性";
-        case "negative":
-          return "负面/利空";
-        default:
-          return "未知";
-      }
-    };
-
-    // 获取句子样式类
-    const getSentenceClass = (sentiment: string) => {
-      return {
-        "positive-sentence": sentiment === "positive",
-        "neutral-sentence": sentiment === "neutral",
-        "negative-sentence": sentiment === "negative",
-      };
-    };
-
-    // 选择查看句子详情
+    // 处理句子选择
     const selectSentence = (sentence: SectionSentence) => {
       selectedSentence.value = sentence;
       sentenceDrawer.value = true;
     };
 
-    // 生成AI解释
-    const generateExplanation = (sentence: SectionSentence) => {
-      // 这里可以集成更高级的解释算法，目前使用简单规则
-      const { label, confidence } = sentence;
-      const text = sentence.text;
-
-      let explanation = "";
-
-      if (label === "positive") {
-        explanation = `该文本被判定为利好消息，置信度为${formatPercent(
-          confidence.positive
-        )}。`;
-        explanation += `其中包含积极的关键词和表述，如`;
-
-        // 简单关键词检测
-        if (
-          text.includes("增长") ||
-          text.includes("提高") ||
-          text.includes("增加")
-        ) {
-          explanation += `"增长"、"提高"或"增加"等表示业务向好的词汇，`;
-        }
-        if (text.includes("成功") || text.includes("领先")) {
-          explanation += `"成功"或"领先"等表示优势的描述，`;
-        }
-        if (text.includes("机会") || text.includes("创新")) {
-          explanation += `"机会"或"创新"等表示未来发展潜力的词汇，`;
-        }
-
-        explanation += `这些表述表明公司经营状况良好或有积极的发展前景。`;
-      } else if (label === "negative") {
-        explanation = `该文本被判定为利空消息，置信度为${formatPercent(
-          confidence.negative
-        )}。`;
-        explanation += `其中包含消极的关键词和表述，如`;
-
-        // 简单关键词检测
-        if (
-          text.includes("下降") ||
-          text.includes("减少") ||
-          text.includes("降低")
-        ) {
-          explanation += `"下降"、"减少"或"降低"等表示业务下滑的词汇，`;
-        }
-        if (
-          text.includes("风险") ||
-          text.includes("挑战") ||
-          text.includes("困难")
-        ) {
-          explanation += `"风险"、"挑战"或"困难"等表示存在问题的描述，`;
-        }
-        if (text.includes("竞争") || text.includes("压力")) {
-          explanation += `"竞争"或"压力"等表示面临外部挑战的词汇，`;
-        }
-
-        explanation += `这些表述表明公司可能面临经营困难或市场挑战。`;
-      } else {
-        explanation = `该文本被判定为中性消息，置信度为${formatPercent(
-          confidence.neutral
-        )}。`;
-        explanation += `文本中没有明显的积极或消极倾向，可能是在客观陈述事实或提供中立的信息，不包含明显的情感色彩。`;
-      }
-
-      return explanation;
+    // 工具函数
+    const formatPercent = (value: number) => {
+      return (value * 100).toFixed(1) + "%";
     };
 
-    // 返回上一页
+    const getSentimentName = (sentiment: string) => {
+      const map: { [key: string]: string } = {
+        positive: "正面",
+        neutral: "中性",
+        negative: "负面",
+      };
+      return map[sentiment] || "未知";
+    };
+
+    const getSentimentClass = (sentiment: string) => {
+      return sentiment;
+    };
+
+    const getSentenceClass = (sentiment: string) => {
+      return `sentiment-${sentiment}`;
+    };
+
+    const getSentimentTagType = (sentiment: string) => {
+      const map: { [key: string]: string } = {
+        positive: "success",
+        neutral: "info",
+        negative: "danger",
+      };
+      return map[sentiment] || "";
+    };
+
+    const formatSectionName = (section: string) => {
+      const map: { [key: string]: string } = {
+        md_and_a: "管理层讨论与分析",
+        risk_factors: "风险因素",
+        business: "业务概述",
+        financial_statements: "财务报表",
+      };
+      return map[section] || section;
+    };
+
+    const formatDate = (dateStr: string) => {
+      // 格式化日期，例如20210331 => 2021-03-31
+      if (dateStr.length === 8) {
+        return `${dateStr.substring(0, 4)}-${dateStr.substring(
+          4,
+          6
+        )}-${dateStr.substring(6, 8)}`;
+      }
+      return dateStr;
+    };
+
     const goBack = () => {
       router.push("/");
     };
 
+    // 为句子生成简单解释（如果没有GPT解释）
+    const generateExplanation = (sentence: SectionSentence) => {
+      if (sentence.explanation) {
+        return sentence.explanation;
+      }
+
+      // 基于情感和置信度生成简单解释
+      const sentiment = sentence.label;
+      const confidence = sentence.confidence[sentiment];
+
+      if (sentiment === "positive" && confidence > 0.9) {
+        return "这是一个非常积极的陈述，表明公司在这方面表现优异，可能对投资者是个好消息。";
+      } else if (sentiment === "positive") {
+        return "这是一个积极的陈述，表明公司在这方面表现良好。";
+      } else if (sentiment === "negative" && confidence > 0.9) {
+        return "这是一个非常消极的陈述，可能表明公司在这方面面临严重挑战，投资者应该关注。";
+      } else if (sentiment === "negative") {
+        return "这是一个消极的陈述，表明公司在这方面可能存在问题或风险。";
+      } else {
+        return "这是一个中性陈述，主要是陈述事实，不包含明显的积极或消极信息。";
+      }
+    };
+
+    // 加载报告数据
+    onMounted(async () => {
+      if (ticker.value && date.value) {
+        await store.fetchReportDetails(ticker.value, date.value);
+
+        // 设置初始激活章节
+        if (store.currentReport && store.currentReport.sections) {
+          const sectionNames = Object.keys(store.currentReport.sections);
+          if (sectionNames.length > 0) {
+            activeSection.value = sectionNames[0];
+          }
+        }
+      }
+    });
+
     return {
+      ticker,
+      date,
       store,
       activeSection,
-      sentenceDrawer,
       selectedSentence,
-      mainSentiment,
+      sentenceDrawer,
       chartOption,
-      formatPercent,
-      formatDate,
-      formatSectionName,
-      getSentenceClass,
-      getSentimentClass,
-      getSentimentTagType,
-      getSentimentName,
+      mainSentiment,
       selectSentence,
-      generateExplanation,
+      formatPercent,
+      getSentimentName,
+      getSentimentClass,
+      getSentenceClass,
+      getSentimentTagType,
+      formatSectionName,
+      formatDate,
       goBack,
+      generateExplanation,
     };
   },
 });
@@ -499,27 +432,22 @@ export default defineComponent({
 <style scoped>
 .report-detail-container {
   padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .header {
-  margin-bottom: 30px;
-}
-
-.header h2 {
-  margin-top: 15px;
-  color: #303133;
-}
-
-.loading,
-.error,
-.no-data {
-  margin: 50px 0;
+  margin-bottom: 20px;
 }
 
 .report-summary {
   margin-bottom: 30px;
+}
+
+.chart-container {
+  height: 300px;
+}
+
+.chart {
+  height: 100%;
 }
 
 .summary-card {
@@ -532,38 +460,27 @@ export default defineComponent({
   align-items: center;
 }
 
-.chart-container {
-  height: 250px;
-}
-
-.chart {
-  height: 100%;
-  width: 100%;
-}
-
 .summary-stats {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 20px;
 }
 
 .stat-item {
-  flex: 1;
   min-width: 120px;
-  padding: 15px;
+  padding: 10px;
   border-radius: 4px;
   background-color: #f5f7fa;
-  text-align: center;
 }
 
 .stat-label {
   font-size: 14px;
   color: #606266;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .stat-value {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -579,20 +496,11 @@ export default defineComponent({
   color: #f56c6c;
 }
 
-.report-sections {
-  margin-top: 30px;
-}
-
 .section-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
-}
-
-.section-header h3 {
-  margin: 0;
-  color: #303133;
+  margin-bottom: 10px;
 }
 
 .section-stats {
@@ -601,55 +509,48 @@ export default defineComponent({
 }
 
 .sentences-container {
-  max-height: 500px;
-  overflow-y: auto;
-  padding: 10px;
-  border: 1px solid #ebeef5;
-  border-radius: 4px;
+  margin-top: 20px;
 }
 
 .sentence-item {
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 8px;
+  margin-bottom: 8px;
   border-radius: 4px;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: background-color 0.2s;
 }
 
 .sentence-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
-.positive-sentence {
-  background-color: rgba(103, 194, 58, 0.1);
+.sentiment-positive {
   border-left: 4px solid #67c23a;
 }
 
-.neutral-sentence {
-  background-color: rgba(144, 147, 153, 0.1);
+.sentiment-neutral {
   border-left: 4px solid #909399;
 }
 
-.negative-sentence {
-  background-color: rgba(245, 108, 108, 0.1);
+.sentiment-negative {
   border-left: 4px solid #f56c6c;
 }
 
 .sentence-detail {
-  padding: 15px;
+  padding: 10px;
 }
 
 .sentence-text {
   padding: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   border-radius: 4px;
+  background-color: #f5f7fa;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .sentiment-analysis {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .sentiment-label {
@@ -664,13 +565,19 @@ export default defineComponent({
 }
 
 .ai-explanation {
-  margin-top: 30px;
-  padding-top: 20px;
-  border-top: 1px solid #ebeef5;
+  background-color: #ecf5ff;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
 }
 
-.ai-explanation p {
-  line-height: 1.6;
-  color: #606266;
+.error,
+.loading,
+.no-data {
+  padding: 20px;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
