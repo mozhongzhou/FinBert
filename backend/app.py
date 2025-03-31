@@ -103,6 +103,44 @@ async def get_reports(ticker: Optional[str] = None):
     return {"reports": list(reports.values())}
 
 
+@app.get("/api/reports/{ticker}/{date}/analysis")
+async def get_report_analysis(ticker: str, date: str, with_explanations: bool = False):
+    """获取特定报告的情感分析结果"""
+    report_key = f"{ticker}_{date}"
+    
+    if with_explanations:
+        # 尝试加载带GPT解释的结果
+        try:
+            results_file = os.path.join(RESULTS_DIR, f"{ticker}_with_explanations.json")
+            if not os.path.exists(results_file):
+                results_file = os.path.join(RESULTS_DIR, f"all_with_explanations.json")
+                
+            with open(results_file, 'r', encoding='utf-8') as f:
+                all_results = json.load(f)
+                
+            if report_key in all_results:
+                return {"analysis": all_results[report_key]}
+        except Exception as e:
+            print(f"加载GPT解释结果出错: {e}")
+            # 如果加载GPT解释结果出错，回退到普通结果
+    
+    # 加载普通分析结果
+    try:
+        results_file = os.path.join(RESULTS_DIR, f"{ticker}_sentiment.json")
+        if not os.path.exists(results_file):
+            results_file = os.path.join(RESULTS_DIR, "all_sentiment.json")
+            
+        with open(results_file, 'r', encoding='utf-8') as f:
+            all_results = json.load(f)
+            
+        if report_key in all_results:
+            return {"analysis": all_results[report_key]}
+        else:
+            raise HTTPException(status_code=404, detail=f"未找到 {report_key} 的分析结果")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"获取分析结果出错: {str(e)}")
+
+
 @app.get("/api/report/{ticker}/{date}")
 async def get_report_data(ticker: str, date: str):
     """获取特定报告的详细数据"""
