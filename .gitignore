@@ -1,5 +1,4 @@
 data/processed/*
-data/raw/*.txt*
-data/debug/*
-models/*
-resources/*
+data/raw/*
+results/*
+*/_pycache_*
