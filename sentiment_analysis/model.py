@@ -46,6 +46,18 @@ class FinBertSentimentAnalyzer:
         Returns:
             包含情感标签和置信度的字典
         """
+        # 处理空文本
+        if not text or len(text.strip()) < 5:
+            return {
+                "label": "neutral",
+                "confidence": {
+                    "negative": 0.0,
+                    "neutral": 1.0,
+                    "positive": 0.0
+                },
+                "text": text
+            }
+            
         # 处理过长的文本
         max_length = self.tokenizer.model_max_length
         if len(text.split()) > max_length - 10:  # 保留一些余量
@@ -87,6 +99,9 @@ class FinBertSentimentAnalyzer:
         Returns:
             情感分析结果列表
         """
+        if not texts:
+            return []
+            
         results = []
         
         for i in range(0, len(texts), batch_size):
@@ -158,6 +173,97 @@ class FinBertSentimentAnalyzer:
         return {
             "document": document_result,
             "sentences": sentence_results
+        }
+    
+    def analyze_report_sections(self, sections: Dict[str, str]) -> Dict:
+        """
+        分析报告的多个章节
+        
+        Args:
+            sections: 章节名称到文本内容的映射
+            
+        Returns:
+            每个章节的分析结果
+        """
+        import nltk
+        
+        # 确保已下载分句模型
+        try:
+            nltk.data.find('tokenizers/punkt')
+        except LookupError:
+            nltk.download('punkt')
+            
+        results = {}
+        all_sentences = []
+        
+        # 对每个章节进行分析
+        for section_name, section_text in sections.items():
+            if not section_text or len(section_text.strip()) < 10:
+                continue
+                
+            # 分句
+            sentences = nltk.sent_tokenize(section_text)
+            valid_sentences = [s for s in sentences if len(s.split()) >= 5]
+            
+            if not valid_sentences:
+                continue
+                
+            # 分析句子情感
+            sentence_results = self.analyze_batch(valid_sentences)
+            
+            # 整理句子级结果
+            formatted_sentences = [
+                {
+                    "text": sent,
+                    "label": result["label"],
+                    "confidence": result["confidence"]
+                }
+                for sent, result in zip(valid_sentences, sentence_results)
+            ]
+            
+            # 计算章节摘要
+            positive = sum(1 for s in sentence_results if s['label'] == 'positive')
+            neutral = sum(1 for s in sentence_results if s['label'] == 'neutral')
+            negative = sum(1 for s in sentence_results if s['label'] == 'negative')
+            total = len(sentence_results)
+            
+            # 保存章节结果
+            results[section_name] = {
+                'sentences': formatted_sentences,
+                'summary': {
+                    'positive': positive / total if total > 0 else 0,
+                    'neutral': neutral / total if total > 0 else 0,
+                    'negative': negative / total if total > 0 else 0
+                },
+                'counts': {
+                    'positive': positive,
+                    'neutral': neutral,
+                    'negative': negative
+                }
+            }
+            
+            # 收集所有句子用于整体摘要
+            all_sentences.extend(formatted_sentences)
+        
+        # 计算整体摘要
+        positive = sum(1 for s in all_sentences if s['label'] == 'positive')
+        neutral = sum(1 for s in all_sentences if s['label'] == 'neutral')
+        negative = sum(1 for s in all_sentences if s['label'] == 'negative')
+        total = len(all_sentences)
+        
+        summary = {
+            'positive_count': positive,
+            'neutral_count': neutral,
+            'negative_count': negative,
+            'positive_ratio': positive / total if total > 0 else 0,
+            'neutral_ratio': neutral / total if total > 0 else 0,
+            'negative_ratio': negative / total if total > 0 else 0,
+            'total_sentences': total
+        }
+        
+        return {
+            'sections': results,
+            'summary': summary
         }
 
 # 扩展模型 - 使用自定义的金融领域微调模型

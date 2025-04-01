@@ -1,0 +1,854 @@
+{
+  "ticker": "AAPL",
+  "date": "2020",
+  "summary": {
+    "positive_count": 70,
+    "neutral_count": 14,
+    "negative_count": 3,
+    "positive_ratio": 0.8045977011494253,
+    "neutral_ratio": 0.16091954022988506,
+    "negative_ratio": 0.034482758620689655,
+    "total_sentences": 87
+  },
+  "sections": {
+    "Item_1": {
+      "sentences": [
+        {
+          "text": "BusinessCompany BackgroundThe Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.052003391087055206,
+            "neutral": 0.012656657956540585,
+            "positive": 0.9353399872779846
+          }
+        },
+        {
+          "text": "The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.015962813049554825,
+            "neutral": 0.20785947144031525,
+            "positive": 0.7761776447296143
+          }
+        },
+        {
+          "text": "The Company is a California corporation established in 1977.ProductsiPhoneiPhone® is the Company’s line of smartphones based on its iOS operating system.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06922251731157303,
+            "neutral": 0.010437789373099804,
+            "positive": 0.9203396439552307
+          }
+        },
+        {
+          "text": "During 2020, the Company released a new iPhone SE.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1756160855293274,
+            "neutral": 0.008824932388961315,
+            "positive": 0.8155589699745178
+          }
+        },
+        {
+          "text": "In October 2020, the Company announced four new iPhone models with 5G technology: iPhone 12 and iPhone 12 Pro were available starting in October 2020, and iPhone 12 Pro Max and iPhone 12 mini are both expected to be available in November 2020.MacMac® is the Company’s line of personal computers based on its macOS® operating system.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.07921914011240005,
+            "neutral": 0.0115005848929286,
+            "positive": 0.9092803001403809
+          }
+        },
+        {
+          "text": "During 2020, the Company released a new 16-inch MacBook Pro®, a fully redesigned Mac Pro®, and updated versions of its MacBook Air®, 13-inch MacBook Pro and 27-inch iMac®.iPadiPad® is the Company’s line of multi-purpose tablets based on its iPadOS® operating system.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1318013221025467,
+            "neutral": 0.010494094341993332,
+            "positive": 0.8577046394348145
+          }
+        },
+        {
+          "text": "During 2020, the Company released an updated iPad Pro®.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.16229939460754395,
+            "neutral": 0.009081117808818817,
+            "positive": 0.8286194205284119
+          }
+        },
+        {
+          "text": "In September 2020, the Company released an eighth-generation iPad and introduced an all-new iPad Air®, which was available starting in October 2020.Wearables, Home and AccessoriesWearables, Home and Accessories includes AirPods®, Apple TV®, Apple Watch®, Beats® products, HomePod®, iPod touch® and other Apple-branded and third-party accessories.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04993933066725731,
+            "neutral": 0.014342001639306545,
+            "positive": 0.9357187151908875
+          }
+        },
+        {
+          "text": "AirPods are the Company’s wireless headphones that interact with Siri®.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.045677557587623596,
+            "neutral": 0.014519886113703251,
+            "positive": 0.9398026466369629
+          }
+        },
+        {
+          "text": "During 2020, the Company released AirPods Pro®.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.176324725151062,
+            "neutral": 0.00825650803744793,
+            "positive": 0.8154187202453613
+          }
+        },
+        {
+          "text": "Apple Watch is the Company’s line of smart watches based on its watchOS® operating system.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.05928439646959305,
+            "neutral": 0.013760635629296303,
+            "positive": 0.926954984664917
+          }
+        },
+        {
+          "text": "In September 2020, the Company released Apple Watch Series 6 and a new Apple Watch SE.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.08819577097892761,
+            "neutral": 0.009821333922445774,
+            "positive": 0.9019829034805298
+          }
+        },
+        {
+          "text": "In October 2020, the Company announced HomePod mini™, which is expected to be available in November 2020.ServicesAdvertisingThe Company’s advertising services include various third-party licensing arrangements and the Company’s own advertising platforms.Apple Inc. | 2020 Form 10-K | 1AppleCareThe Company offers a portfolio of fee-based service and support products under the AppleCare® brand.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06549796462059021,
+            "neutral": 0.009798355400562286,
+            "positive": 0.9247037172317505
+          }
+        },
+        {
+          "text": "The offerings provide priority access to Apple technical support, access to the global Apple authorized service network for repair and replacement services, and in many cases additional coverage for instances of accidental damage and/or theft and loss, depending on the country and type of product.Cloud ServicesThe Company’s cloud services store and keep customers’ content up-to-date and available across multiple Apple devices and Windows personal computers.Digital ContentThe Company operates various platforms, including the App Store®, that allow customers to discover and download applications and digital content, such as books, music, video, games and podcasts.The Company also offers digital content through subscription-based services, including Apple ArcadeSM, a game subscription service; Apple Music®, which offers users a curated listening experience with on-demand radio stations; Apple News+SM, a subscription news and magazine service; and Apple TV+SM, which offers exclusive original content.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04376453533768654,
+            "neutral": 0.017822137102484703,
+            "positive": 0.9384133219718933
+          }
+        },
+        {
+          "text": "In September 2020, the Company announced Apple Fitness+SM, a personalized fitness service built for Apple Watch, which is expected to be available before the end of calendar 2020.Payment ServicesThe Company offers payment services, including Apple Card™, a co-branded credit card, and Apple Pay®, a cashless payment service.Markets and DistributionThe Company’s customers are primarily in the consumer, small and mid-sized business, education, enterprise and government markets.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.036890365183353424,
+            "neutral": 0.017307057976722717,
+            "positive": 0.9458025097846985
+          }
+        },
+        {
+          "text": "The Company sells its products and resells third-party products in most of its major markets directly to consumers, small and mid-sized businesses, and education, enterprise and government customers through its retail and online stores and its direct sales force.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.05921255052089691,
+            "neutral": 0.010748181492090225,
+            "positive": 0.9300392270088196
+          }
+        },
+        {
+          "text": "The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0564553402364254,
+            "neutral": 0.010560965165495872,
+            "positive": 0.9329837560653687
+          }
+        },
+        {
+          "text": "During 2020, the Company’s net sales through its direct and indirect distribution channels accounted for 34% and 66%, respectively, of total net sales.No single customer accounted for more than 10% of net sales in 2020, 2019 and 2018.CompetitionThe markets for the Company’s products and services are highly competitive, and are characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.15372875332832336,
+            "neutral": 0.4552325904369354,
+            "positive": 0.3910386860370636
+          }
+        },
+        {
+          "text": "Many of the Company’s competitors seek to compete primarily through aggressive pricing and very low cost structures, and by emulating the Company’s products and infringing on its intellectual property.The Company’s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.48237350583076477,
+            "neutral": 0.009514208883047104,
+            "positive": 0.5081123113632202
+          }
+        },
+        {
+          "text": "The Company believes it is unique in that it designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications and related services.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.2749548852443695,
+            "neutral": 0.007088194135576487,
+            "positive": 0.7179569602012634
+          }
+        },
+        {
+          "text": "Principal competitive factors important to the Company include price, product and service features (including security features), relative price and performance, product and service quality and reliability, design innovation, a strong third-party software and accessories ecosystem, marketing and distribution capability, service and support, and corporate reputation.Apple Inc. | 2020 Form 10-K | 2The Company is focused on expanding its market opportunities related to smartphones, personal computers, tablets and other electronic devices and services.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.49410608410835266,
+            "neutral": 0.007515431847423315,
+            "positive": 0.4983784258365631
+          }
+        },
+        {
+          "text": "The Company faces substantial competition in these markets from companies that have significant technical, marketing, distribution and other resources, as well as established hardware, software, and service offerings with large customer bases.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.2774185240268707,
+            "neutral": 0.024028195068240166,
+            "positive": 0.6985532641410828
+          }
+        },
+        {
+          "text": "In addition, some of the Company’s competitors have broader product lines, lower-priced products and a larger installed base of active devices.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.3672080338001251,
+            "neutral": 0.013711543753743172,
+            "positive": 0.6190803647041321
+          }
+        },
+        {
+          "text": "Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.01254537608474493,
+            "neutral": 0.9672678112983704,
+            "positive": 0.020186757668852806
+          }
+        },
+        {
+          "text": "Certain competitors may have the resources, experience or cost structures to provide products at little or no profit or even at a loss.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03097819723188877,
+            "neutral": 0.3600686490535736,
+            "positive": 0.6089531183242798
+          }
+        },
+        {
+          "text": "The Company’s services compete with business models that provide content to users for free and use illegitimate means to obtain third-party digital content and applications.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06462029367685318,
+            "neutral": 0.1511927992105484,
+            "positive": 0.784186840057373
+          }
+        },
+        {
+          "text": "The Company expects competition in these markets to intensify significantly as competitors imitate the Company’s product features and applications within their products, or collaborate to offer integrated solutions that are more competitive than those they currently offer.Supply of ComponentsAlthough most components essential to the Company’s business are generally available from multiple sources, certain components are currently obtained from single or limited sources.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06014744192361832,
+            "neutral": 0.01215169858187437,
+            "positive": 0.9277008771896362
+          }
+        },
+        {
+          "text": "The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets and other electronic devices.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.2004593461751938,
+            "neutral": 0.010639585554599762,
+            "positive": 0.7889010310173035
+          }
+        },
+        {
+          "text": "Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and significant commodity pricing fluctuations.The Company uses some custom components that are not commonly used by its competitors, and new products introduced by the Company often utilize custom components available from only one source.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03442922234535217,
+            "neutral": 0.0927046462893486,
+            "positive": 0.872866153717041
+          }
+        },
+        {
+          "text": "When a component or product uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing capacities have increased.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.049001410603523254,
+            "neutral": 0.4376527965068817,
+            "positive": 0.5133457779884338
+          }
+        },
+        {
+          "text": "The continued availability of these components at acceptable prices, or at all, may be affected if suppliers decide to concentrate on the production of common components instead of components customized to meet the Company’s requirements.The Company has entered into agreements for the supply of many components; however, there can be no guarantee that the Company will be able to extend or renew these agreements on similar terms, or at all.Substantially all of the Company’s hardware products are manufactured by outsourcing partners that are located primarily in Asia, with some Mac computers manufactured in the U.S. and Ireland.Research and DevelopmentBecause the industries in which the Company competes are characterized by rapid technological advances, the Company’s ability to compete successfully depends heavily upon its ability to ensure a continual and timely flow of competitive products, services and technologies to the marketplace.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1545340120792389,
+            "neutral": 0.013926737010478973,
+            "positive": 0.8315392732620239
+          }
+        },
+        {
+          "text": "The Company continues to develop new technologies to enhance existing products and services, and to expand the range of its offerings through research and development (“R&D”), licensing of intellectual property and acquisition of third-party businesses and technology.Intellectual PropertyThe Company currently holds a broad collection of intellectual property rights relating to certain aspects of its hardware devices, accessories, software and services.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1699119359254837,
+            "neutral": 0.007451091427356005,
+            "positive": 0.8226370215415955
+          }
+        },
+        {
+          "text": "This includes patents, copyrights, trademarks, service marks, trade dress and other forms of intellectual property rights in the U.S. and various foreign countries.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.021972965449094772,
+            "neutral": 0.0275579784065485,
+            "positive": 0.9504690766334534
+          }
+        },
+        {
+          "text": "Although the Company believes the ownership of such intellectual property rights is an important factor in its business and that its success does depend in part on such ownership, the Company relies primarily on the innovative skills, technical competence and marketing abilities of its personnel.The Company regularly files patent applications to protect innovations arising from its research, development and design, and is currently pursuing thousands of patent applications around the world.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.09436043351888657,
+            "neutral": 0.010623377747833729,
+            "positive": 0.8950162529945374
+          }
+        },
+        {
+          "text": "Over time, the Company has accumulated a large portfolio of issued patents, including utility patents, design patents and others.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1786375492811203,
+            "neutral": 0.008031700737774372,
+            "positive": 0.8133307695388794
+          }
+        },
+        {
+          "text": "The Company also holds copyrights relating to certain aspects of its products and services.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.017624886706471443,
+            "neutral": 0.09874583035707474,
+            "positive": 0.883629322052002
+          }
+        },
+        {
+          "text": "No single intellectual property right is solely responsible for protecting the Company’s products.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0334005132317543,
+            "neutral": 0.015756679698824883,
+            "positive": 0.9508427977561951
+          }
+        },
+        {
+          "text": "The Company believes the duration of its intellectual property rights is adequate relative to the expected lives of its products.In addition to Company-owned intellectual property, many of the Company’s products and services are designed to include intellectual property owned by third parties.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.07188159972429276,
+            "neutral": 0.011039591394364834,
+            "positive": 0.9170787930488586
+          }
+        },
+        {
+          "text": "It may be necessary in the future to seek or renew licenses relating to various aspects of the Company’s products, processes and services.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.0428711362183094,
+            "neutral": 0.02050449699163437,
+            "positive": 0.9366243481636047
+          }
+        },
+        {
+          "text": "While the Company has generally been able to obtain such licenses on commercially reasonable terms in the past, there is no guarantee that such licenses could be obtained in the future on reasonable terms or at all.Apple Inc. | 2020 Form 10-K | 3Business Seasonality and Product IntroductionsThe Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand.",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.9215786457061768,
+            "neutral": 0.06093592569231987,
+            "positive": 0.017485415562987328
+          }
+        },
+        {
+          "text": "Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.011935432441532612,
+            "neutral": 0.9349057078361511,
+            "positive": 0.05315884202718735
+          }
+        },
+        {
+          "text": "The timing of product introductions can also impact the Company’s net sales to its indirect distribution channels as these channels are filled with new inventory following a product launch, and channel inventory of an older product often declines as the launch of a newer product approaches.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.008823365904390812,
+            "neutral": 0.9576491117477417,
+            "positive": 0.033527445048093796
+          }
+        },
+        {
+          "text": "Net sales can also be affected when consumers and distributors anticipate a product introduction.EmployeesAs of September 26, 2020, the Company had approximately 147,000 full-time equivalent employees.Available InformationThe Company’s Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and amendments to reports filed pursuant to Sections 13(a) and 15(d) of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), are filed with the Securities and Exchange Commission (the “SEC”).",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.016134414821863174,
+            "neutral": 0.10992302745580673,
+            "positive": 0.8739426136016846
+          }
+        },
+        {
+          "text": "Such reports and other information filed by the Company with the SEC are available free of charge at investor.apple.com/investor-relations/sec-filings/default.aspx when such reports are available on the SEC’s website.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.017893023788928986,
+            "neutral": 0.036303650587797165,
+            "positive": 0.9458033442497253
+          }
+        },
+        {
+          "text": "The Company periodically provides other information for investors on its corporate website, www.apple.com, and its investor relations website, investor.apple.com.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.022998249158263206,
+            "neutral": 0.02297312766313553,
+            "positive": 0.9540285468101501
+          }
+        },
+        {
+          "text": "This includes press releases and other information about financial performance, information on corporate governance and details related to the Company’s annual meeting of shareholders.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.025863992050290108,
+            "neutral": 0.022082632407546043,
+            "positive": 0.9520533680915833
+          }
+        },
+        {
+          "text": "The information contained on the websites referenced in this Form 10-K is not incorporated by reference into this filing.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.017887935042381287,
+            "neutral": 0.03551895543932915,
+            "positive": 0.9465931057929993
+          }
+        },
+        {
+          "text": "Further, the Company’s references to website URLs are intended to be inactive textual references only.Apple Inc. | 2020 Form 10-K | 4",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.013568703085184097,
+            "neutral": 0.0871744379401207,
+            "positive": 0.8992568850517273
+          }
+        }
+      ],
+      "summary": {
+        "positive": 0.8958333333333334,
+        "neutral": 0.08333333333333333,
+        "negative": 0.020833333333333332
+      },
+      "counts": {
+        "positive": 43,
+        "neutral": 4,
+        "negative": 1
+      }
+    },
+    "Item_1A": {
+      "sentences": [
+        {
+          "text": "Risk FactorsThe following discussion of risk factors contains forward-looking statements.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.025090796872973442,
+            "neutral": 0.03658181428909302,
+            "positive": 0.9383273720741272
+          }
+        },
+        {
+          "text": "These risk factors may be important to understanding other statements in this Form 10-K.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06740901619195938,
+            "neutral": 0.013915404677391052,
+            "positive": 0.9186756014823914
+          }
+        },
+        {
+          "text": "The following information should be read in conjunction with Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and the consolidated financial statements and accompanying notes in Part II, Item 8, “Financial Statements and Supplementary Data” of this Form 10-K.The business, financial condition and operating results of the Company can be affected by a number of factors, whether currently known or unknown, including but not limited to those described below, any one or more of which could, directly or indirectly, cause the Company’s actual financial condition and operating results to vary materially from past, or from anticipated future, financial condition and operating results.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.020094051957130432,
+            "neutral": 0.4627671241760254,
+            "positive": 0.5171388983726501
+          }
+        },
+        {
+          "text": "Any of these factors, in whole or in part, could materially and adversely affect the Company’s business, financial condition, operating results and stock price.Because of the following factors, as well as other factors affecting the Company’s financial condition and operating results, past financial performance should not be considered to be a reliable indicator of future performance, and investors should not use historical trends to anticipate results or trends in future periods.The Company’s business, results of operations, financial condition and stock price have been adversely affected and could in the future be materially adversely affected by the COVID-19 pandemic.COVID-19 has spread rapidly throughout the world, prompting governments and businesses to take unprecedented measures in response.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.02375246025621891,
+            "neutral": 0.7535886168479919,
+            "positive": 0.2226589471101761
+          }
+        },
+        {
+          "text": "Such measures have included restrictions on travel and business operations, temporary closures of businesses, and quarantines and shelter-in-place orders.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.010926234535872936,
+            "neutral": 0.9234182238578796,
+            "positive": 0.06565559655427933
+          }
+        },
+        {
+          "text": "The COVID-19 pandemic has significantly curtailed global economic activity and caused significant volatility and disruption in global financial markets.The COVID-19 pandemic and the measures taken by many countries in response have adversely affected and could in the future materially adversely impact the Company’s business, results of operations, financial condition and stock price.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.011152395978569984,
+            "neutral": 0.8974710702896118,
+            "positive": 0.09137659519910812
+          }
+        },
+        {
+          "text": "Following the initial outbreak of the virus, the Company experienced disruptions to its manufacturing, supply chain and logistical services provided by outsourcing partners, resulting in temporary iPhone supply shortages that affected sales worldwide.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.007724674418568611,
+            "neutral": 0.970146894454956,
+            "positive": 0.02212841436266899
+          }
+        },
+        {
+          "text": "During the course of the pandemic, the Company’s retail stores, as well as channel partner points of sale, have been temporarily closed at various times.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.008325252681970596,
+            "neutral": 0.9195151329040527,
+            "positive": 0.07215963304042816
+          }
+        },
+        {
+          "text": "In many cases, where stores and points of sale have reopened they are subject to operating restrictions to protect public health and the health and safety of employees and customers.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.019484471529722214,
+            "neutral": 0.542296290397644,
+            "positive": 0.43821921944618225
+          }
+        },
+        {
+          "text": "The Company has at times required substantially all of its employees to work remotely.The Company is continuing to monitor the situation and take appropriate actions in accordance with the recommendations and requirements of relevant authorities.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.047421012073755264,
+            "neutral": 0.337348073720932,
+            "positive": 0.615230917930603
+          }
+        },
+        {
+          "text": "The full extent of the impact of the COVID-19 pandemic on the Company’s operational and financial performance is currently uncertain and will depend on many factors outside the Company’s control, including, without limitation, the timing, extent, trajectory and duration of the pandemic, the development and availability of effective treatments and vaccines, the imposition of and compliance with protective public safety measures, and the impact of the pandemic on the global economy and demand for consumer products.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.031558189541101456,
+            "neutral": 0.1387876272201538,
+            "positive": 0.8296541571617126
+          }
+        },
+        {
+          "text": "Additional future impacts on the Company may include, but are not limited to, material adverse effects on: demand for the Company’s products and services; the Company’s supply chain and sales and distribution channels; the Company’s ability to execute its strategic plans; and the Company’s profitability and cost structure.To the extent the COVID-19 pandemic adversely affects the Company’s business, results of operations, financial condition and stock price, it may also have the effect of heightening many of the other risks described in this Part I,",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.027465224266052246,
+            "neutral": 0.268972247838974,
+            "positive": 0.7035624980926514
+          }
+        }
+      ],
+      "summary": {
+        "positive": 0.5,
+        "neutral": 0.5,
+        "negative": 0.0
+      },
+      "counts": {
+        "positive": 6,
+        "neutral": 6,
+        "negative": 0
+      }
+    },
+    "Item_7": {
+      "sentences": [
+        {
+          "text": "Management’s Discussion and Analysis of Financial Condition and Results of OperationsThe following discussion should be read in conjunction with the consolidated financial statements and accompanying notes included in Part II,",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.026625987142324448,
+            "neutral": 0.029884077608585358,
+            "positive": 0.9434898495674133
+          }
+        }
+      ],
+      "summary": {
+        "positive": 1.0,
+        "neutral": 0.0,
+        "negative": 0.0
+      },
+      "counts": {
+        "positive": 1,
+        "neutral": 0,
+        "negative": 0
+      }
+    },
+    "Item_7A": {
+      "sentences": [
+        {
+          "text": "Quantitative and Qualitative Disclosures About Market RiskInterest Rate and Foreign Currency Risk ManagementThe Company regularly reviews its foreign exchange forward and option positions and interest rate swaps, both on a stand-alone basis and in conjunction with its underlying foreign currency and interest rate exposures.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03867149353027344,
+            "neutral": 0.01910044439136982,
+            "positive": 0.9422281384468079
+          }
+        },
+        {
+          "text": "Given the effective horizons of the Company’s risk management activities and the anticipatory nature of the exposures, there can be no assurance these positions will offset more than a portion of the financial impact resulting from movements in either foreign exchange or interest rates.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.18283510208129883,
+            "neutral": 0.046767257153987885,
+            "positive": 0.7703976631164551
+          }
+        },
+        {
+          "text": "Further, the recognition of the gains and losses related to these instruments may not coincide with the timing of gains and losses related to the underlying economic exposures and, therefore, may adversely affect the Company’s financial condition and operating results.Interest Rate RiskThe Company’s exposure to changes in interest rates relates primarily to the Company’s investment portfolio and outstanding debt.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.02461329475045204,
+            "neutral": 0.20408108830451965,
+            "positive": 0.7713056206703186
+          }
+        },
+        {
+          "text": "While the Company is exposed to global interest rate fluctuations, the Company’s interest income and expense are most sensitive to fluctuations in U.S. interest rates.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04448407143354416,
+            "neutral": 0.05678822845220566,
+            "positive": 0.8987276554107666
+          }
+        },
+        {
+          "text": "Changes in U.S. interest rates affect the interest earned on the Company’s cash, cash equivalents and marketable securities and the fair value of those securities, as well as costs associated with hedging and interest paid on the Company’s debt.The Company’s investment policy and strategy are focused on the preservation of capital and supporting the Company’s liquidity requirements.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.07840180397033691,
+            "neutral": 0.01553539652377367,
+            "positive": 0.9060628414154053
+          }
+        },
+        {
+          "text": "The Company uses a combination of internal and external management to execute its investment strategy and achieve its investment objectives.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.4264443516731262,
+            "neutral": 0.008073200471699238,
+            "positive": 0.5654824376106262
+          }
+        },
+        {
+          "text": "The Company typically invests in highly rated securities, with the primary objective of minimizing the potential risk of principal loss.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.08412019908428192,
+            "neutral": 0.013344191014766693,
+            "positive": 0.9025356769561768
+          }
+        },
+        {
+          "text": "The Company’s investment policy generally requires securities to be investment grade and limits the amount of credit exposure to any one issuer.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.023141110315918922,
+            "neutral": 0.03408056125044823,
+            "positive": 0.9427783489227295
+          }
+        },
+        {
+          "text": "To provide a meaningful assessment of the interest rate risk associated with the Company’s investment portfolio, the Company performed a sensitivity analysis to determine the impact a change in interest rates would have on the value of the investment portfolio assuming a 100 basis point parallel shift in the yield curve.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.11574161797761917,
+            "neutral": 0.05399448797106743,
+            "positive": 0.8302638530731201
+          }
+        },
+        {
+          "text": "Based on investment positions as of September 26, 2020 and September 28, 2019, a hypothetical 100 basis point increase in interest rates across all maturities would result in a $3.1 billion and $2.8 billion incremental decline in the fair market value of the portfolio, respectively.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.02774752862751484,
+            "neutral": 0.9406685829162598,
+            "positive": 0.03158381208777428
+          }
+        },
+        {
+          "text": "Such losses would only be realized if the Company sold the investments prior to maturity.Apple Inc. | 2020 Form 10-K | 28As of September 26, 2020 and September 28, 2019, the Company had outstanding floating- and fixed-rate notes with varying maturities for an aggregate carrying amount of $107.4 billion and $102.1 billion, respectively.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.029373543336987495,
+            "neutral": 0.053204625844955444,
+            "positive": 0.917421817779541
+          }
+        },
+        {
+          "text": "The Company has entered, and in the future may enter, into interest rate swaps to manage interest rate risk on its outstanding term debt.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.08666825294494629,
+            "neutral": 0.013556865975260735,
+            "positive": 0.8997748494148254
+          }
+        },
+        {
+          "text": "Interest rate swaps allow the Company to effectively convert fixed-rate payments into floating-rate payments or floating-rate payments into fixed-rate payments.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.07393470406532288,
+            "neutral": 0.013549858704209328,
+            "positive": 0.91251540184021
+          }
+        },
+        {
+          "text": "Gains and losses on term debt are generally offset by the corresponding losses and gains on the related hedging instrument.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.14011956751346588,
+            "neutral": 0.12639681994915009,
+            "positive": 0.733483612537384
+          }
+        },
+        {
+          "text": "A 100 basis point increase in market interest rates would cause interest expense on the Company’s debt as of September 26, 2020 and September 28, 2019 to increase by $218 million and $325 million on an annualized basis, respectively.Foreign Currency RiskIn general, the Company is a net receiver of currencies other than the U.S. dollar.",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.5891126990318298,
+            "neutral": 0.029343299567699432,
+            "positive": 0.38154399394989014
+          }
+        },
+        {
+          "text": "Accordingly, changes in exchange rates, and in particular a strengthening of the U.S. dollar, will negatively affect the Company’s net sales and gross margins as expressed in U.S. dollars.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.041399918496608734,
+            "neutral": 0.6850651502609253,
+            "positive": 0.2735349237918854
+          }
+        },
+        {
+          "text": "There is a risk that the Company will have to adjust local currency pricing due to competitive pressures when there has been significant volatility in foreign currency exchange rates.The Company may enter into foreign currency forward and option contracts with financial institutions to protect against foreign exchange risks associated with certain existing assets and liabilities, certain firmly committed transactions, forecasted future cash flows and net investments in foreign subsidiaries.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.13367769122123718,
+            "neutral": 0.0451371856033802,
+            "positive": 0.8211851716041565
+          }
+        },
+        {
+          "text": "In addition, the Company has entered, and in the future may enter, into foreign currency contracts to partially offset the foreign currency exchange gains and losses on its foreign currency–denominated debt issuances.",
+          "label": "negative",
+          "confidence": {
+            "negative": 0.9434226751327515,
+            "neutral": 0.019733645021915436,
+            "positive": 0.03684363141655922
+          }
+        },
+        {
+          "text": "The Company generally hedges portions of its forecasted foreign currency exposure associated with revenue and inventory purchases, typically for up to 12 months.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.06065208837389946,
+            "neutral": 0.027249211445450783,
+            "positive": 0.9120986461639404
+          }
+        },
+        {
+          "text": "However, the Company may choose not to hedge certain foreign exchange exposures for a variety of reasons including, but not limited to, accounting considerations or the prohibitive economic cost of hedging particular exposures.To provide an assessment of the foreign currency risk associated with certain of the Company’s foreign currency derivative positions, the Company performed a sensitivity analysis using a value-at-risk (“VAR”) model to assess the potential impact of fluctuations in exchange rates.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.1484699249267578,
+            "neutral": 0.017880212515592575,
+            "positive": 0.8336498141288757
+          }
+        },
+        {
+          "text": "The VAR model consisted of using a Monte Carlo simulation to generate thousands of random market price paths assuming normal market conditions.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.035222072154283524,
+            "neutral": 0.033285707235336304,
+            "positive": 0.9314923286437988
+          }
+        },
+        {
+          "text": "The VAR is the maximum expected loss in fair value, for a given confidence interval, to the Company’s foreign currency derivative positions due to adverse movements in rates.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.011965676210820675,
+            "neutral": 0.9197253584861755,
+            "positive": 0.06830891966819763
+          }
+        },
+        {
+          "text": "The VAR model is not intended to represent actual losses but is used as a risk estimation and management tool.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.03003598563373089,
+            "neutral": 0.02609371952712536,
+            "positive": 0.9438702464103699
+          }
+        },
+        {
+          "text": "Forecasted transactions, firm commitments and assets and liabilities denominated in foreign currencies were excluded from the model.",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.025508636608719826,
+            "neutral": 0.08629251271486282,
+            "positive": 0.8881988525390625
+          }
+        },
+        {
+          "text": "Based on the results of the model, the Company estimates with 95% confidence, a maximum one-day loss in fair value of $551 million as of September 26, 2020, compared to a maximum one-day loss in fair value of $452 million as of September 28, 2019.",
+          "label": "neutral",
+          "confidence": {
+            "negative": 0.0622672475874424,
+            "neutral": 0.9097368717193604,
+            "positive": 0.027995940297842026
+          }
+        },
+        {
+          "text": "Because the Company uses foreign currency instruments for hedging purposes, the losses in fair value incurred on those instruments are generally offset by increases in the fair value of the underlying exposures.Actual future gains and losses associated with the Company’s investment portfolio, debt and derivative positions may differ materially from the sensitivity analyses performed as of September 26, 2020 due to the inherent limitations associated with predicting the timing and amount of changes in interest rates, foreign currency exchange rates and the Company’s actual exposures and positions.Apple Inc. | 2020 Form 10-K | 29",
+          "label": "positive",
+          "confidence": {
+            "negative": 0.04994448274374008,
+            "neutral": 0.2102872133255005,
+            "positive": 0.7397683262825012
+          }
+        }
+      ],
+      "summary": {
+        "positive": 0.7692307692307693,
+        "neutral": 0.15384615384615385,
+        "negative": 0.07692307692307693
+      },
+      "counts": {
+        "positive": 20,
+        "neutral": 4,
+        "negative": 2
+      }
+    }
+  }
+}

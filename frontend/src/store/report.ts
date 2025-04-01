@@ -1,129 +1,153 @@
-import { defineStore } from 'pinia'
-import api, { Report, ReportData, SectionData, SummaryItem } from '@/services/api'
-import { ref, computed } from 'vue'
+import { defineStore } from 'pinia';
+import { 
+  fetchTickers, 
+  fetchReports, 
+  fetchReportDetails, 
+  fetchSummary,
+  ReportItem,
+  ReportDetail,
+  SummaryItem
+} from '@/services/api';
 
-export const useReportStore = defineStore('report', () => {
-  // 状态
-  const reports = ref<Report[]>([])
-  const tickers = ref<string[]>([])
-  const currentReport = ref<ReportData | null>(null)
-  const currentSectionData = ref<SectionData | null>(null)
-  const summaryData = ref<SummaryItem[]>([])
-  const loading = ref(false)
-  const error = ref('')
-
-  // 获取所有股票代码
-  async function fetchTickers() {
-    try {
-      loading.value = true
-      error.value = ''
-      const response = await api.getTickers()
-      tickers.value = response.data.tickers
-    } catch (err: any) {
-      error.value = err.message || '获取股票代码失败'
-      console.error('获取股票代码失败:', err)
-    } finally {
-      loading.value = false
+// 定义错误处理辅助函数
+function getErrorMessage(error: unknown): string {
+  console.error('API错误详情:', error);
+  if (error instanceof Error) return error.message;
+  if (typeof error === 'object' && error !== null) {
+    // 处理Axios错误响应
+    const axiosError = error as any;
+    if (axiosError.response?.data?.detail) {
+      return axiosError.response.data.detail;
+    }
+    if (axiosError.response?.status) {
+      return `服务器返回错误码: ${axiosError.response.status} - ${axiosError.response?.statusText || '未知错误'}`;
+    }
+    if (axiosError.message) {
+      return axiosError.message;
     }
   }
+  return String(error);
+}
 
-  // 获取所有报告
-  async function fetchReports(ticker?: string) {
-    try {
-      loading.value = true
-      error.value = ''
-      const response = await api.getReports(ticker)
-      reports.value = response.data.reports
-    } catch (err: any) {
-      error.value = err.message || '获取报告列表失败'
-      console.error('获取报告列表失败:', err)
-    } finally {
-      loading.value = false
-    }
+// 添加调试日志函数
+function logDebug(message: string, data?: any) {
+  if (import.meta.env.DEV) {
+    console.log(`[ReportStore] ${message}`, data);
   }
+}
 
-  // 获取特定报告数据
-  async function fetchReportData(ticker: string, date: string) {
-    try {
-      loading.value = true
-      error.value = ''
-      const response = await api.getReportData(ticker, date)
-      currentReport.value = response.data
-    } catch (err: any) {
-      error.value = err.message || '获取报告详情失败'
-      console.error('获取报告详情失败:', err)
-    } finally {
-      loading.value = false
-    }
-  }
+interface ReportState {
+  tickers: string[];
+  reports: ReportItem[];
+  reportsByTicker: Record<string, ReportItem[]>;
+  currentReport: ReportDetail | null;
+  summaryData: SummaryItem[];
+  loading: boolean;
+  error: string | null;
+}
 
-  // 获取特定章节数据
-  async function fetchSectionData(ticker: string, date: string, section: string) {
-    try {
-      loading.value = true
-      error.value = ''
-      const response = await api.getSectionData(ticker, date, section)
-      currentSectionData.value = response.data
-    } catch (err: any) {
-      error.value = err.message || '获取章节数据失败'
-      console.error('获取章节数据失败:', err)
-    } finally {
-      loading.value = false
-    }
-  }
-
-  // 获取摘要数据
-  async function fetchSummary(ticker?: string) {
-    try {
-      loading.value = true
-      error.value = ''
-      const response = await api.getSummary(ticker)
-      summaryData.value = response.data.summary
-    } catch (err: any) {
-      error.value = err.message || '获取摘要数据失败'
-      console.error('获取摘要数据失败:', err)
-    } finally {
-      loading.value = false
-    }
-  }
-
-  // 计算属性：按股票分组的报告
-  const reportsByTicker = computed(() => {
-    const result: Record<string, Report[]> = {}
-    for (const report of reports.value) {
-      if (!result[report.ticker]) {
-        result[report.ticker] = []
+export const useReportStore = defineStore('report', {
+  state: (): ReportState => ({
+    tickers: [],
+    reports: [],
+    reportsByTicker: {},
+    currentReport: null,
+    summaryData: [],
+    loading: false,
+    error: null
+  }),
+  
+  actions: {
+    async fetchTickers() {
+      try {
+        this.loading = true;
+        this.error = null;
+        logDebug('开始获取股票代码列表');
+        const tickers = await fetchTickers();
+        logDebug('获取股票代码成功', tickers);
+        this.tickers = tickers;
+      } catch (error: unknown) {
+        logDebug('获取股票代码失败', error);
+        this.error = '获取股票代码失败：' + getErrorMessage(error);
+      } finally {
+        this.loading = false;
       }
-      result[report.ticker].push(report)
-    }
-    return result
-  })
-
-  // 计算属性：当前报告的情感分布
-  const currentSentimentDistribution = computed(() => {
-    if (!currentReport.value) return null
+    },
     
-    return {
-      positive: currentReport.value.summary.positive_ratio,
-      neutral: currentReport.value.summary.neutral_ratio,
-      negative: currentReport.value.summary.negative_ratio
+    async fetchReports(ticker?: string) {
+      try {
+        this.loading = true;
+        this.error = null;
+        logDebug(`开始获取报告列表${ticker ? `(${ticker})` : ''}`);
+        const reports = await fetchReports(ticker);
+        logDebug('获取报告列表成功', reports);
+        this.reports = reports;
+        
+        // 按ticker组织报告
+        this.reportsByTicker = reports.reduce((acc, report) => {
+          if (!acc[report.ticker]) {
+            acc[report.ticker] = [];
+          }
+          acc[report.ticker].push(report);
+          return acc;
+        }, {} as Record<string, ReportItem[]>);
+        
+        logDebug('报告按股票代码分组完成', this.reportsByTicker);
+      } catch (error: unknown) {
+        logDebug('获取报告列表失败', error);
+        this.error = '获取报告列表失败：' + getErrorMessage(error);
+      } finally {
+        this.loading = false;
+      }
+    },
+    
+    async fetchReportDetails(ticker: string, date: string, forceAnalyze: boolean = false) {
+      try {
+        this.loading = true;
+        this.error = null;
+        logDebug(`开始获取报告详情: ${ticker}/${date}, 强制分析: ${forceAnalyze}`);
+        
+        const reportData = await fetchReportDetails(ticker, date, forceAnalyze);
+        logDebug('获取报告详情成功', {
+          ticker: reportData.ticker,
+          date: reportData.date,
+          sections: Object.keys(reportData.sections || {}),
+          summary: reportData.summary
+        });
+        
+        // 检查数据结构是否完整
+        if (!reportData.sections || Object.keys(reportData.sections).length === 0) {
+          throw new Error('报告章节数据为空');
+        }
+        
+        this.currentReport = reportData;
+      } catch (error: unknown) {
+        logDebug('获取报告详情失败', error);
+        this.error = '获取报告详情失败：' + getErrorMessage(error);
+      } finally {
+        this.loading = false;
+      }
+    },
+    
+    async fetchSummary(ticker?: string) {
+      try {
+        this.loading = true;
+        this.error = null;
+        logDebug(`开始获取摘要数据${ticker ? `(${ticker})` : ''}`);
+        const summaryData = await fetchSummary(ticker);
+        logDebug('获取摘要数据成功', summaryData);
+        this.summaryData = summaryData;
+      } catch (error: unknown) {
+        logDebug('获取摘要数据失败', error);
+        this.error = '获取摘要数据失败：' + getErrorMessage(error);
+      } finally {
+        this.loading = false;
+      }
+    },
+    
+    clearCurrentReport() {
+      logDebug('清除当前报告数据');
+      this.currentReport = null;
     }
-  })
-
-  return {
-    reports,
-    tickers,
-    currentReport,
-    currentSectionData,
-    summaryData,
-    loading,
-    error,
-    reportsByTicker,
-    currentSentimentDistribution,
-    fetchTickers,
-    fetchReports,
-    fetchReportData,
-    fetchSectionData,
-    fetchSummary
   }
-}) 
+});

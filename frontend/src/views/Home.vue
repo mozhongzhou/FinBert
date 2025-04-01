@@ -96,9 +96,10 @@ export default defineComponent({
     // 格式化章节名称
     const formatSectionName = (section: string) => {
       const sectionMap: Record<string, string> = {
-        md_and_a: "管理层讨论与分析",
-        risk_factors: "风险因素",
-        financial_statements: "财务报表",
+        Item_1: "业务描述",
+        Item_1A: "风险因素",
+        Item_7: "管理层讨论与分析",
+        Item_7A: "市场风险披露",
       };
       return sectionMap[section] || section;
     };
