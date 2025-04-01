@@ -1,18 +1,25 @@
 import os
 
 # 项目根目录
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 # 数据目录
-DATA_DIR = os.path.join(PROJECT_ROOT, 'data')
+DATA_DIR = os.path.join(ROOT_DIR, 'data')
 RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw')
 PROCESSED_DATA_DIR = os.path.join(DATA_DIR, 'processed')
 
+# 定义要下载的股票代码列表
+TICKERS = ['AAPL', 'NVDA']
+
+# 定义要下载的时间范围
+START_DATE = '2020-01-01'
+END_DATE = '2023-12-31'
+
 # 结果目录
-RESULTS_DIR = os.path.join(PROJECT_ROOT, 'results')
+RESULTS_DIR = os.path.join(ROOT_DIR, 'results')
 
 # NLTK数据目录
-NLTK_DATA_DIR = os.path.join(PROJECT_ROOT, 'resources', 'nltk_data')
+NLTK_DATA_DIR = os.path.join(ROOT_DIR, 'resources', 'nltk_data')
 
 # 10-K报告重要章节的关键词和标记
 SECTIONS = {

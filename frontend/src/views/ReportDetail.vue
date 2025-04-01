@@ -1,25 +1,27 @@
+<!-- filepath: c:\Coding\FinBert\frontend\src\views\ReportDetail.vue -->
 <template>
   <div class="report-detail-container">
-    <div class="header">
-      <el-page-header
-        @back="goBack"
-        :title="ticker + ' 10-K报告'"
-        :content="date"
-      />
-      <h2>{{ ticker }} 10-K报告 ({{ formatDate(date) }})</h2>
-    </div>
-
     <div v-if="store.loading" class="loading">
-      <el-skeleton :rows="15" animated />
+      <el-skeleton :rows="10" animated />
     </div>
     <div v-else-if="store.error" class="error">
       <el-alert :title="store.error" type="error" show-icon />
     </div>
     <div v-else-if="store.currentReport" class="report-content">
+      <div class="header">
+        <el-page-header @back="goBack">
+          <template #content>
+            <span class="report-title">
+              {{ ticker }} {{ date }} 年报分析
+            </span>
+          </template>
+        </el-page-header>
+      </div>
+
       <div class="report-summary">
         <el-row :gutter="20">
-          <el-col :span="8">
-            <el-card class="summary-card">
+          <el-col :span="12">
+            <el-card class="chart-card">
               <template #header>
                 <div class="card-header">
                   <span>情感分布</span>
@@ -30,45 +32,33 @@
               </div>
             </el-card>
           </el-col>
-          <el-col :span="16">
+          <el-col :span="12">
             <el-card class="summary-card">
               <template #header>
                 <div class="card-header">
-                  <span>总体情感趋势</span>
+                  <span>报告概述</span>
+                  <el-tag :type="getSentimentTagType(mainSentiment)">
+                    {{ getSentimentName(mainSentiment) }}
+                  </el-tag>
                 </div>
               </template>
               <div class="summary-stats">
-                <div
-                  class="stat-item"
-                  :class="getSentimentClass(mainSentiment)"
-                >
-                  <div class="stat-label">主要情感倾向</div>
-                  <div class="stat-value">
-                    {{ getSentimentName(mainSentiment) }}
-                  </div>
-                </div>
                 <div class="stat-item">
                   <div class="stat-label">正面句子占比</div>
                   <div class="stat-value positive">
-                    {{
-                      formatPercent(store.currentReport.summary.positive_ratio)
-                    }}
+                    {{ formatPercent(store.currentReport.summary.positive_ratio) }}
                   </div>
                 </div>
                 <div class="stat-item">
                   <div class="stat-label">中性句子占比</div>
                   <div class="stat-value neutral">
-                    {{
-                      formatPercent(store.currentReport.summary.neutral_ratio)
-                    }}
+                    {{ formatPercent(store.currentReport.summary.neutral_ratio) }}
                   </div>
                 </div>
                 <div class="stat-item">
                   <div class="stat-label">负面句子占比</div>
                   <div class="stat-value negative">
-                    {{
-                      formatPercent(store.currentReport.summary.negative_ratio)
-                    }}
+                    {{ formatPercent(store.currentReport.summary.negative_ratio) }}
                   </div>
                 </div>
               </div>
@@ -89,16 +79,13 @@
               <h3>{{ formatSectionName(sectionName) }}</h3>
               <div class="section-stats">
                 <el-tag type="success"
-                  >正面:
-                  {{ formatPercent(sectionData.proportions.positive) }}</el-tag
+                  >正面: {{ formatPercent(sectionData.summary.positive) }}</el-tag
                 >
                 <el-tag type="info"
-                  >中性:
-                  {{ formatPercent(sectionData.proportions.neutral) }}</el-tag
+                  >中性: {{ formatPercent(sectionData.summary.neutral) }}</el-tag
                 >
                 <el-tag type="danger"
-                  >负面:
-                  {{ formatPercent(sectionData.proportions.negative) }}</el-tag
+                  >负面: {{ formatPercent(sectionData.summary.negative) }}</el-tag
                 >
               </div>
             </div>
@@ -147,7 +134,7 @@
               :color="'#67C23A'"
               :format="
                 () =>
-                  `正面: ${formatPercent(selectedSentence.confidence.positive)}`
+                  `正面: ${selectedSentence ? formatPercent(selectedSentence.confidence.positive) : 'N/A'}`
               "
               :stroke-width="18"
               class="sentiment-progress"
@@ -157,7 +144,7 @@
               :color="'#909399'"
               :format="
                 () =>
-                  `中性: ${formatPercent(selectedSentence.confidence.neutral)}`
+                  `中性: ${selectedSentence ? formatPercent(selectedSentence.confidence.neutral) : 'N/A'}`
               "
               :stroke-width="18"
               class="sentiment-progress"
@@ -167,7 +154,7 @@
               :color="'#F56C6C'"
               :format="
                 () =>
-                  `负面: ${formatPercent(selectedSentence.confidence.negative)}`
+                  `负面: ${selectedSentence ? formatPercent(selectedSentence.confidence.negative) : 'N/A'}`
               "
               :stroke-width="18"
               class="sentiment-progress"
@@ -217,23 +204,27 @@ export default defineComponent({
     VChart,
   },
   setup() {
-    const route = useRoute();
     const router = useRouter();
+    const route = useRoute();
     const store = useReportStore();
+    
+    // 获取路由参数
+    const ticker = ref(route.params.ticker as string);
+    const date = ref(route.params.date as string);
 
-    const ticker = computed(() => route.params.ticker as string);
-    const date = computed(() => route.params.date as string);
-    const activeSection = ref<string>("");
-
-    // 选中的句子和弹出抽屉
+    // 界面状态
+    const activeSection = ref("");
     const selectedSentence = ref<SectionSentence | null>(null);
-    const sentenceDrawer = ref<boolean>(false);
+    const sentenceDrawer = ref(false);
 
-    // 饼图选项
+    // 构建饼图选项
     const chartOption = computed(() => {
-      if (!store.currentReport) return {};
+      if (!store.currentReport || !store.currentReport.summary) {
+        return {};
+      }
 
       const summary = store.currentReport.summary;
+
       return {
         tooltip: {
           trigger: "item",
@@ -241,7 +232,7 @@ export default defineComponent({
         },
         legend: {
           orient: "vertical",
-          left: "left",
+          left: 10,
           data: ["正面", "中性", "负面"],
         },
         series: [
@@ -286,23 +277,29 @@ export default defineComponent({
       };
     });
 
-    // 获取主要情感倾向
+    // 添加主要情感计算
     const mainSentiment = computed(() => {
-      if (!store.currentReport) return "neutral";
-
+      if (!store.currentReport || !store.currentReport.summary) return 'neutral';
+      
       const summary = store.currentReport.summary;
-      if (
-        summary.positive_count > summary.neutral_count &&
-        summary.positive_count > summary.negative_count
-      ) {
-        return "positive";
-      } else if (
-        summary.negative_count > summary.neutral_count &&
-        summary.negative_count > summary.positive_count
-      ) {
-        return "negative";
+      const counts = {
+        'positive': summary.positive_count || 0,
+        'neutral': summary.neutral_count || 0,
+        'negative': summary.negative_count || 0
+      };
+      
+      // 找出出现最多的情感
+      let maxSentiment = 'neutral';
+      let maxCount = 0;
+      
+      for (const [sentiment, count] of Object.entries(counts)) {
+        if (count > maxCount) {
+          maxCount = count;
+          maxSentiment = sentiment;
+        }
       }
-      return "neutral";
+      
+      return maxSentiment;
     });
 
     // 处理句子选择
@@ -326,7 +323,7 @@ export default defineComponent({
     };
 
     const getSentimentClass = (sentiment: string) => {
-      return sentiment;
+      return `sentiment-${sentiment}`;
     };
 
     const getSentenceClass = (sentiment: string) => {
@@ -344,35 +341,27 @@ export default defineComponent({
 
     const formatSectionName = (section: string) => {
       const map: { [key: string]: string } = {
-        md_and_a: "管理层讨论与分析",
-        risk_factors: "风险因素",
-        business: "业务概述",
-        financial_statements: "财务报表",
+        // 使用后端实际章节名称格式
+        'Item_1': "业务概述",
+        'Item_1A': "风险因素",
+        'Item_7': "管理层讨论与分析",
+        'Item_7A': "市场风险披露",
       };
       return map[section] || section;
     };
 
     const formatDate = (dateStr: string) => {
-      // 格式化日期，例如20210331 => 2021-03-31
-      if (dateStr.length === 8) {
-        return `${dateStr.substring(0, 4)}-${dateStr.substring(
-          4,
-          6
-        )}-${dateStr.substring(6, 8)}`;
-      }
+      // 简单格式化日期，如果需要可以增强
       return dateStr;
     };
 
+    // 返回上一页
     const goBack = () => {
-      router.push("/");
+      router.back();
     };
 
-    // 为句子生成简单解释（如果没有GPT解释）
+    // 为句子生成简单解释
     const generateExplanation = (sentence: SectionSentence) => {
-      if (sentence.explanation) {
-        return sentence.explanation;
-      }
-
       // 基于情感和置信度生成简单解释
       const sentiment = sentence.label;
       const confidence = sentence.confidence[sentiment];
@@ -439,7 +428,7 @@ export default defineComponent({
 }
 
 .report-summary {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .chart-container {
@@ -462,25 +451,24 @@ export default defineComponent({
 
 .summary-stats {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .stat-item {
-  min-width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
   border-radius: 4px;
-  background-color: #f5f7fa;
+  background-color: #f8f9fa;
 }
 
 .stat-label {
-  font-size: 14px;
-  color: #606266;
-  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .stat-value {
-  font-size: 18px;
   font-weight: bold;
 }
 
@@ -500,7 +488,7 @@ export default defineComponent({
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .section-stats {
@@ -509,19 +497,21 @@ export default defineComponent({
 }
 
 .sentences-container {
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .sentence-item {
-  padding: 8px;
-  margin-bottom: 8px;
+  padding: 10px;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.2s;
+  border: 1px solid #ebeef5;
+  transition: all 0.3s;
 }
 
 .sentence-item:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #f5f7fa;
 }
 
 .sentiment-positive {
@@ -537,14 +527,14 @@ export default defineComponent({
 }
 
 .sentence-detail {
-  padding: 10px;
+  padding: 20px;
 }
 
 .sentence-text {
   padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 4px;
   background-color: #f5f7fa;
+  border-radius: 4px;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
 }

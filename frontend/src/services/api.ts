@@ -1,109 +1,106 @@
-import axios from 'axios'
+import axios from 'axios';
+
+// API基础URL - 根据实际部署环境进行调整
+const API_BASE_URL = 'http://localhost:8000';
 
 // 创建axios实例
 const api = axios.create({
-  baseURL: '/api',
-  timeout: 30000, // 超时时间
+  baseURL: API_BASE_URL,
+  timeout: 30000, // 较长的超时时间，因为情感分析可能需要时间
   headers: {
     'Content-Type': 'application/json'
   }
-})
+});
 
 // 定义接口类型
-export interface Ticker {
-  ticker: string
-  name?: string
-}
-
-export interface Report {
-  ticker: string
-  date: string
-  sections: string[]
-}
-
 export interface SectionSentence {
-  text: string
-  label: 'positive' | 'neutral' | 'negative'
+  text: string;
+  label: 'positive' | 'neutral' | 'negative';
   confidence: {
-    positive: number
-    neutral: number
-    negative: number
-  }
+    positive: number;
+    neutral: number;
+    negative: number;
+  };
 }
 
-export interface SectionData {
-  stats: {
-    positive: number
-    neutral: number
-    negative: number
-  }
-  proportions: {
-    positive: number
-    neutral: number
-    negative: number
-  }
-  sentences: SectionSentence[]
+export interface SectionSummary {
+  positive: number;
+  neutral: number;
+  negative: number;
 }
 
-export interface ReportData {
-  summary: {
-    positive: number
-    neutral: number
-    negative: number
-    positive_ratio: number
-    neutral_ratio: number
-    negative_ratio: number
-  }
-  sections: {
-    [key: string]: SectionData
-  }
+export interface ReportSection {
+  sentences: SectionSentence[];
+  summary: SectionSummary;
+  counts?: {
+    positive: number;
+    neutral: number;
+    negative: number;
+  };
+}
+
+export interface ReportSummary {
+  positive_count: number;
+  neutral_count: number;
+  negative_count: number;
+  positive_ratio: number;
+  neutral_ratio: number;
+  negative_ratio: number;
+  total_sentences?: number;
+}
+
+export interface ReportDetail {
+  ticker: string;
+  date: string;
+  summary: ReportSummary;
+  sections: Record<string, ReportSection>;
+}
+
+export interface ReportItem {
+  ticker: string;
+  date: string;
+  sections: string[];
 }
 
 export interface SummaryItem {
-  ticker: string
-  date: string
-  main_sentiment: 'positive' | 'neutral' | 'negative'
-  positive_ratio: number
-  neutral_ratio: number
-  negative_ratio: number
-  positive_count: number
-  neutral_count: number
-  negative_count: number
+  ticker: string;
+  date: string;
+  main_sentiment: 'positive' | 'neutral' | 'negative';
+  positive_ratio: number;
+  neutral_ratio: number;
+  negative_ratio: number;
+  positive_count: number;
+  neutral_count: number;
+  negative_count: number;
 }
 
-// API方法
-export default {
-  // 检查健康状态
-  checkHealth() {
-    return api.get<{ status: string; model_loaded: boolean }>('/health')
-  },
+// API函数
+export const fetchTickers = async (): Promise<string[]> => {
+  const response = await api.get('/api/tickers');
+  return response.data.tickers;
+};
 
-  // 获取所有股票代码
-  getTickers() {
-    return api.get<{ tickers: string[] }>('/tickers')
-  },
+export const fetchReports = async (ticker?: string): Promise<ReportItem[]> => {
+  const url = ticker ? `/api/reports?ticker=${ticker}` : '/api/reports';
+  const response = await api.get(url);
+  return response.data.reports;
+};
 
-  // 获取所有报告
-  getReports(ticker?: string) {
-    return api.get<{ reports: Report[] }>('/reports', {
-      params: { ticker }
-    })
-  },
+export const fetchReportDetails = async (ticker: string, date: string, analyze: boolean = false): Promise<ReportDetail> => {
+  const url = `/api/report/${ticker}/${date}${analyze ? '?analyze=true' : ''}`;
+  const response = await api.get(url);
+  return response.data;
+};
 
-  // 获取特定报告的详细数据
-  getReportData(ticker: string, date: string) {
-    return api.get<ReportData>(`/report/${ticker}/${date}`)
-  },
+export const fetchSummary = async (ticker?: string): Promise<SummaryItem[]> => {
+  const url = ticker ? `/api/summary?ticker=${ticker}` : '/api/summary';
+  const response = await api.get(url);
+  return response.data.summary;
+};
 
-  // 获取特定报告章节的句子及其情感分析
-  getSectionData(ticker: string, date: string, section: string) {
-    return api.get<SectionData>(`/report/${ticker}/${date}/section/${section}`)
-  },
+export const analyzeText = async (text: string): Promise<SectionSentence> => {
+  const response = await api.get(`/api/analyze-text?text=${encodeURIComponent(text)}`);
+  return response.data;
+};
 
-  // 获取所有报告的情感分析摘要
-  getSummary(ticker?: string) {
-    return api.get<{ summary: SummaryItem[] }>('/summary', {
-      params: { ticker }
-    })
-  }
-} 
+export default api;

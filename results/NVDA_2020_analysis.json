@@ -1,0 +1,1787 @@
+{
+  "summary": {
+    "positive": 157,
+    "neutral": 2,
+    "negative": 34,
+    "positive_ratio": 0.8134715025906736,
+    "neutral_ratio": 0.010362694300518135,
+    "negative_ratio": 0.17616580310880828
+  },
+  "items": {
+    "Item_1": {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.28193071484565735,
+        "neutral": 0.012848096899688244,
+        "positive": 0.7052212357521057
+      },
+      "text": "ITEM 1. BUSINESSOur CompanyNVIDIA pioneered accelerated computing to help solve the most challenging computational problems. Starting with a focus on PC graphics, we  extended our focus in recent years to the revolutionary field of artificial intelligence, or AI. Fueled by the sustained demand for exceptional 3D graphics and the scale of the gaming market, NVIDIA leveraged its GPU architecture to create platforms for virtual reality, or VR, high performance computing, or HPC, and AI.The GPU was initially used to simulate human imagination, enabling the virtual worlds of video games and films. Today, it also simulates human intelligence, enabling a deeper understanding of the physical world. Its parallel processing capabilities, supported by up to thousands of computing cores, are essential to running deep learning algorithms. This form of AI, in which software writes itself by learning from data, can serve as the brain of computers, robots and self-driving cars that can perceive and understand the world. GPU-powered deep learning continues to be adopted by thousands of enterprises to deliver services and features that would have been impossible with traditional coding.NVIDIA has a platform strategy, bringing together hardware, system software, programmable algorithms, libraries, systems, and services to create unique value for the markets we serve. While the requirements of these end markets are diverse, we address them with a unified underlying architecture leveraging our GPUs and software stacks. The programmable nature of our architecture allows us to support several multi-billion-dollar end markets with the same underlying technology by using a variety of software stacks developed either internally or by third party developers and partners. The large and growing number of developers across our platforms strengthens our ecosystem and increases the value of our platform to our customers.Innovation is at our core. We invested over $20 billion in research and development since our inception, yielding inventions that are essential to modern computing. Our invention of the GPU in 1999 defined modern computer graphics and established NVIDIA as the leader in visual computing. With our introduction of the CUDA programming model in 2006, we opened the parallel processing capabilities of the GPU for general purpose computing. This approach significantly accelerates the performance of the most demanding applications in HPC in fields such as aerospace, bio-science research, mechanical and fluid simulations, and energy exploration. Today, our GPUs power many of the fastest supercomputers across the world. In addition, the massively parallel compute architecture of our GPUs and associated software are well suited for deep learning and machine learning, powering the era of AI. While traditional CPU-based approaches no longer deliver advances on the pace described by Moore’s Law, we deliver GPU performance improvements on a pace ahead of Moore’s Law, giving the industry a path forward.Gamers choose NVIDIA GPUs to enjoy immersive, increasingly cinematic virtual worlds. GPUs also help underpin the world’s fastest growing spectator sport, eSports, which attracts hundreds of millions of viewers to watch top-quality gaming. A rapidly growing genre of Battle Royale games, such as Fortnite, is also expanding the gaming market.Researchers use our GPUs to accelerate a wide range of important applications, from simulating molecular dynamics to weather forecasting. With support for more than over 600 applications - including the top 15 HPC applications - NVIDIA GPUs enable some of the most promising areas of discovery, from weather prediction to materials science and from wind tunnel simulation to genomics. NVIDIA GPUs power the top two supercomputers in the world, located at Oak Ridge and Lawrence Livermore National Laboratories in the United States, as well as the top supercomputers in Europe and Japan. In all, NVIDIA powers 136 of the TOP500 supercomputers.The world’s leading cloud service providers use our GPUs to enable, accelerate or enrich the services they deliver to billions of end-users, including search, social networking, online shopping, live video, translation, AI assistants, navigation, and cloud computing. A rapidly growing number of enterprises and startups use our GPUs for deep learning that meets, and in several cases surpasses, human perception, in fields ranging from radiology to precision agriculture. For example, the transportation industry is turning to our GPUs and AI to enable autonomous vehicles, or AVs, with several hundred companies and organizations working with NVIDIA’s DRIVE platform. Professional designers use our GPUs to create visual effects in movies and design products ranging from soft drink bottles to commercial aircraft.Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998. 4Table of ContentsOur BusinessesOur two reportable segments - GPU and Tegra Processor - are based on a single underlying architecture. Our GPU product brands are aimed at specialized markets including GeForce for gamers; Quadro for designers; Tesla and DGX for AI data scientists and big data researchers; and GRID for cloud-based visual computing users. Our Tegra brand integrates an entire computer onto a single chip, and incorporates GPUs and multi-core CPUs to drive supercomputing for autonomous robots, drones, and cars, as well as for game consoles and mobile gaming and entertainment devices.GPU∙GeForce for PC gaming and mainstream PCs ∙GeForce NOW for cloud-based gaming ∙Quadro for design professionals working in computer-aided design, video editing, special effects, and other creative applications ∙Tesla for AI utilizing deep learning and accelerated computing, leveraging the parallel computing capabilities of GPUs for general purpose computing ∙GRID to provide the power of NVIDIA graphics through the cloud and data centers ∙DGX for AI scientists, researchers and developers  ∙EGX for accelerated AI computing at the edge   Tegra Processor∙Tegra processors are primarily designed to enable branded platforms - AGX and SHIELD  ∙SHIELD devices and services designed to harness the power of mobile-cloud to revolutionize home entertainment, AI and gaming ∙AGX is a power-efficient AI computing platform for intelligent edge devices, including:  - DRIVE AGX for self-driving vehicles  - Clara AGX for medical instruments  - Jetson AGX for robotics and other embedded useOur MarketsWe specialize in markets in which GPU-based visual computing and accelerated computing platforms can provide tremendous throughput for applications. These platforms incorporate processors, systems software, programmable algorithms, systems, and services to deliver value that is unique in the marketplace.  From our proprietary processors, we created platforms that address four large markets where our expertise is critical: Gaming, Professional Visualization, Data Center, and Automotive.GamingComputer gaming is the largest entertainment industry. Many factors propel computer gaming’s growth, including new high production value games and franchises, the rise of competitive online gaming, eSports, and the rise of virtual and augmented reality.Our GPUs enhance the gaming experience by improving the visual quality of graphics, increasing the frame rate for smoother gameplay and improving realism by incorporating the behavior of light and physical objects. These can be enjoyed independently or together to extend the gaming experience across platforms.Our gaming platforms utilize sophisticated 3D software and algorithms, including our GameWorks libraries that provide special effects for games. We further enhance gaming with GeForce Experience, our gaming application that optimizes the PC user’s settings for each title and enables players to record and share gameplay. We developed NVIDIA RTX ray tracing technology to enable real-time, cinematic-quality rendering in the RTX line-up of our gaming platforms. Ray tracing, which has long been used for special effects in the movie industry, is a computationally intensive technique that simulates the physical behavior of light to achieve greater realism in computer-generated scenes.To enable VR, we provide developers with a suite of software libraries called VRWorks. VRWorks allows developers to create fully immersive experiences by enabling physically realistic visuals, sound, touch interactions, and simulated environments.  VR requires advanced high-performance GPUs as the engine to simulate complete immersion.Our products for the gaming market include GeForce RTX and GeForce GTX GPUs for PC gaming, SHIELD devices for gaming and streaming, GeForce NOW for cloud-based gaming, as well as platforms and development services for specialized console gaming devices.5Table of ContentsProfessional VisualizationWe serve the Professional Visualization market by working closely with independent software vendors to optimize their offerings for NVIDIA GPUs. Our GPU computing solutions enhance productivity and introduce new capabilities for critical parts of the workflow for such major industries as automotive, media and entertainment, architectural engineering, oil and gas, and medical imaging. Designers who build the products we use every day need the images that they view digitally to mirror reality. This requires simulating the physical behavior of light and materials, or physically-based rendering, an emerging trend in professional design. Our DesignWorks software delivers this to designers and enables an architect designing a building with a computer-aided design package to interact with the model in real time, view it in greater detail, and generate photorealistic renderings for the client. It also allows an automotive designer to create a highly realistic 3D image of a car, which can be viewed from all angles, reducing reliance on costly, time-consuming full-scale clay models.During fiscal year 2019, we introduced the NVIDIA RTX platform, making it possible to render film-quality, photorealistic objects and environments with physically accurate shadows, reflections and refractions using ray tracing in real-time. Through fiscal year 2020, many leading 3D design and content creation applications developed by our ecosystem partners enabled support for RTX, allowing professionals to accelerate and transform their workflows with NVIDIA RTX GPUs.Just as VR is becoming more important in gaming, it is also being incorporated in a growing number of enterprise applications, including within medicine, architecture, product design, and retail. Virtual car showrooms, surgical training, architectural walkthroughs, and bringing historical scenes to life all deploy this technology, powered by our GPUs.Visual computing is vital to productivity in many environments, including design and manufacturing and digital content creation. Design and manufacturing includes computer-aided design, architectural design, consumer-products manufacturing, medical instrumentation, and aerospace. Digital content creation includes professional video editing and post production, special effects for films, and broadcast-television graphics.Our brand for this market is Quadro for workstations. Quadro GPUs enhance the productivity of designers by improving performance and adding functionality, such as photorealistic rendering, high color fidelity, and advanced scalable display capabilities. Data CenterThe NVIDIA accelerated computing platform addresses AI and HPC applications. The platform consists of our energy efficient GPUs, our CUDA programming language, specific libraries such as cuDNN and TensorRT, and innovations such as NVLink and NVSwitch interconnects, which enable application scalability across multiple GPUs.In the field of AI, NVIDIA’s platform accelerates both deep learning and machine learning workloads. Deep learning is a computer science approach where neural networks are trained to recognize patterns from massive amounts of data in the form of images, sounds and text - in some instances better than humans. Machine learning is a related approach that leverages algorithms as well as data to learn how to make determinations or predictions, often used in data science. HPC, also referred to as scientific computing, uses numerical computational approaches to solve large and complex problems.  For both AI and HPC applications, the NVIDIA accelerated computing platform greatly increases the performance and power efficiency of high-performance computers and data centers, as GPUs excel at parallel workloads. We are engaged with thousands of organizations working on AI in a multitude of industries, from automating tasks such as reading medical images, to enabling fraud detection in financial services, to optimizing oil exploration and drilling. These organizations include the world’s leading cloud services companies such as Amazon, Baidu, and Facebook, which are infusing AI in applications that enable highly accurate voice recognition and real-time translation; enterprises that are increasingly turning to AI to improve products and services; and startups seeking to implement AI in transformative ways across multiple industries. We partnered with industry leaders such as IBM, Microsoft, Oracle, SAP, and VMware to bring AI to enterprise users. We also have partnerships in healthcare and manufacturing, among others, to accelerate the adoption of AI.To enable deep learning and machine learning, we provide a family of GPUs designed to speed up training and inferencing of neural networks. They are available in industry standard servers from every major computer maker worldwide, including Cisco, Dell, HP, Inspur, and Lenovo; from every major cloud service provider such as Alicloud, Amazon Web Services, Baidu Cloud, Google Cloud, IBM Cloud, Microsoft Azure, and Oracle Cloud; as well as in our DGX AI supercomputer, a purpose-built system for deep learning and GPU accelerated applications. DGX delivers performance equal to hundreds of conventional servers, comes fully integrated with hardware, software, development tools, support for AI frameworks, and runs popular accelerated applications. We also offer the NVIDIA GPU Cloud, or NGC, a comprehensive catalog of easy-to-use, optimized 6Table of Contentssoftware stacks across a range of domains including scientific computing, deep learning, and machine learning. With NGC, AI developers, researchers and data scientists can get started with the development of AI and HPC applications and deploy them on DGX systems, NGC-ready workstations or servers from our systems partners, or with NVIDIA’s cloud partners such as Amazon, Google Cloud, Microsoft Azure, or Oracle Cloud.GPUs also increase the speed of applications used in such fields as aerospace, bio-science research, mechanical and fluid simulations, and energy exploration. GPUs have significantly impacted scientific discovery, including improving heart surgery, mapping human genome folds, seismic modeling, and weather simulations.Accelerated computing is recognized as the path forward for computing amid the slowing of Moore’s Law. The proportion of supercomputers utilizing accelerators has grown sharply over the past five years, now accounting for a significant proportion of both the total systems on the TOP500 list, which ranks the 500 most powerful commercially available computer systems, and the list’s total floating-point operations per second. Tesla GPU accelerators power many of the world’s fastest supercomputers, including the U.S. Department of Energy’s Summit and Sierra supercomputers at Oak Ridge and Lawrence Livermore National Laboratories, Europe’s fastest supercomputer - Piz Daint - in Switzerland, Japan’s fastest supercomputer, ABCI; and the world’s fastest industrial supercomputer by Italian energy company Eni. We also serve the data center market with GRID for virtualized graphics and Virtual Compute Server for virtualized AI and data science. GRID makes it possible to run graphics-intensive applications remotely on a server in the data center. Applications include accelerating virtual desktop infrastructures and delivering graphics-intensive applications from the cloud for industries such as manufacturing, healthcare, and educational institutions, among others. Virtual Compute Server (vComputeServer) enables data centers to accelerate server virtualization with GPUs so that the most compute-intensive workloads, such as artificial intelligence, deep learning, and data science, can be run in a virtual machine.AutomotiveNVIDIA’s Automotive market is comprised of cockpit infotainment solutions, AV platforms, and associated development agreements. Leveraging our technology leadership in AI and building on our long-standing automotive relationships, we are delivering a full solution for the AV market under the DRIVE brand. NVIDIA has demonstrated multiple applications of AI within the car. AI can drive the car itself as a pilot, in either partial or fully autonomous mode. AI can also be a co-pilot, assisting the human driver in creating a safer driving experience.NVIDIA is working with several hundred partners in the automotive ecosystem including automakers, truck makers, tier-one suppliers, sensor manufacturers, automotive research institutions, HD mapping companies, and startups to develop and deploy AI systems for self-driving vehicles. Our unified AI computing architecture starts with training deep neural networks using our GPUs, and then running them within the vehicle on the NVIDIA DRIVE computing platform. The platform consists of high-performance, energy efficient hardware - DRIVE AGX, and open, modular software - including DRIVE AV for autonomous driving and DRIVE IX for in-vehicle AI assistance. In addition, we offer a scalable simulation solution, NVIDIA DRIVE Constellation, for testing and validating a self-driving platform before commercial deployment. This end-to-end, software-defined approach allows cars to receive over-the-air updates to add new features and capabilities throughout the life of a vehicle.NVIDIA DRIVE can perceive and understand in real-time what's happening around the vehicle, precisely locate itself on an HD map, and plan a safe path forward. This advanced self-driving car platform combines deep learning, sensor fusion, and surround vision to change the driving experience. Our DRIVE platform scales from a palm-sized, energy-efficient module for automated highway-driving capabilities to a configuration with multiple systems aimed at enabling driverless cars. Our Xavier SoC, which started shipping in 2018, enables vehicles to use deep neural networks to process data from multiple cameras and sensors. It powers the DRIVE AutoPilot, NVIDIA’s Level 2+ automated driving solution, combining the DRIVE AV self-driving solution with the DRIVE IX cockpit software, including a visualization system for allowing the driver to see what the car sees and plans to do.  In fiscal year 2020, we announced our next-generation SoC, Orin, targeting mass production in 2022.Business StrategiesNVIDIA’s key strategies that shape our overall business approach include:Advancing the GPU computing platform. The massive parallel processing capabilities of NVIDIA GPUs can solve complex problems in significantly less time and with lower power consumption than alternative computational approaches. Indeed, GPUs can help solve problems that were previously deemed unsolvable. We work to deliver continued GPU performance leaps that outpace Moore’s Law by leveraging innovation across the architecture, chip design, system, and software layers. Our strategy is to target markets where GPUs deliver order-of-magnitude performance advantages relative to legacy approaches. Our market platforms so far include Gaming, Professional Visualization, Data Center, and Automotive. While 7Table of Contentsthe requirements of these end markets are diverse, we address them with a unified underlying architecture leveraging our GPUs and CUDA as the fundamental building blocks. The programmable nature of our architecture allows us to make leveraged investments in R&D: we can support several multi-billion dollar end markets with the same underlying technology by using a variety of software stacks developed either internally or by third party developers and partners. We utilize this platform approach in each of our target markets. Extending our technology and platform leadership in AI. We provide a complete, end-to-end GPU computing platform for deep learning and machine learning, addressing both training and inferencing. This includes GPUs, our CUDA programming language, algorithms, libraries, and system software. GPUs are uniquely suited to AI, and we will continue to add AI-specific features to our GPU architecture to further extend our leadership position. Our AI technology leadership is reinforced by our large and expanding ecosystem in a virtuous cycle. Our GPU platforms are available from virtually every major server maker and cloud service provider, as well as on our own AI supercomputer. There are over 1.6 million developers worldwide using CUDA and our other software tools to help deploy our technology in our target markets. We evangelize AI through partnerships with hundreds of universities and more than 3,600 startups through our Inception program. Additionally, our Deep Learning Institute provides instruction on the latest techniques on how to design, train, and deploy neural networks in applications using our accelerated computing platform. Extending our technology and platform leadership in visual computing. We believe that visual computing is fundamental to the continued expansion and evolution of computing. We apply our research and development resources to extending our leadership in visual computing, enabling us to enhance the user experience for consumer entertainment and professional visualization applications. Our technologies are instrumental in driving gaming forward, as developers leverage our libraries and algorithms to create near-cinematic and VR experiences. Our close collaboration with game developers allows us to deliver an optimized gaming experience on our GeForce platform. Our GeForce Experience gaming application further enhances each gamer’s experience by optimizing their PC’s settings, as well as enabling the recording and sharing of gameplay. We also enable interactive graphics applications - such as games, movie and photo editing and design software - to be accessed by almost any device, almost anywhere, through our cloud platforms such as GRID for enterprise and GeForce NOW for gaming.Advancing the leading autonomous vehicle platform. We believe the advent of AV will soon revolutionize the transportation industry. In our view, AI is the key technology enabler of this opportunity, as the algorithms required for autonomous driving - such as perception, localization, and planning - are too complex for legacy hand-coded approaches, and will run on multiple trained neural networks instead. Therefore, we provided a full functionally safe AI-based hardware and software solution for the AV market under the DRIVE brand, which we are bringing to market through our partnerships with automotive original equipment manufacturers, or OEMs, tier-1 suppliers, and start-ups. Our AV solution also includes the GPU-based hardware required to train the neural networks before their in-vehicle deployment, as well as to re-simulate their operation prior to any over-the-air software updates. We believe our comprehensive, top-to-bottom and end-to-end approach will enable the transportation industry to solve the complex problems arising from the shift to autonomous driving. Leveraging our intellectual property. We believe our intellectual property is a valuable asset that can be accessed by our customers and partners through licenses and development agreements when they desire to build such capabilities directly into their own products, or have us do so through a custom development. Such license and development arrangements can further enhance the reach of our technology.Sales and MarketingOur sales strategy involves working with end customers and various industry ecosystems through our partner network.  Our worldwide sales and marketing strategy is key to achieving our objective of providing markets with our high-performance and efficient GPU and embedded system-on-a-chip, or SOC, platforms. Our sales and marketing teams, located across our global markets, work closely with end customers in each industry. Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, internet and cloud service providers, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants.Members of our sales team have technical expertise and product and industry knowledge. We also employ a team of application engineers to assist our partner network in designing, testing, and qualifying system designs that incorporate our platforms. We believe that the depth and quality of our design support are key to improving our partner network’s time-to-market, maintaining a high level of customer satisfaction, and fostering relationships that encourage our end customers and partner network to use the next generation of our products within each platform.To encourage the development of applications optimized for our GPUs, we seek to establish and maintain strong relationships in the software development community. Engineering and marketing personnel engage with key software developers to promote and discuss our platforms, as well as to ascertain individual product requirements and solve technical problems. 8Table of ContentsOur developer program makes our products available to developers prior to launch in order to encourage the development of AI frameworks, Software Development Kits, and Application Programming Interfaces, or APIs, for software applications and game titles that are optimized for our platforms. Our Deep Learning Institute provides in-person and online training for developers in industries and organizations around the world to build AI and accelerated computing applications that leverage our GPU and CUDA platforms. We now have over 1.6 million registered developers across our platforms, including accelerated computing, gaming, deep learning, autonomous machines, and others.As NVIDIA’s business has evolved from a focus primarily on gaming products to broader markets, and from chips to platforms and complete systems, so, too, have our avenues to market. Thus, in addition to sales to customers in our partner network, certain of our platforms are also sold through e-tail channels, or direct to cloud service providers and enterprise customers.Sales to Dell Technologies Inc., or Dell, accounted for 11% of our total revenue for fiscal year 2020.Backlog Our sales are primarily made pursuant to standard purchase orders. The quantity of products purchased by our customers as well as our shipment schedules are subject to revisions that reflect changes in both the customers' requirements and in manufacturing availability. Our industry is characterized by relatively short lead time orders and delivery schedules, thus, we believe that only a small portion of our backlog is non-cancelable and that the dollar amount associated with the non-cancelable portion is not significant.SeasonalityOur GPU and Tegra processor platforms serve many markets from consumer PC gaming to enterprise workstations to government and cloud service provider data centers, although a majority of our revenue stems from the consumer industry. Our consumer products typically see stronger revenue in the second half of our fiscal year. In addition, based on the production schedules of key customers, some of our products for notebooks or game consoles typically generate stronger revenue in the second and third quarters, and weaker revenue in the fourth and first quarters. However, there can be no assurance that this trend will continue. Manufacturing We do not directly manufacture semiconductors used for our products. Instead, we utilize a fabless manufacturing strategy, whereby we employ world-class suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging. This strategy uses the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing. Additionally, we can avoid many of the significant costs and risks associated with owning and operating manufacturing operations. While we may directly procure certain raw materials used in the production of our products, such as substrates and a variety of components, our suppliers are responsible for procurement of the majority of the raw materials used in the production of our products. As a result, we can focus our resources on product design, additional quality assurance, marketing, and customer support.We utilize industry-leading suppliers, such as Taiwan Semiconductor Manufacturing Company Limited and Samsung Electronics Co. Ltd, to produce our semiconductor wafers. We then utilize independent subcontractors, such as Advanced Semiconductor Engineering, Inc., Amkor Technology, BYD Auto Co. Ltd., Hon Hai Precision Industry Co., Ltd., JSI Logistics Ltd., King Yuan Electronics Co., Ltd., and Siliconware Precision Industries Company Ltd. to perform assembly, testing, and packaging of most of our products and platforms. We purchase substrates from IbidenCo. Ltd., Kinsus Interconnect Technology Corporation, and Unimicron Technology Corporation, and memory from Micron Technology, Samsung Semiconductor, Inc., and SK Hynix.We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration, and then ship the semiconductors to contract equipment manufacturers, or CEMs, distributors, motherboard and AIB customers from our third-party warehouse in Hong Kong. Generally, these manufacturers assemble and test the boards based on our design kit and test specifications, and then ship our products to retailers, system builders, or OEMs as motherboard and AIB solutions.We also utilize industry-leading contract manufacturers, or CMs, such as BYD and Hon Hai Precision Industry Co., and ODMs such as Quanta Computer and Wistron Corporation, to manufacture some of our products for sale directly to end customers. In those cases, key elements such as the GPU, SoC and memory are often consigned by us to the CMs, who are responsible for the procurement of other components used in the production process.9Table of ContentsWorking CapitalWe focus considerable attention on managing our inventories and other working-capital-related items. We manage inventories by communicating with our customers and partners and then using our industry experience to forecast demand on a platform-by-platform basis. We then place manufacturing orders for our products that are based on forecasted demand. We generally maintain substantial inventories of our products. A substantial amount of our inventories is maintained as semi-finished products that can be leveraged across a wide range of our processors to balance our customer demands.Our existing cash, cash equivalents and marketable securities balances increased by 47% to $10.90 billion at the end of fiscal year 2020 compared with the end of fiscal year 2019.Competition The market for our products is intensely competitive and is characterized by rapid technological change and evolving industry standards. We believe that the principal competitive factors in this market are performance, breadth of product offerings, access to customers and partners and distribution channels, software support, conformity to industry standard APIs, manufacturing capabilities, processor pricing, and total system costs. We believe that our ability to remain competitive will depend on how well we are able to anticipate the features and functions that customers and partners will demand and whether we are able to deliver consistent volumes of our products at acceptable levels of quality and at competitive prices. We expect competition to increase from both existing competitors and new market entrants with products that may be lower priced than ours, or may provide better performance or additional features not provided by our products. In addition, it is possible that new competitors or alliances among competitors could emerge and acquire significant market share.A significant source of competition comes from companies that provide or intend to provide GPUs, embedded SOCs, and other accelerated and AI computing processor products. Some of our competitors may have greater marketing, financial, distribution and manufacturing resources than we do and may be more able to adapt to customer or technological changes.Our current competitors include:•suppliers and licensors designing discrete and integrated GPUs and other accelerated computing solutions, including chipsets that incorporate 3D graphics, or HPC, such as Advanced Micro Devices, or AMD, Intel Corporation, or Intel, and Xilinx, Inc.;•large internet services companies with internal teams designing chips that incorporates HPC or accelerated computing functionality as part of their internal solutions or platforms, such as Alphabet Inc.; and•suppliers of SoC products that are embedded into automobiles, autonomous machines, and gaming devices, such as Ambarella, Inc., AMD, Broadcom Inc., Intel, Qualcomm Incorporated, Renesas Electronics Corporation, Samsung, and Xilinx, Inc. or companies with internal teams designing SoC products for internal use, such as Tesla Motors.Patents and Proprietary RightsWe rely primarily on a combination of patents, trademarks, trade secrets, employee and third-party nondisclosure agreements, and licensing arrangements to protect our intellectual property in the United States and internationally. Our currently issued patents have expiration dates from March 2020 to October 2039. We have numerous patents issued, allowed, and pending in the United States and in foreign jurisdictions. Our patents and pending patent applications primarily relate to our products and the technology used in connection with our products. We also rely on international treaties, organizations, and foreign laws to protect our intellectual property. The laws of certain foreign countries in which our products are or may be manufactured or sold, including various countries in Asia, may not protect our products or intellectual property rights to the same extent as the laws of the United States. This decreased protection makes the possibility of piracy of our technology and products more likely. We continuously assess whether and where to seek formal protection for particular innovations and technologies based on such factors as:•the location in which our products are manufactured;•our strategic technology or product directions in different countries;•the degree to which intellectual property laws exist and are meaningfully enforced in different jurisdictions; and•the commercial significance of our operations and our competitors' operations in particular countries and regions.We have also licensed technology from third parties and expect to continue to enter into such license agreements.EmployeesAs of January 26, 2020, we had 13,775 employees, 9,823 of whom were engaged in research and development and 3,952 of whom were engaged in sales, marketing, operations, and administrative positions. 10Table of ContentsEnvironmental Regulatory ComplianceTo date, we have not incurred significant expenses related to environmental regulatory compliance matters. Information About Our Executive OfficersThe following sets forth certain information regarding our executive officers, their ages and positions as of February 14, 2020:Name Age PositionJen-Hsun Huang 56 President and Chief Executive OfficerColette M. Kress 52 Executive Vice President and Chief Financial OfficerAjay K. Puri 65 Executive Vice President, Worldwide Field OperationsDebora Shoquist 65 Executive Vice President, OperationsTimothy S. Teter 53 Executive Vice President and General CounselJen-Hsun Huang co-founded NVIDIA in 1993 and has served as our President, Chief Executive Officer and a member of the Board of Directors since our inception. From 1985 to 1993, Mr. Huang was employed at LSI Logic Corporation, a computer chip manufacturer, where he held a variety of positions including as Director of Coreware, the business unit responsible for LSI's SOC. From 1983 to 1985, Mr. Huang was a microprocessor designer for Advanced Micro Devices, Inc., a semiconductor company. Mr. Huang holds a B.S.E.E. degree from Oregon State University and an M.S.E.E. degree from Stanford University.Colette M. Kress joined NVIDIA in 2013 as Executive Vice President and Chief Financial Officer. Prior to NVIDIA, Ms. Kress most recently served as Senior Vice President and Chief Financial Officer of the Business Technology and Operations Finance organization at Cisco Systems, Inc., a networking equipment company, since 2010. At Cisco, Ms. Kress was responsible for financial strategy, planning, reporting and business development for all business segments, engineering and operations. From 1997 to 2010 Ms. Kress held a variety of positions at Microsoft Corporation, a software company, including, beginning in 2006, Chief Financial Officer of the Server and Tools division, where Ms. Kress was responsible for financial strategy, planning, reporting and business development for the division. Prior to joining Microsoft, Ms. Kress spent eight years at Texas Instruments Incorporated, a semiconductor company, where she held a variety of finance positions. Ms. Kress holds a B.S. degree in Finance from University of Arizona and an M.B.A. degree from Southern Methodist University.Ajay K. Puri joined NVIDIA in 2005 as Senior Vice President, Worldwide Sales and became Executive Vice President, Worldwide Field Operations in 2009. Prior to NVIDIA, he held positions in sales, marketing, and general management over a 22-year career at Sun Microsystems, Inc., a computing systems company. Mr. Puri previously held marketing, management consulting, and product development positions at Hewlett-Packard Company, an information technology company, Booz Allen Hamilton Inc., a management and technology consulting company, and Texas Instruments Incorporated. Mr. Puri holds a B.S.E.E. degree from the University of Minnesota, an M.S.E.E. degree from the California Institute of Technology and an M.B.A. degree from Harvard Business School.Debora Shoquist joined NVIDIA in 2007 as Senior Vice President of Operations and in 2009 became Executive Vice President of Operations. Her role has since expanded with responsibility added for Facilities in 2013, and for Information Technology in 2015. Prior to NVIDIA, Ms. Shoquist served from 2004 to 2007 as Executive Vice President of Operations at JDS Uniphase Corp., a provider of communications test and measurement solutions and optical products for the telecommunications industry. She served from 2002 to 2004 as Senior Vice President and General Manager of the Electro-Optics business at Coherent, Inc., a manufacturer of commercial and scientific laser equipment. Previously, she worked at Quantum Corp., a data protection company, as President of the Personal Computer Hard Disk Drive Division, and at Hewlett-Packard Corp. Ms. Shoquist holds a B.S. degree in Electrical Engineering from Kansas State University and a B.S. degree in Biology from Santa Clara University.Timothy S. Teter joined NVIDIA in 2017 as Senior Vice President, General Counsel and Secretary and became Executive Vice President, General Counsel and Secretary in February 2018. Prior to NVIDIA, Mr. Teter spent more than two decades at the law firm of Cooley LLP. He was most recently a partner at Cooley, where he focused on litigating patent and technology related matters. Prior to attending law school, he worked as an engineer at Lockheed Missiles and Space Company. Mr. Teter holds a B.S. degree in Mechanical Engineering from the University of California at Davis and a J.D. degree from Stanford Law School.Available InformationOur annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and, if applicable, amendments to those reports filed or furnished pursuant to Section 13(a) of the Securities Exchange Act of 1934, as 11Table of Contentsamended, are available free of charge on or through our web site, http://www.nvidia.com, as soon as reasonably practicable after we electronically file such material with, or furnish it to, the Securities and Exchange Commission, or the SEC. The SEC’s website, http://www.sec.gov, contains reports, proxy and information statements, and other information regarding issuers that file electronically with the SEC. Our web site and the information on it or connected to it are not a part of this Annual Report on Form 10-K."
+    },
+    "Item_1A": {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.037670645862817764,
+        "neutral": 0.02541390433907509,
+        "positive": 0.9369153380393982
+      },
+      "text": "Item 1A. Risk Factors”, “"
+    },
+    "Item_7": {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.02649810165166855,
+        "neutral": 0.02679404988884926,
+        "positive": 0.9467078447341919
+      },
+      "text": "ITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS The following discussion and analysis of our financial condition and results of operations should be read in conjunction with “"
+    },
+    "Item_7A": {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.05708060413599014,
+        "neutral": 0.025597084313631058,
+        "positive": 0.9173223376274109
+      },
+      "text": "ITEM 7A. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISKInvestment and Interest Rate RiskWe are exposed to interest rate risk related to our floating and fixed-rate investment portfolio and outstanding debt. The investment portfolio is managed consistent with our overall liquidity strategy in support of both working capital needs and strategic growth of our businesses.As of January 26, 2020, we performed a sensitivity analysis on our floating and fixed rate financial investments. According to our analysis, parallel shifts in the yield curve of both plus or minus 0.5% would result in changes in fair values for these investments of $1 million.In fiscal year 2017, we issued $1.00 billion of the Notes Due 2021 and $1.00 billion of the Notes Due 2026. We carry the Notes at face value less unamortized discount on our Consolidated Balance Sheets. As the Notes bear interest at a fixed rate, we have no financial statement risk associated with changes in interest rates. Refer to Note 12 of the Notes to the Consolidated Financial Statements in Part IV, "
+    }
+  },
+  "sentences": [
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.028450053185224533,
+        "neutral": 0.02713155187666416,
+        "positive": 0.9444183707237244
+      },
+      "text": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS The following discussion and analysis of our financial condition and results of operations should be read in conjunction with “"
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.3541584312915802,
+        "neutral": 0.009068934246897697,
+        "positive": 0.636772632598877
+      },
+      "text": "BUSINESSOur CompanyNVIDIA pioneered accelerated computing to help solve the most challenging computational problems."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.08860141038894653,
+        "neutral": 0.015514514409005642,
+        "positive": 0.895884096622467
+      },
+      "text": "Starting with a focus on PC graphics, we extended our focus in recent years to the revolutionary field of artificial intelligence, or AI."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.33267369866371155,
+        "neutral": 0.010648377239704132,
+        "positive": 0.6566778421401978
+      },
+      "text": "Fueled by the sustained demand for exceptional 3D graphics and the scale of the gaming market, NVIDIA leveraged its GPU architecture to create platforms for virtual reality, or VR, high performance computing, or HPC, and AI.The GPU was initially used to simulate human imagination, enabling the virtual worlds of video games and films."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.19563937187194824,
+        "neutral": 0.009240703657269478,
+        "positive": 0.7951200008392334
+      },
+      "text": "Today, it also simulates human intelligence, enabling a deeper understanding of the physical world."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1311943382024765,
+        "neutral": 0.01078749354928732,
+        "positive": 0.8580182194709778
+      },
+      "text": "Its parallel processing capabilities, supported by up to thousands of computing cores, are essential to running deep learning algorithms."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.035294849425554276,
+        "neutral": 0.02931882254779339,
+        "positive": 0.9353863000869751
+      },
+      "text": "This form of AI, in which software writes itself by learning from data, can serve as the brain of computers, robots and self-driving cars that can perceive and understand the world."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.30453360080718994,
+        "neutral": 0.008329362608492374,
+        "positive": 0.6871370673179626
+      },
+      "text": "GPU-powered deep learning continues to be adopted by thousands of enterprises to deliver services and features that would have been impossible with traditional coding.NVIDIA has a platform strategy, bringing together hardware, system software, programmable algorithms, libraries, systems, and services to create unique value for the markets we serve."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1240691989660263,
+        "neutral": 0.008532914333045483,
+        "positive": 0.8673978447914124
+      },
+      "text": "While the requirements of these end markets are diverse, we address them with a unified underlying architecture leveraging our GPUs and software stacks."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.20696128904819489,
+        "neutral": 0.007987500168383121,
+        "positive": 0.785051167011261
+      },
+      "text": "The programmable nature of our architecture allows us to support several multi-billion-dollar end markets with the same underlying technology by using a variety of software stacks developed either internally or by third party developers and partners."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.6482070684432983,
+        "neutral": 0.010126802138984203,
+        "positive": 0.3416661024093628
+      },
+      "text": "The large and growing number of developers across our platforms strengthens our ecosystem and increases the value of our platform to our customers.Innovation is at our core."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.2415398806333542,
+        "neutral": 0.011514284648001194,
+        "positive": 0.746945858001709
+      },
+      "text": "We invested over $20 billion in research and development since our inception, yielding inventions that are essential to modern computing."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.35515037178993225,
+        "neutral": 0.016295257955789566,
+        "positive": 0.6285543441772461
+      },
+      "text": "Our invention of the GPU in 1999 defined modern computer graphics and established NVIDIA as the leader in visual computing."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.23090355098247528,
+        "neutral": 0.00867623370140791,
+        "positive": 0.7604202628135681
+      },
+      "text": "With our introduction of the CUDA programming model in 2006, we opened the parallel processing capabilities of the GPU for general purpose computing."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8830606341362,
+        "neutral": 0.008120810613036156,
+        "positive": 0.10881856083869934
+      },
+      "text": "This approach significantly accelerates the performance of the most demanding applications in HPC in fields such as aerospace, bio-science research, mechanical and fluid simulations, and energy exploration."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.4660303592681885,
+        "neutral": 0.009335855022072792,
+        "positive": 0.5246338248252869
+      },
+      "text": "Today, our GPUs power many of the fastest supercomputers across the world."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.3149126172065735,
+        "neutral": 0.009590176865458488,
+        "positive": 0.6754971742630005
+      },
+      "text": "In addition, the massively parallel compute architecture of our GPUs and associated software are well suited for deep learning and machine learning, powering the era of AI."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.37112170457839966,
+        "neutral": 0.010434630326926708,
+        "positive": 0.6184436678886414
+      },
+      "text": "While traditional CPU-based approaches no longer deliver advances on the pace described by Moore’s Law, we deliver GPU performance improvements on a pace ahead of Moore’s Law, giving the industry a path forward.Gamers choose NVIDIA GPUs to enjoy immersive, increasingly cinematic virtual worlds."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.5710840821266174,
+        "neutral": 0.012505723163485527,
+        "positive": 0.4164102375507355
+      },
+      "text": "GPUs also help underpin the world’s fastest growing spectator sport, eSports, which attracts hundreds of millions of viewers to watch top-quality gaming."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.2148783802986145,
+        "neutral": 0.010050204582512379,
+        "positive": 0.7750713229179382
+      },
+      "text": "A rapidly growing genre of Battle Royale games, such as Fortnite, is also expanding the gaming market.Researchers use our GPUs to accelerate a wide range of important applications, from simulating molecular dynamics to weather forecasting."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.3471919894218445,
+        "neutral": 0.008804618380963802,
+        "positive": 0.6440033316612244
+      },
+      "text": "With support for more than over 600 applications - including the top 15 HPC applications - NVIDIA GPUs enable some of the most promising areas of discovery, from weather prediction to materials science and from wind tunnel simulation to genomics."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.10749375820159912,
+        "neutral": 0.010675073601305485,
+        "positive": 0.8818311095237732
+      },
+      "text": "NVIDIA GPUs power the top two supercomputers in the world, located at Oak Ridge and Lawrence Livermore National Laboratories in the United States, as well as the top supercomputers in Europe and Japan."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.14900615811347961,
+        "neutral": 0.008802851662039757,
+        "positive": 0.8421911001205444
+      },
+      "text": "In all, NVIDIA powers 136 of the TOP500 supercomputers.The world’s leading cloud service providers use our GPUs to enable, accelerate or enrich the services they deliver to billions of end-users, including search, social networking, online shopping, live video, translation, AI assistants, navigation, and cloud computing."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.24543152749538422,
+        "neutral": 0.008517950773239136,
+        "positive": 0.7460505366325378
+      },
+      "text": "A rapidly growing number of enterprises and startups use our GPUs for deep learning that meets, and in several cases surpasses, human perception, in fields ranging from radiology to precision agriculture."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.18633657693862915,
+        "neutral": 0.008639780804514885,
+        "positive": 0.8050236701965332
+      },
+      "text": "For example, the transportation industry is turning to our GPUs and AI to enable autonomous vehicles, or AVs, with several hundred companies and organizations working with NVIDIA’s DRIVE platform."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.046246036887168884,
+        "neutral": 0.012780768796801567,
+        "positive": 0.9409732222557068
+      },
+      "text": "Professional designers use our GPUs to create visual effects in movies and design products ranging from soft drink bottles to commercial aircraft.Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.035604678094387054,
+        "neutral": 0.015988469123840332,
+        "positive": 0.9484068155288696
+      },
+      "text": "4Table of ContentsOur BusinessesOur two reportable segments - GPU and Tegra Processor - are based on a single underlying architecture."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.07509391009807587,
+        "neutral": 0.010775669477880001,
+        "positive": 0.9141303896903992
+      },
+      "text": "Our GPU product brands are aimed at specialized markets including GeForce for gamers; Quadro for designers; Tesla and DGX for AI data scientists and big data researchers; and GRID for cloud-based visual computing users."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1552158147096634,
+        "neutral": 0.008414224721491337,
+        "positive": 0.8363699316978455
+      },
+      "text": "Our Tegra brand integrates an entire computer onto a single chip, and incorporates GPUs and multi-core CPUs to drive supercomputing for autonomous robots, drones, and cars, as well as for game consoles and mobile gaming and entertainment devices.GPU∙GeForce for PC gaming and mainstream PCs ∙GeForce NOW for cloud-based gaming ∙Quadro for design professionals working in computer-aided design, video editing, special effects, and other creative applications ∙Tesla for AI utilizing deep learning and accelerated computing, leveraging the parallel computing capabilities of GPUs for general purpose computing ∙GRID to provide the power of NVIDIA graphics through the cloud and data centers ∙DGX for AI scientists, researchers and developers ∙EGX for accelerated AI computing at the edge Tegra Processor∙Tegra processors are primarily designed to enable branded platforms - AGX and SHIELD ∙SHIELD devices and services designed to harness the power of mobile-cloud to revolutionize home entertainment, AI and gaming ∙AGX is a power-efficient AI computing platform for intelligent edge devices, including: - DRIVE AGX for self-driving vehicles - Clara AGX for medical instruments - Jetson AGX for robotics and other embedded useOur MarketsWe specialize in markets in which GPU-based visual computing and accelerated computing platforms can provide tremendous throughput for applications."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.15067556500434875,
+        "neutral": 0.008190865628421307,
+        "positive": 0.8411336541175842
+      },
+      "text": "These platforms incorporate processors, systems software, programmable algorithms, systems, and services to deliver value that is unique in the marketplace."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.07915346324443817,
+        "neutral": 0.012548824772238731,
+        "positive": 0.9082977175712585
+      },
+      "text": "From our proprietary processors, we created platforms that address four large markets where our expertise is critical: Gaming, Professional Visualization, Data Center, and Automotive.GamingComputer gaming is the largest entertainment industry."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8790785670280457,
+        "neutral": 0.00899883545935154,
+        "positive": 0.11192259937524796
+      },
+      "text": "Many factors propel computer gaming’s growth, including new high production value games and franchises, the rise of competitive online gaming, eSports, and the rise of virtual and augmented reality.Our GPUs enhance the gaming experience by improving the visual quality of graphics, increasing the frame rate for smoother gameplay and improving realism by incorporating the behavior of light and physical objects."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.10554539412260056,
+        "neutral": 0.009208817966282368,
+        "positive": 0.8852458000183105
+      },
+      "text": "These can be enjoyed independently or together to extend the gaming experience across platforms.Our gaming platforms utilize sophisticated 3D software and algorithms, including our GameWorks libraries that provide special effects for games."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.689565122127533,
+        "neutral": 0.008231036365032196,
+        "positive": 0.30220386385917664
+      },
+      "text": "We further enhance gaming with GeForce Experience, our gaming application that optimizes the PC user’s settings for each title and enables players to record and share gameplay."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.16402693092823029,
+        "neutral": 0.00838738027960062,
+        "positive": 0.827585756778717
+      },
+      "text": "We developed NVIDIA RTX ray tracing technology to enable real-time, cinematic-quality rendering in the RTX line-up of our gaming platforms."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.09474246203899384,
+        "neutral": 0.011428700760006905,
+        "positive": 0.8938287496566772
+      },
+      "text": "Ray tracing, which has long been used for special effects in the movie industry, is a computationally intensive technique that simulates the physical behavior of light to achieve greater realism in computer-generated scenes.To enable VR, we provide developers with a suite of software libraries called VRWorks."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.12887661159038544,
+        "neutral": 0.009567318484187126,
+        "positive": 0.8615560531616211
+      },
+      "text": "VRWorks allows developers to create fully immersive experiences by enabling physically realistic visuals, sound, touch interactions, and simulated environments."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.14494599401950836,
+        "neutral": 0.007705293130129576,
+        "positive": 0.847348690032959
+      },
+      "text": "VR requires advanced high-performance GPUs as the engine to simulate complete immersion.Our products for the gaming market include GeForce RTX and GeForce GTX GPUs for PC gaming, SHIELD devices for gaming and streaming, GeForce NOW for cloud-based gaming, as well as platforms and development services for specialized console gaming devices.5Table of ContentsProfessional VisualizationWe serve the Professional Visualization market by working closely with independent software vendors to optimize their offerings for NVIDIA GPUs."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8456789255142212,
+        "neutral": 0.007993409410119057,
+        "positive": 0.14632761478424072
+      },
+      "text": "Our GPU computing solutions enhance productivity and introduce new capabilities for critical parts of the workflow for such major industries as automotive, media and entertainment, architectural engineering, oil and gas, and medical imaging."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03361997380852699,
+        "neutral": 0.051358915865421295,
+        "positive": 0.9150211215019226
+      },
+      "text": "Designers who build the products we use every day need the images that they view digitally to mirror reality."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03851206228137016,
+        "neutral": 0.027511322870850563,
+        "positive": 0.9339765906333923
+      },
+      "text": "This requires simulating the physical behavior of light and materials, or physically-based rendering, an emerging trend in professional design."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.09385550022125244,
+        "neutral": 0.010131892748177052,
+        "positive": 0.8960126042366028
+      },
+      "text": "Our DesignWorks software delivers this to designers and enables an architect designing a building with a computer-aided design package to interact with the model in real time, view it in greater detail, and generate photorealistic renderings for the client."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.24830032885074615,
+        "neutral": 0.009303010068833828,
+        "positive": 0.7423966526985168
+      },
+      "text": "It also allows an automotive designer to create a highly realistic 3D image of a car, which can be viewed from all angles, reducing reliance on costly, time-consuming full-scale clay models.During fiscal year 2019, we introduced the NVIDIA RTX platform, making it possible to render film-quality, photorealistic objects and environments with physically accurate shadows, reflections and refractions using ray tracing in real-time."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.25499585270881653,
+        "neutral": 0.009086118079721928,
+        "positive": 0.7359181046485901
+      },
+      "text": "Through fiscal year 2020, many leading 3D design and content creation applications developed by our ecosystem partners enabled support for RTX, allowing professionals to accelerate and transform their workflows with NVIDIA RTX GPUs.Just as VR is becoming more important in gaming, it is also being incorporated in a growing number of enterprise applications, including within medicine, architecture, product design, and retail."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.06876872479915619,
+        "neutral": 0.017931783571839333,
+        "positive": 0.9132994413375854
+      },
+      "text": "Virtual car showrooms, surgical training, architectural walkthroughs, and bringing historical scenes to life all deploy this technology, powered by our GPUs.Visual computing is vital to productivity in many environments, including design and manufacturing and digital content creation."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.0241636261343956,
+        "neutral": 0.04053032770752907,
+        "positive": 0.9353060126304626
+      },
+      "text": "Design and manufacturing includes computer-aided design, architectural design, consumer-products manufacturing, medical instrumentation, and aerospace."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04837578535079956,
+        "neutral": 0.01375798974186182,
+        "positive": 0.9378662705421448
+      },
+      "text": "Digital content creation includes professional video editing and post production, special effects for films, and broadcast-television graphics.Our brand for this market is Quadro for workstations."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8939467668533325,
+        "neutral": 0.008064906112849712,
+        "positive": 0.0979883149266243
+      },
+      "text": "Quadro GPUs enhance the productivity of designers by improving performance and adding functionality, such as photorealistic rendering, high color fidelity, and advanced scalable display capabilities."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.08802063763141632,
+        "neutral": 0.00978846289217472,
+        "positive": 0.9021908044815063
+      },
+      "text": "Data CenterThe NVIDIA accelerated computing platform addresses AI and HPC applications."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.22228367626667023,
+        "neutral": 0.008406614884734154,
+        "positive": 0.7693097591400146
+      },
+      "text": "The platform consists of our energy efficient GPUs, our CUDA programming language, specific libraries such as cuDNN and TensorRT, and innovations such as NVLink and NVSwitch interconnects, which enable application scalability across multiple GPUs.In the field of AI, NVIDIA’s platform accelerates both deep learning and machine learning workloads."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1115039810538292,
+        "neutral": 0.015980703756213188,
+        "positive": 0.8725152611732483
+      },
+      "text": "Deep learning is a computer science approach where neural networks are trained to recognize patterns from massive amounts of data in the form of images, sounds and text - in some instances better than humans."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.033064790070056915,
+        "neutral": 0.035643499344587326,
+        "positive": 0.9312916994094849
+      },
+      "text": "Machine learning is a related approach that leverages algorithms as well as data to learn how to make determinations or predictions, often used in data science."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04437718912959099,
+        "neutral": 0.019565092399716377,
+        "positive": 0.9360577464103699
+      },
+      "text": "HPC, also referred to as scientific computing, uses numerical computational approaches to solve large and complex problems."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.9163987636566162,
+        "neutral": 0.010844683274626732,
+        "positive": 0.07275653630495071
+      },
+      "text": "For both AI and HPC applications, the NVIDIA accelerated computing platform greatly increases the performance and power efficiency of high-performance computers and data centers, as GPUs excel at parallel workloads."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1603662222623825,
+        "neutral": 0.010418464429676533,
+        "positive": 0.8292152881622314
+      },
+      "text": "We are engaged with thousands of organizations working on AI in a multitude of industries, from automating tasks such as reading medical images, to enabling fraud detection in financial services, to optimizing oil exploration and drilling."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.18941333889961243,
+        "neutral": 0.010470155626535416,
+        "positive": 0.8001164197921753
+      },
+      "text": "These organizations include the world’s leading cloud services companies such as Amazon, Baidu, and Facebook, which are infusing AI in applications that enable highly accurate voice recognition and real-time translation; enterprises that are increasingly turning to AI to improve products and services; and startups seeking to implement AI in transformative ways across multiple industries."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.645891010761261,
+        "neutral": 0.008980941958725452,
+        "positive": 0.34512805938720703
+      },
+      "text": "We partnered with industry leaders such as IBM, Microsoft, Oracle, SAP, and VMware to bring AI to enterprise users."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.40151044726371765,
+        "neutral": 0.00802407506853342,
+        "positive": 0.5904654860496521
+      },
+      "text": "We also have partnerships in healthcare and manufacturing, among others, to accelerate the adoption of AI.To enable deep learning and machine learning, we provide a family of GPUs designed to speed up training and inferencing of neural networks."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.10154980421066284,
+        "neutral": 0.009305572137236595,
+        "positive": 0.8891446590423584
+      },
+      "text": "They are available in industry standard servers from every major computer maker worldwide, including Cisco, Dell, HP, Inspur, and Lenovo; from every major cloud service provider such as Alicloud, Amazon Web Services, Baidu Cloud, Google Cloud, IBM Cloud, Microsoft Azure, and Oracle Cloud; as well as in our DGX AI supercomputer, a purpose-built system for deep learning and GPU accelerated applications."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.35354211926460266,
+        "neutral": 0.008150238543748856,
+        "positive": 0.6383076310157776
+      },
+      "text": "DGX delivers performance equal to hundreds of conventional servers, comes fully integrated with hardware, software, development tools, support for AI frameworks, and runs popular accelerated applications."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.14400354027748108,
+        "neutral": 0.007987952791154385,
+        "positive": 0.8480085134506226
+      },
+      "text": "We also offer the NVIDIA GPU Cloud, or NGC, a comprehensive catalog of easy-to-use, optimized 6Table of Contentssoftware stacks across a range of domains including scientific computing, deep learning, and machine learning."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.24966710805892944,
+        "neutral": 0.009085649624466896,
+        "positive": 0.741247296333313
+      },
+      "text": "With NGC, AI developers, researchers and data scientists can get started with the development of AI and HPC applications and deploy them on DGX systems, NGC-ready workstations or servers from our systems partners, or with NVIDIA’s cloud partners such as Amazon, Google Cloud, Microsoft Azure, or Oracle Cloud.GPUs also increase the speed of applications used in such fields as aerospace, bio-science research, mechanical and fluid simulations, and energy exploration."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.3785930573940277,
+        "neutral": 0.021590152755379677,
+        "positive": 0.5998168587684631
+      },
+      "text": "GPUs have significantly impacted scientific discovery, including improving heart surgery, mapping human genome folds, seismic modeling, and weather simulations.Accelerated computing is recognized as the path forward for computing amid the slowing of Moore’s Law."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8513868451118469,
+        "neutral": 0.010556726716458797,
+        "positive": 0.1380564570426941
+      },
+      "text": "The proportion of supercomputers utilizing accelerators has grown sharply over the past five years, now accounting for a significant proportion of both the total systems on the TOP500 list, which ranks the 500 most powerful commercially available computer systems, and the list’s total floating-point operations per second."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1530342996120453,
+        "neutral": 0.013995839282870293,
+        "positive": 0.8329698443412781
+      },
+      "text": "Tesla GPU accelerators power many of the world’s fastest supercomputers, including the U.S. Department of Energy’s Summit and Sierra supercomputers at Oak Ridge and Lawrence Livermore National Laboratories, Europe’s fastest supercomputer - Piz Daint - in Switzerland, Japan’s fastest supercomputer, ABCI; and the world’s fastest industrial supercomputer by Italian energy company Eni."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.09921794384717941,
+        "neutral": 0.008662495762109756,
+        "positive": 0.8921195268630981
+      },
+      "text": "We also serve the data center market with GRID for virtualized graphics and Virtual Compute Server for virtualized AI and data science."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.05708659812808037,
+        "neutral": 0.013190419413149357,
+        "positive": 0.9297230243682861
+      },
+      "text": "GRID makes it possible to run graphics-intensive applications remotely on a server in the data center."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.15418317914009094,
+        "neutral": 0.009706859476864338,
+        "positive": 0.8361099362373352
+      },
+      "text": "Applications include accelerating virtual desktop infrastructures and delivering graphics-intensive applications from the cloud for industries such as manufacturing, healthcare, and educational institutions, among others."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.06651747971773148,
+        "neutral": 0.010823424905538559,
+        "positive": 0.9226590991020203
+      },
+      "text": "Virtual Compute Server (vComputeServer) enables data centers to accelerate server virtualization with GPUs so that the most compute-intensive workloads, such as artificial intelligence, deep learning, and data science, can be run in a virtual machine.AutomotiveNVIDIA’s Automotive market is comprised of cockpit infotainment solutions, AV platforms, and associated development agreements."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8350458145141602,
+        "neutral": 0.006703193765133619,
+        "positive": 0.15825104713439941
+      },
+      "text": "Leveraging our technology leadership in AI and building on our long-standing automotive relationships, we are delivering a full solution for the AV market under the DRIVE brand."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.5441229343414307,
+        "neutral": 0.012158838100731373,
+        "positive": 0.4437182545661926
+      },
+      "text": "NVIDIA has demonstrated multiple applications of AI within the car."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03688390552997589,
+        "neutral": 0.018099689856171608,
+        "positive": 0.9450163841247559
+      },
+      "text": "AI can drive the car itself as a pilot, in either partial or fully autonomous mode."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.5271097421646118,
+        "neutral": 0.009395725093781948,
+        "positive": 0.46349450945854187
+      },
+      "text": "AI can also be a co-pilot, assisting the human driver in creating a safer driving experience.NVIDIA is working with several hundred partners in the automotive ecosystem including automakers, truck makers, tier-one suppliers, sensor manufacturers, automotive research institutions, HD mapping companies, and startups to develop and deploy AI systems for self-driving vehicles."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04470467567443848,
+        "neutral": 0.018661895766854286,
+        "positive": 0.9366334080696106
+      },
+      "text": "Our unified AI computing architecture starts with training deep neural networks using our GPUs, and then running them within the vehicle on the NVIDIA DRIVE computing platform."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.10359436273574829,
+        "neutral": 0.00867375172674656,
+        "positive": 0.8877319693565369
+      },
+      "text": "The platform consists of high-performance, energy efficient hardware - DRIVE AGX, and open, modular software - including DRIVE AV for autonomous driving and DRIVE IX for in-vehicle AI assistance."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.2744741141796112,
+        "neutral": 0.007212023250758648,
+        "positive": 0.7183139324188232
+      },
+      "text": "In addition, we offer a scalable simulation solution, NVIDIA DRIVE Constellation, for testing and validating a self-driving platform before commercial deployment."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1671474277973175,
+        "neutral": 0.008337694220244884,
+        "positive": 0.8245148062705994
+      },
+      "text": "This end-to-end, software-defined approach allows cars to receive over-the-air updates to add new features and capabilities throughout the life of a vehicle.NVIDIA DRIVE can perceive and understand in real-time what's happening around the vehicle, precisely locate itself on an HD map, and plan a safe path forward."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.20953884720802307,
+        "neutral": 0.008679739199578762,
+        "positive": 0.7817813754081726
+      },
+      "text": "This advanced self-driving car platform combines deep learning, sensor fusion, and surround vision to change the driving experience."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.20428086817264557,
+        "neutral": 0.009355816058814526,
+        "positive": 0.7863633632659912
+      },
+      "text": "Our DRIVE platform scales from a palm-sized, energy-efficient module for automated highway-driving capabilities to a configuration with multiple systems aimed at enabling driverless cars."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.12291959673166275,
+        "neutral": 0.008611170575022697,
+        "positive": 0.86846923828125
+      },
+      "text": "Our Xavier SoC, which started shipping in 2018, enables vehicles to use deep neural networks to process data from multiple cameras and sensors."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1330959051847458,
+        "neutral": 0.008688648231327534,
+        "positive": 0.8582154512405396
+      },
+      "text": "It powers the DRIVE AutoPilot, NVIDIA’s Level 2+ automated driving solution, combining the DRIVE AV self-driving solution with the DRIVE IX cockpit software, including a visualization system for allowing the driver to see what the car sees and plans to do."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.33971551060676575,
+        "neutral": 0.008171096444129944,
+        "positive": 0.6521133184432983
+      },
+      "text": "In fiscal year 2020, we announced our next-generation SoC, Orin, targeting mass production in 2022.Business StrategiesNVIDIA’s key strategies that shape our overall business approach include:Advancing the GPU computing platform."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.3391735553741455,
+        "neutral": 0.011429875157773495,
+        "positive": 0.6493965983390808
+      },
+      "text": "The massive parallel processing capabilities of NVIDIA GPUs can solve complex problems in significantly less time and with lower power consumption than alternative computational approaches."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.2757124602794647,
+        "neutral": 0.012884702533483505,
+        "positive": 0.7114028334617615
+      },
+      "text": "Indeed, GPUs can help solve problems that were previously deemed unsolvable."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8944637775421143,
+        "neutral": 0.00727936951443553,
+        "positive": 0.09825680404901505
+      },
+      "text": "We work to deliver continued GPU performance leaps that outpace Moore’s Law by leveraging innovation across the architecture, chip design, system, and software layers."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8055649399757385,
+        "neutral": 0.008725755847990513,
+        "positive": 0.18570926785469055
+      },
+      "text": "Our strategy is to target markets where GPUs deliver order-of-magnitude performance advantages relative to legacy approaches."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.07355242967605591,
+        "neutral": 0.010873693972826004,
+        "positive": 0.9155738949775696
+      },
+      "text": "Our market platforms so far include Gaming, Professional Visualization, Data Center, and Automotive."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.16824018955230713,
+        "neutral": 0.007692328188568354,
+        "positive": 0.8240674734115601
+      },
+      "text": "While 7Table of Contentsthe requirements of these end markets are diverse, we address them with a unified underlying architecture leveraging our GPUs and CUDA as the fundamental building blocks."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.4428257346153259,
+        "neutral": 0.007832049392163754,
+        "positive": 0.5493422150611877
+      },
+      "text": "The programmable nature of our architecture allows us to make leveraged investments in R&D: we can support several multi-billion dollar end markets with the same underlying technology by using a variety of software stacks developed either internally or by third party developers and partners."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1214342936873436,
+        "neutral": 0.007259581703692675,
+        "positive": 0.8713060617446899
+      },
+      "text": "We utilize this platform approach in each of our target markets."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.7287232875823975,
+        "neutral": 0.011953135021030903,
+        "positive": 0.2593235671520233
+      },
+      "text": "Extending our technology and platform leadership in AI."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1904979944229126,
+        "neutral": 0.0072094956412911415,
+        "positive": 0.80229252576828
+      },
+      "text": "We provide a complete, end-to-end GPU computing platform for deep learning and machine learning, addressing both training and inferencing."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.032475296407938004,
+        "neutral": 0.016711443662643433,
+        "positive": 0.9508132338523865
+      },
+      "text": "This includes GPUs, our CUDA programming language, algorithms, libraries, and system software."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8858959674835205,
+        "neutral": 0.007143855560570955,
+        "positive": 0.10696015506982803
+      },
+      "text": "GPUs are uniquely suited to AI, and we will continue to add AI-specific features to our GPU architecture to further extend our leadership position."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8201252222061157,
+        "neutral": 0.008014663122594357,
+        "positive": 0.17186009883880615
+      },
+      "text": "Our AI technology leadership is reinforced by our large and expanding ecosystem in a virtuous cycle."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.11659984290599823,
+        "neutral": 0.007868780754506588,
+        "positive": 0.8755313754081726
+      },
+      "text": "Our GPU platforms are available from virtually every major server maker and cloud service provider, as well as on our own AI supercomputer."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.3071090877056122,
+        "neutral": 0.006828302051872015,
+        "positive": 0.6860625743865967
+      },
+      "text": "There are over 1.6 million developers worldwide using CUDA and our other software tools to help deploy our technology in our target markets."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.24056823551654816,
+        "neutral": 0.007962825708091259,
+        "positive": 0.7514689564704895
+      },
+      "text": "We evangelize AI through partnerships with hundreds of universities and more than 3,600 startups through our Inception program."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.13701531291007996,
+        "neutral": 0.008843856863677502,
+        "positive": 0.8541408777236938
+      },
+      "text": "Additionally, our Deep Learning Institute provides instruction on the latest techniques on how to design, train, and deploy neural networks in applications using our accelerated computing platform."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.6990260481834412,
+        "neutral": 0.012852958403527737,
+        "positive": 0.28812095522880554
+      },
+      "text": "Extending our technology and platform leadership in visual computing."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.20627295970916748,
+        "neutral": 0.00892960000783205,
+        "positive": 0.7847974896430969
+      },
+      "text": "We believe that visual computing is fundamental to the continued expansion and evolution of computing."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.7745290398597717,
+        "neutral": 0.00731320958584547,
+        "positive": 0.21815773844718933
+      },
+      "text": "We apply our research and development resources to extending our leadership in visual computing, enabling us to enhance the user experience for consumer entertainment and professional visualization applications."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.5942056179046631,
+        "neutral": 0.010244905948638916,
+        "positive": 0.3955495059490204
+      },
+      "text": "Our technologies are instrumental in driving gaming forward, as developers leverage our libraries and algorithms to create near-cinematic and VR experiences."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.7639809846878052,
+        "neutral": 0.006709734909236431,
+        "positive": 0.2293093055486679
+      },
+      "text": "Our close collaboration with game developers allows us to deliver an optimized gaming experience on our GeForce platform."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.7885341048240662,
+        "neutral": 0.007577778305858374,
+        "positive": 0.20388813316822052
+      },
+      "text": "Our GeForce Experience gaming application further enhances each gamer’s experience by optimizing their PC’s settings, as well as enabling the recording and sharing of gameplay."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.23639711737632751,
+        "neutral": 0.006890350021421909,
+        "positive": 0.7567125558853149
+      },
+      "text": "We also enable interactive graphics applications - such as games, movie and photo editing and design software - to be accessed by almost any device, almost anywhere, through our cloud platforms such as GRID for enterprise and GeForce NOW for gaming.Advancing the leading autonomous vehicle platform."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.6975064873695374,
+        "neutral": 0.010239802300930023,
+        "positive": 0.29225361347198486
+      },
+      "text": "We believe the advent of AV will soon revolutionize the transportation industry."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.041085317730903625,
+        "neutral": 0.11353576928377151,
+        "positive": 0.8453789353370667
+      },
+      "text": "In our view, AI is the key technology enabler of this opportunity, as the algorithms required for autonomous driving - such as perception, localization, and planning - are too complex for legacy hand-coded approaches, and will run on multiple trained neural networks instead."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.7623100280761719,
+        "neutral": 0.006497387774288654,
+        "positive": 0.23119260370731354
+      },
+      "text": "Therefore, we provided a full functionally safe AI-based hardware and software solution for the AV market under the DRIVE brand, which we are bringing to market through our partnerships with automotive original equipment manufacturers, or OEMs, tier-1 suppliers, and start-ups."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1024675965309143,
+        "neutral": 0.009021508507430553,
+        "positive": 0.8885108828544617
+      },
+      "text": "Our AV solution also includes the GPU-based hardware required to train the neural networks before their in-vehicle deployment, as well as to re-simulate their operation prior to any over-the-air software updates."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.9013550877571106,
+        "neutral": 0.008341857232153416,
+        "positive": 0.09030307084321976
+      },
+      "text": "We believe our comprehensive, top-to-bottom and end-to-end approach will enable the transportation industry to solve the complex problems arising from the shift to autonomous driving."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.27409979701042175,
+        "neutral": 0.008270395919680595,
+        "positive": 0.7176298499107361
+      },
+      "text": "We believe our intellectual property is a valuable asset that can be accessed by our customers and partners through licenses and development agreements when they desire to build such capabilities directly into their own products, or have us do so through a custom development."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.2935383915901184,
+        "neutral": 0.0068927304819226265,
+        "positive": 0.6995689272880554
+      },
+      "text": "Such license and development arrangements can further enhance the reach of our technology.Sales and MarketingOur sales strategy involves working with end customers and various industry ecosystems through our partner network."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8541795611381531,
+        "neutral": 0.00653791381046176,
+        "positive": 0.1392824500799179
+      },
+      "text": "Our worldwide sales and marketing strategy is key to achieving our objective of providing markets with our high-performance and efficient GPU and embedded system-on-a-chip, or SOC, platforms."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1334066092967987,
+        "neutral": 0.008619001135230064,
+        "positive": 0.8579744100570679
+      },
+      "text": "Our sales and marketing teams, located across our global markets, work closely with end customers in each industry."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.09524373710155487,
+        "neutral": 0.009272485971450806,
+        "positive": 0.8954837322235107
+      },
+      "text": "Our partner network incorporates each industry's respective OEMs, original device manufacturers, or ODMs, system builders, add-in board manufacturers, or AIBs, retailers/distributors, internet and cloud service providers, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants.Members of our sales team have technical expertise and product and industry knowledge."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.15268822014331818,
+        "neutral": 0.00838310457766056,
+        "positive": 0.838928759098053
+      },
+      "text": "We also employ a team of application engineers to assist our partner network in designing, testing, and qualifying system designs that incorporate our platforms."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8493481874465942,
+        "neutral": 0.007232062052935362,
+        "positive": 0.14341968297958374
+      },
+      "text": "We believe that the depth and quality of our design support are key to improving our partner network’s time-to-market, maintaining a high level of customer satisfaction, and fostering relationships that encourage our end customers and partner network to use the next generation of our products within each platform.To encourage the development of applications optimized for our GPUs, we seek to establish and maintain strong relationships in the software development community."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.12137265503406525,
+        "neutral": 0.012216274626553059,
+        "positive": 0.8664110898971558
+      },
+      "text": "Engineering and marketing personnel engage with key software developers to promote and discuss our platforms, as well as to ascertain individual product requirements and solve technical problems."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.16203927993774414,
+        "neutral": 0.008271417580544949,
+        "positive": 0.8296892642974854
+      },
+      "text": "8Table of ContentsOur developer program makes our products available to developers prior to launch in order to encourage the development of AI frameworks, Software Development Kits, and Application Programming Interfaces, or APIs, for software applications and game titles that are optimized for our platforms."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.19107896089553833,
+        "neutral": 0.007409304846078157,
+        "positive": 0.8015117049217224
+      },
+      "text": "Our Deep Learning Institute provides in-person and online training for developers in industries and organizations around the world to build AI and accelerated computing applications that leverage our GPU and CUDA platforms."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.3679974675178528,
+        "neutral": 0.008123544976115227,
+        "positive": 0.6238790154457092
+      },
+      "text": "We now have over 1.6 million registered developers across our platforms, including accelerated computing, gaming, deep learning, autonomous machines, and others.As NVIDIA’s business has evolved from a focus primarily on gaming products to broader markets, and from chips to platforms and complete systems, so, too, have our avenues to market."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03249654173851013,
+        "neutral": 0.015989726409316063,
+        "positive": 0.9515137672424316
+      },
+      "text": "Thus, in addition to sales to customers in our partner network, certain of our platforms are also sold through e-tail channels, or direct to cloud service providers and enterprise customers.Sales to Dell Technologies Inc., or Dell, accounted for 11% of our total revenue for fiscal year 2020.Backlog Our sales are primarily made pursuant to standard purchase orders."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.042691681534051895,
+        "neutral": 0.11806301027536392,
+        "positive": 0.8392453193664551
+      },
+      "text": "The quantity of products purchased by our customers as well as our shipment schedules are subject to revisions that reflect changes in both the customers' requirements and in manufacturing availability."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04562998563051224,
+        "neutral": 0.02181326597929001,
+        "positive": 0.9325568079948425
+      },
+      "text": "Our industry is characterized by relatively short lead time orders and delivery schedules, thus, we believe that only a small portion of our backlog is non-cancelable and that the dollar amount associated with the non-cancelable portion is not significant.SeasonalityOur GPU and Tegra processor platforms serve many markets from consumer PC gaming to enterprise workstations to government and cloud service provider data centers, although a majority of our revenue stems from the consumer industry."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.9584421515464783,
+        "neutral": 0.020989995449781418,
+        "positive": 0.020567918196320534
+      },
+      "text": "Our consumer products typically see stronger revenue in the second half of our fiscal year."
+    },
+    {
+      "label": "neutral",
+      "confidence": {
+        "negative": 0.014753530733287334,
+        "neutral": 0.9597651958465576,
+        "positive": 0.0254812091588974
+      },
+      "text": "In addition, based on the production schedules of key customers, some of our products for notebooks or game consoles typically generate stronger revenue in the second and third quarters, and weaker revenue in the fourth and first quarters."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.25811633467674255,
+        "neutral": 0.018679441884160042,
+        "positive": 0.7232042551040649
+      },
+      "text": "However, there can be no assurance that this trend will continue."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.02715272456407547,
+        "neutral": 0.021257737651467323,
+        "positive": 0.9515895247459412
+      },
+      "text": "Manufacturing We do not directly manufacture semiconductors used for our products."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.2281561940908432,
+        "neutral": 0.007641216740012169,
+        "positive": 0.7642025947570801
+      },
+      "text": "Instead, we utilize a fabless manufacturing strategy, whereby we employ world-class suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.19649985432624817,
+        "neutral": 0.00752166798338294,
+        "positive": 0.7959784865379333
+      },
+      "text": "This strategy uses the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.13837872445583344,
+        "neutral": 0.01805800572037697,
+        "positive": 0.8435633182525635
+      },
+      "text": "Additionally, we can avoid many of the significant costs and risks associated with owning and operating manufacturing operations."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04366536810994148,
+        "neutral": 0.013164526782929897,
+        "positive": 0.9431701302528381
+      },
+      "text": "While we may directly procure certain raw materials used in the production of our products, such as substrates and a variety of components, our suppliers are responsible for procurement of the majority of the raw materials used in the production of our products."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.43253061175346375,
+        "neutral": 0.007531709969043732,
+        "positive": 0.5599376559257507
+      },
+      "text": "As a result, we can focus our resources on product design, additional quality assurance, marketing, and customer support.We utilize industry-leading suppliers, such as Taiwan Semiconductor Manufacturing Company Limited and Samsung Electronics Co. Ltd, to produce our semiconductor wafers."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.06027843803167343,
+        "neutral": 0.011493046768009663,
+        "positive": 0.928228497505188
+      },
+      "text": "We then utilize independent subcontractors, such as Advanced Semiconductor Engineering, Inc., Amkor Technology, BYD Auto Co. Ltd., Hon Hai Precision Industry Co., Ltd., JSI Logistics Ltd., King Yuan Electronics Co., Ltd., and Siliconware Precision Industries Company Ltd. to perform assembly, testing, and packaging of most of our products and platforms."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.08780556917190552,
+        "neutral": 0.008724660612642765,
+        "positive": 0.9034698009490967
+      },
+      "text": "We purchase substrates from IbidenCo."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04691920056939125,
+        "neutral": 0.013868126086890697,
+        "positive": 0.9392126798629761
+      },
+      "text": "Ltd., Kinsus Interconnect Technology Corporation, and Unimicron Technology Corporation, and memory from Micron Technology, Samsung Semiconductor, Inc., and SK Hynix.We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration, and then ship the semiconductors to contract equipment manufacturers, or CEMs, distributors, motherboard and AIB customers from our third-party warehouse in Hong Kong."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.10785520076751709,
+        "neutral": 0.008882082998752594,
+        "positive": 0.8832626938819885
+      },
+      "text": "Generally, these manufacturers assemble and test the boards based on our design kit and test specifications, and then ship our products to retailers, system builders, or OEMs as motherboard and AIB solutions.We also utilize industry-leading contract manufacturers, or CMs, such as BYD and Hon Hai Precision Industry Co., and ODMs such as Quanta Computer and Wistron Corporation, to manufacture some of our products for sale directly to end customers."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04889072850346565,
+        "neutral": 0.014259031042456627,
+        "positive": 0.9368503093719482
+      },
+      "text": "In those cases, key elements such as the GPU, SoC and memory are often consigned by us to the CMs, who are responsible for the procurement of other components used in the production process.9Table of ContentsWorking CapitalWe focus considerable attention on managing our inventories and other working-capital-related items."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.06222033128142357,
+        "neutral": 0.012137231417000294,
+        "positive": 0.9256424903869629
+      },
+      "text": "We manage inventories by communicating with our customers and partners and then using our industry experience to forecast demand on a platform-by-platform basis."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03620697930455208,
+        "neutral": 0.027546565979719162,
+        "positive": 0.9362465143203735
+      },
+      "text": "We then place manufacturing orders for our products that are based on forecasted demand."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.42947450280189514,
+        "neutral": 0.015253942459821701,
+        "positive": 0.555271565914154
+      },
+      "text": "We generally maintain substantial inventories of our products."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.9393004775047302,
+        "neutral": 0.011412191204726696,
+        "positive": 0.04928725212812424
+      },
+      "text": "A substantial amount of our inventories is maintained as semi-finished products that can be leveraged across a wide range of our processors to balance our customer demands.Our existing cash, cash equivalents and marketable securities balances increased by 47% to $10.90 billion at the end of fiscal year 2020 compared with the end of fiscal year 2019.Competition The market for our products is intensely competitive and is characterized by rapid technological change and evolving industry standards."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.1704060435295105,
+        "neutral": 0.013782607391476631,
+        "positive": 0.8158113360404968
+      },
+      "text": "We believe that the principal competitive factors in this market are performance, breadth of product offerings, access to customers and partners and distribution channels, software support, conformity to industry standard APIs, manufacturing capabilities, processor pricing, and total system costs."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.8351984620094299,
+        "neutral": 0.008052587509155273,
+        "positive": 0.15674899518489838
+      },
+      "text": "We believe that our ability to remain competitive will depend on how well we are able to anticipate the features and functions that customers and partners will demand and whether we are able to deliver consistent volumes of our products at acceptable levels of quality and at competitive prices."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.9496954679489136,
+        "neutral": 0.01927921548485756,
+        "positive": 0.031025294214487076
+      },
+      "text": "We expect competition to increase from both existing competitors and new market entrants with products that may be lower priced than ours, or may provide better performance or additional features not provided by our products."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.308651864528656,
+        "neutral": 0.011841550469398499,
+        "positive": 0.6795065999031067
+      },
+      "text": "In addition, it is possible that new competitors or alliances among competitors could emerge and acquire significant market share.A significant source of competition comes from companies that provide or intend to provide GPUs, embedded SOCs, and other accelerated and AI computing processor products."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04592050984501839,
+        "neutral": 0.017568614333868027,
+        "positive": 0.9365108609199524
+      },
+      "text": "Some of our competitors may have greater marketing, financial, distribution and manufacturing resources than we do and may be more able to adapt to customer or technological changes.Our current competitors include:•suppliers and licensors designing discrete and integrated GPUs and other accelerated computing solutions, including chipsets that incorporate 3D graphics, or HPC, such as Advanced Micro Devices, or AMD, Intel Corporation, or Intel, and Xilinx, Inc.;•large internet services companies with internal teams designing chips that incorporates HPC or accelerated computing functionality as part of their internal solutions or platforms, such as Alphabet Inc.; and•suppliers of SoC products that are embedded into automobiles, autonomous machines, and gaming devices, such as Ambarella, Inc., AMD, Broadcom Inc., Intel, Qualcomm Incorporated, Renesas Electronics Corporation, Samsung, and Xilinx, Inc. or companies with internal teams designing SoC products for internal use, such as Tesla Motors.Patents and Proprietary RightsWe rely primarily on a combination of patents, trademarks, trade secrets, employee and third-party nondisclosure agreements, and licensing arrangements to protect our intellectual property in the United States and internationally."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.014879611320793629,
+        "neutral": 0.12960180640220642,
+        "positive": 0.8555185794830322
+      },
+      "text": "Our currently issued patents have expiration dates from March 2020 to October 2039."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.08728306740522385,
+        "neutral": 0.012067449279129505,
+        "positive": 0.9006494283676147
+      },
+      "text": "We have numerous patents issued, allowed, and pending in the United States and in foreign jurisdictions."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.025281807407736778,
+        "neutral": 0.020594913512468338,
+        "positive": 0.9541231989860535
+      },
+      "text": "Our patents and pending patent applications primarily relate to our products and the technology used in connection with our products."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.060975439846515656,
+        "neutral": 0.014371099881827831,
+        "positive": 0.9246534705162048
+      },
+      "text": "We also rely on international treaties, organizations, and foreign laws to protect our intellectual property."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.027660947293043137,
+        "neutral": 0.06313931941986084,
+        "positive": 0.9091997742652893
+      },
+      "text": "The laws of certain foreign countries in which our products are or may be manufactured or sold, including various countries in Asia, may not protect our products or intellectual property rights to the same extent as the laws of the United States."
+    },
+    {
+      "label": "neutral",
+      "confidence": {
+        "negative": 0.03795980289578438,
+        "neutral": 0.8535468578338623,
+        "positive": 0.108493372797966
+      },
+      "text": "This decreased protection makes the possibility of piracy of our technology and products more likely."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03510705754160881,
+        "neutral": 0.017561504617333412,
+        "positive": 0.9473313689231873
+      },
+      "text": "We continuously assess whether and where to seek formal protection for particular innovations and technologies based on such factors as:•the location in which our products are manufactured;•our strategic technology or product directions in different countries;•the degree to which intellectual property laws exist and are meaningfully enforced in different jurisdictions; and•the commercial significance of our operations and our competitors' operations in particular countries and regions.We have also licensed technology from third parties and expect to continue to enter into such license agreements.EmployeesAs of January 26, 2020, we had 13,775 employees, 9,823 of whom were engaged in research and development and 3,952 of whom were engaged in sales, marketing, operations, and administrative positions."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.17200732231140137,
+        "neutral": 0.0828104317188263,
+        "positive": 0.7451822757720947
+      },
+      "text": "10Table of ContentsEnvironmental Regulatory ComplianceTo date, we have not incurred significant expenses related to environmental regulatory compliance matters."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.024722935631871223,
+        "neutral": 0.021892286837100983,
+        "positive": 0.9533848166465759
+      },
+      "text": "Information About Our Executive OfficersThe following sets forth certain information regarding our executive officers, their ages and positions as of February 14, 2020:Name Age PositionJen-Hsun Huang 56 President and Chief Executive OfficerColette M. Kress 52 Executive Vice President and Chief Financial OfficerAjay K. Puri 65 Executive Vice President, Worldwide Field OperationsDebora Shoquist 65 Executive Vice President, OperationsTimothy S. Teter 53 Executive Vice President and General CounselJen-Hsun Huang co-founded NVIDIA in 1993 and has served as our President, Chief Executive Officer and a member of the Board of Directors since our inception."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.040167421102523804,
+        "neutral": 0.02245318703353405,
+        "positive": 0.9373793601989746
+      },
+      "text": "From 1985 to 1993, Mr. Huang was employed at LSI Logic Corporation, a computer chip manufacturer, where he held a variety of positions including as Director of Coreware, the business unit responsible for LSI's SOC."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04524523764848709,
+        "neutral": 0.02442936785519123,
+        "positive": 0.9303253889083862
+      },
+      "text": "From 1983 to 1985, Mr. Huang was a microprocessor designer for Advanced Micro Devices, Inc., a semiconductor company."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04651695489883423,
+        "neutral": 0.014412929303944111,
+        "positive": 0.9390701055526733
+      },
+      "text": "Mr. Huang holds a B.S.E.E."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.0976649671792984,
+        "neutral": 0.022843215614557266,
+        "positive": 0.8794918060302734
+      },
+      "text": "degree from Oregon State University and an M.S.E.E."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04461098089814186,
+        "neutral": 0.015495571307837963,
+        "positive": 0.9398934245109558
+      },
+      "text": "degree from Stanford University.Colette M. Kress joined NVIDIA in 2013 as Executive Vice President and Chief Financial Officer."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.039806053042411804,
+        "neutral": 0.020210877060890198,
+        "positive": 0.939983069896698
+      },
+      "text": "Prior to NVIDIA, Ms. Kress most recently served as Senior Vice President and Chief Financial Officer of the Business Technology and Operations Finance organization at Cisco Systems, Inc., a networking equipment company, since 2010."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.037172358483076096,
+        "neutral": 0.017834365367889404,
+        "positive": 0.944993257522583
+      },
+      "text": "At Cisco, Ms. Kress was responsible for financial strategy, planning, reporting and business development for all business segments, engineering and operations."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.036685023456811905,
+        "neutral": 0.0245573278516531,
+        "positive": 0.9387576580047607
+      },
+      "text": "From 1997 to 2010 Ms. Kress held a variety of positions at Microsoft Corporation, a software company, including, beginning in 2006, Chief Financial Officer of the Server and Tools division, where Ms. Kress was responsible for financial strategy, planning, reporting and business development for the division."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03567001223564148,
+        "neutral": 0.023900113999843597,
+        "positive": 0.9404298663139343
+      },
+      "text": "Prior to joining Microsoft, Ms. Kress spent eight years at Texas Instruments Incorporated, a semiconductor company, where she held a variety of finance positions."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.07391640543937683,
+        "neutral": 0.01457981113344431,
+        "positive": 0.9115037322044373
+      },
+      "text": "Ms. Kress holds a B.S."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.044049762189388275,
+        "neutral": 0.018899496644735336,
+        "positive": 0.9370507001876831
+      },
+      "text": "degree in Finance from University of Arizona and an M.B.A. degree from Southern Methodist University.Ajay K. Puri joined NVIDIA in 2005 as Senior Vice President, Worldwide Sales and became Executive Vice President, Worldwide Field Operations in 2009."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03725886717438698,
+        "neutral": 0.032130513340234756,
+        "positive": 0.9306106567382812
+      },
+      "text": "Prior to NVIDIA, he held positions in sales, marketing, and general management over a 22-year career at Sun Microsystems, Inc., a computing systems company."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03618466481566429,
+        "neutral": 0.02245093137025833,
+        "positive": 0.9413643479347229
+      },
+      "text": "Mr. Puri previously held marketing, management consulting, and product development positions at Hewlett-Packard Company, an information technology company, Booz Allen Hamilton Inc., a management and technology consulting company, and Texas Instruments Incorporated."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04203406721353531,
+        "neutral": 0.01577116549015045,
+        "positive": 0.9421947598457336
+      },
+      "text": "Mr. Puri holds a B.S.E.E."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.12148189544677734,
+        "neutral": 0.019334807991981506,
+        "positive": 0.8591832518577576
+      },
+      "text": "degree from the University of Minnesota, an M.S.E.E."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04032169654965401,
+        "neutral": 0.019902631640434265,
+        "positive": 0.9397757053375244
+      },
+      "text": "degree from the California Institute of Technology and an M.B.A. degree from Harvard Business School.Debora Shoquist joined NVIDIA in 2007 as Senior Vice President of Operations and in 2009 became Executive Vice President of Operations."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.7177765965461731,
+        "neutral": 0.008820045739412308,
+        "positive": 0.2734033763408661
+      },
+      "text": "Her role has since expanded with responsibility added for Facilities in 2013, and for Information Technology in 2015."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.039647217839956284,
+        "neutral": 0.022047027945518494,
+        "positive": 0.9383057355880737
+      },
+      "text": "Prior to NVIDIA, Ms. Shoquist served from 2004 to 2007 as Executive Vice President of Operations at JDS Uniphase Corp., a provider of communications test and measurement solutions and optical products for the telecommunications industry."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03994488716125488,
+        "neutral": 0.022068772464990616,
+        "positive": 0.9379863739013672
+      },
+      "text": "She served from 2002 to 2004 as Senior Vice President and General Manager of the Electro-Optics business at Coherent, Inc., a manufacturer of commercial and scientific laser equipment."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.0698067769408226,
+        "neutral": 0.014703132212162018,
+        "positive": 0.9154901504516602
+      },
+      "text": "Previously, she worked at Quantum Corp., a data protection company, as President of the Personal Computer Hard Disk Drive Division, and at Hewlett-Packard Corp. Ms. Shoquist holds a B.S."
+    },
+    {
+      "label": "negative",
+      "confidence": {
+        "negative": 0.5692546963691711,
+        "neutral": 0.024290166795253754,
+        "positive": 0.4064551591873169
+      },
+      "text": "degree in Electrical Engineering from Kansas State University and a B.S."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04228059947490692,
+        "neutral": 0.01721690408885479,
+        "positive": 0.9405025243759155
+      },
+      "text": "degree in Biology from Santa Clara University.Timothy S. Teter joined NVIDIA in 2017 as Senior Vice President, General Counsel and Secretary and became Executive Vice President, General Counsel and Secretary in February 2018."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.04041003808379173,
+        "neutral": 0.02379973977804184,
+        "positive": 0.9357901215553284
+      },
+      "text": "Prior to NVIDIA, Mr. Teter spent more than two decades at the law firm of Cooley LLP."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.037277016788721085,
+        "neutral": 0.03076891601085663,
+        "positive": 0.9319540858268738
+      },
+      "text": "He was most recently a partner at Cooley, where he focused on litigating patent and technology related matters."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.037785328924655914,
+        "neutral": 0.04231671616435051,
+        "positive": 0.9198979139328003
+      },
+      "text": "Prior to attending law school, he worked as an engineer at Lockheed Missiles and Space Company."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.05750330537557602,
+        "neutral": 0.014359613880515099,
+        "positive": 0.9281371235847473
+      },
+      "text": "Mr. Teter holds a B.S."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.27833321690559387,
+        "neutral": 0.027590040117502213,
+        "positive": 0.6940767168998718
+      },
+      "text": "degree in Mechanical Engineering from the University of California at Davis and a J.D."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.025997940450906754,
+        "neutral": 0.025111431255936623,
+        "positive": 0.9488906264305115
+      },
+      "text": "degree from Stanford Law School.Available InformationOur annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and, if applicable, amendments to those reports filed or furnished pursuant to Section 13(a) of the Securities Exchange Act of 1934, as 11Table of Contentsamended, are available free of charge on or through our web site, http://www.nvidia.com, as soon as reasonably practicable after we electronically file such material with, or furnish it to, the Securities and Exchange Commission, or the SEC."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.017627399414777756,
+        "neutral": 0.0563342422246933,
+        "positive": 0.9260384440422058
+      },
+      "text": "The SEC’s website, http://www.sec.gov, contains reports, proxy and information statements, and other information regarding issuers that file electronically with the SEC."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.01828092895448208,
+        "neutral": 0.037090424448251724,
+        "positive": 0.9446285963058472
+      },
+      "text": "Our web site and the information on it or connected to it are not a part of this Annual Report on Form 10-K."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.033216796815395355,
+        "neutral": 0.025044554844498634,
+        "positive": 0.9417386651039124
+      },
+      "text": "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISKInvestment and Interest Rate RiskWe are exposed to interest rate risk related to our floating and fixed-rate investment portfolio and outstanding debt."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.22870217263698578,
+        "neutral": 0.010414081625640392,
+        "positive": 0.7608838081359863
+      },
+      "text": "The investment portfolio is managed consistent with our overall liquidity strategy in support of both working capital needs and strategic growth of our businesses.As of January 26, 2020, we performed a sensitivity analysis on our floating and fixed rate financial investments."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.039174314588308334,
+        "neutral": 0.11574896425008774,
+        "positive": 0.8450766801834106
+      },
+      "text": "According to our analysis, parallel shifts in the yield curve of both plus or minus 0.5% would result in changes in fair values for these investments of $1 million.In fiscal year 2017, we issued $1.00 billion of the Notes Due 2021 and $1.00 billion of the Notes Due 2026."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03305746242403984,
+        "neutral": 0.020394137129187584,
+        "positive": 0.9465484023094177
+      },
+      "text": "We carry the Notes at face value less unamortized discount on our Consolidated Balance Sheets."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.03855378180742264,
+        "neutral": 0.022409090772271156,
+        "positive": 0.9390370845794678
+      },
+      "text": "As the Notes bear interest at a fixed rate, we have no financial statement risk associated with changes in interest rates."
+    },
+    {
+      "label": "positive",
+      "confidence": {
+        "negative": 0.02174205519258976,
+        "neutral": 0.029584035277366638,
+        "positive": 0.9486739039421082
+      },
+      "text": "Refer to Note 12 of the Notes to the Consolidated Financial Statements in Part IV,"
+    }
+  ]
+}
