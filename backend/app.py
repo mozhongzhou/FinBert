@@ -159,10 +159,15 @@ async def get_report_data(ticker: str, date: str, analyze: bool = False):
                 with open(result_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     logger.info(f"从文件加载报告数据: {report_key}")
-                    return data
+                    # 检查数据结构是否符合API要求
+                    if 'sections' not in data:
+                        logger.warning(f"报告数据格式不符合要求，将重新分析: {report_key}")
+                        analyze = True
+                    else:
+                        return data
             except json.JSONDecodeError:
-                logger.error(f"分析结果文件 {result_file} 格式错误")
-                # 出错时进行重新分析
+                logger.error(f"分析结果文件 {result_file} 格式错误，将重新分析")
+                analyze = True
         
         # 如果结果不存在或需要重新分析
         if analyzer is None:
@@ -171,107 +176,37 @@ async def get_report_data(ticker: str, date: str, analyze: bool = False):
         logger.info(f"开始实时分析报告: {report_key}")
         
         # 加载报告文本
-        sections = {}
         processed_dir = os.path.join(PROCESSED_DATA_DIR, ticker, date)
         
         if not os.path.exists(processed_dir):
             raise HTTPException(status_code=404, detail=f"未找到处理后的报告: {report_key}")
         
-        # 加载章节文本和句子
-        sentences_file = os.path.join(processed_dir, "sentences.txt")
-        sentences = []
-        
-        if os.path.exists(sentences_file):
-            with open(sentences_file, 'r', encoding='utf-8', errors='replace') as f:
-                raw_sentences = [line.strip() for line in f if line.strip()]
-            
-            # 分析句子情感
-            if raw_sentences:
-                logger.info(f"分析 {len(raw_sentences)} 个句子")
-                sentence_results = analyzer.analyze_batch(raw_sentences)
-                sentences = sentence_results
-        
-        # 加载章节内容
-        section_sentences = {}
-        section_summaries = {}
-        
+        # 读取所有章节文件
+        sections_content = {}
         for item_name in ["Item_1", "Item_1A", "Item_7", "Item_7A"]:
             item_file = os.path.join(processed_dir, f"{item_name}.txt")
-            
             if os.path.exists(item_file) and os.path.getsize(item_file) > 0:
-                with open(item_file, 'r', encoding='utf-8', errors='replace') as f:
-                    section_text = f.read()
-                
-                # 每个章节分句并分析情感
-                import nltk
                 try:
-                    nltk.data.find('tokenizers/punkt')
-                except LookupError:
-                    nltk.download('punkt', quiet=True)
-                
-                section_sents = nltk.sent_tokenize(section_text)
-                valid_sents = [s for s in section_sents if len(s.split()) >= 5]
-                
-                if valid_sents:
-                    section_results = analyzer.analyze_batch(valid_sents)
-                    section_sentences[item_name] = section_results
-                    
-                    # 计算章节情感摘要
-                    positive = sum(1 for s in section_results if s['label'] == 'positive')
-                    neutral = sum(1 for s in section_results if s['label'] == 'neutral')
-                    negative = sum(1 for s in section_results if s['label'] == 'negative')
-                    total = len(section_results)
-                    
-                    section_summaries[item_name] = {
-                        'positive': positive,
-                        'neutral': neutral,
-                        'negative': negative,
-                        'proportions': {
-                            'positive': positive / total if total > 0 else 0,
-                            'neutral': neutral / total if total > 0 else 0,
-                            'negative': negative / total if total > 0 else 0
-                        }
-                    }
+                    with open(item_file, 'r', encoding='utf-8', errors='replace') as f:
+                        content = f.read()
+                        if content and len(content.strip()) > 10:  # 过滤空文件
+                            sections_content[item_name] = content
+                except Exception as e:
+                    logger.error(f"读取文件 {item_file} 出错: {str(e)}")
         
-        # 计算整体摘要
-        all_sentences = []
-        for sents in section_sentences.values():
-            all_sentences.extend(sents)
+        if not sections_content:
+            raise HTTPException(status_code=404, detail=f"未找到有效的章节内容: {report_key}")
         
-        positive = sum(1 for s in all_sentences if s['label'] == 'positive')
-        neutral = sum(1 for s in all_sentences if s['label'] == 'neutral')
-        negative = sum(1 for s in all_sentences if s['label'] == 'negative')
-        total = len(all_sentences)
+        # 使用新增的章节分析方法
+        analysis_result = analyzer.analyze_report_sections(sections_content)
         
-        summary = {
-            'positive_count': positive,
-            'neutral_count': neutral,
-            'negative_count': negative,
-            'positive_ratio': positive / total if total > 0 else 0,
-            'neutral_ratio': neutral / total if total > 0 else 0,
-            'negative_ratio': negative / total if total > 0 else 0,
-            'total_sentences': total
-        }
-        
-        # 构建结果
+        # 添加报告基本信息
         result = {
             'ticker': ticker,
             'date': date,
-            'summary': summary,
-            'sections': {}
+            'summary': analysis_result['summary'],
+            'sections': analysis_result['sections']
         }
-        
-        # 添加章节数据
-        for section_name, section_sents in section_sentences.items():
-            result['sections'][section_name] = {
-                'sentences': section_sents,
-                'summary': section_summaries[section_name]['proportions'],
-                'counts': {
-                    'positive': section_summaries[section_name]['positive'],
-                    'neutral': section_summaries[section_name]['neutral'],
-                    'negative': section_summaries[section_name]['negative']
-                }
-            }
         
         # 保存结果
         os.makedirs(RESULTS_DIR, exist_ok=True)
@@ -351,33 +286,48 @@ async def get_summary(ticker: Optional[str] = None):
 
 @app.get("/api/report/{ticker}/{date}/section/{section}")
 async def get_section_data(ticker: str, date: str, section: str):
-    """获取特定报告章节的句子及其情感分析"""
+    """获取特定章节的详细数据"""
     try:
         report_key = f"{ticker}_{date}"
+        logger.info(f"获取章节数据: {report_key}/{section}")
         
-        # 检查分析结果是否已存在
-        result_file = os.path.join(RESULTS_DIR, f"{report_key}_analysis.json")
+        # 从完整报告中提取章节数据
+        report_data = await get_report_data(ticker, date)
         
-        if os.path.exists(result_file):
-            # 读取已有的分析结果
-            with open(result_file, 'r', encoding='utf-8') as f:
-                report_data = json.load(f)
-            
-            if 'sections' in report_data and section in report_data['sections']:
-                logger.info(f"返回章节 {section} 的数据")
-                return report_data['sections'][section]
-            else:
-                logger.warning(f"未找到章节 {section} 的数据")
-                raise HTTPException(status_code=404, detail=f"未找到章节 {section} 的数据")
-        else:
-            logger.warning(f"未找到报告 {report_key} 的分析结果")
-            raise HTTPException(status_code=404, detail=f"未找到报告 {report_key} 的分析结果")
-            
+        if section not in report_data.get("sections", {}):
+            raise HTTPException(status_code=404, detail=f"未找到章节: {section}")
+        
+        return {
+            "section": section,
+            "data": report_data["sections"][section]
+        }
+    except HTTPException:
+        raise
     except Exception as e:
-        if isinstance(e, HTTPException):
-            raise e
         logger.error(f"获取章节数据时出错: {str(e)}")
         raise HTTPException(status_code=500, detail=f"获取章节数据时出错: {str(e)}")
+
+
+@app.get("/api/analyze-text")
+async def analyze_text(text: str):
+    """分析单个文本的情感"""
+    try:
+        if not text or len(text.strip()) < 5:
+            raise HTTPException(status_code=400, detail="文本过短，请提供更长的文本")
+            
+        if analyzer is None:
+            raise HTTPException(status_code=500, detail="模型未加载，无法进行分析")
+            
+        # 进行情感分析
+        result = analyzer.analyze_text(text)
+        
+        logger.info(f"分析单个文本: '{text[:50]}...'")
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"分析文本时出错: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"分析文本时出错: {str(e)}")
 
 
 # 如果直接运行此文件

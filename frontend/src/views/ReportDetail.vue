@@ -6,14 +6,39 @@
     </div>
     <div v-else-if="store.error" class="error">
       <el-alert :title="store.error" type="error" show-icon />
+      <div class="error-actions">
+        <el-button type="primary" @click="handleRetry">重试</el-button>
+        <el-button @click="goBack">返回</el-button>
+      </div>
     </div>
     <div v-else-if="store.currentReport" class="report-content">
+      <!-- 调试信息区域 -->
+      <div
+        v-if="isDevelopment"
+        class="debug-info"
+        style="
+          margin-bottom: 20px;
+          padding: 10px;
+          background: #f0f9eb;
+          border-radius: 4px;
+        "
+      >
+        <p><strong>调试信息</strong></p>
+        <p>章节数量: {{ Object.keys(store.currentReport.sections).length }}</p>
+        <p>
+          章节列表: {{ Object.keys(store.currentReport.sections).join(", ") }}
+        </p>
+        <p v-if="activeSection">
+          当前章节句子数:
+          {{
+            store.currentReport.sections[activeSection]?.sentences?.length || 0
+          }}
+        </p>
+      </div>
       <div class="header">
         <el-page-header @back="goBack">
           <template #content>
-            <span class="report-title">
-              {{ ticker }} {{ date }} 年报分析
-            </span>
+            <span class="report-title"> {{ ticker }} {{ date }} 年报分析 </span>
           </template>
         </el-page-header>
       </div>
@@ -46,19 +71,25 @@
                 <div class="stat-item">
                   <div class="stat-label">正面句子占比</div>
                   <div class="stat-value positive">
-                    {{ formatPercent(store.currentReport.summary.positive_ratio) }}
+                    {{
+                      formatPercent(store.currentReport.summary.positive_ratio)
+                    }}
                   </div>
                 </div>
                 <div class="stat-item">
                   <div class="stat-label">中性句子占比</div>
                   <div class="stat-value neutral">
-                    {{ formatPercent(store.currentReport.summary.neutral_ratio) }}
+                    {{
+                      formatPercent(store.currentReport.summary.neutral_ratio)
+                    }}
                   </div>
                 </div>
                 <div class="stat-item">
                   <div class="stat-label">负面句子占比</div>
                   <div class="stat-value negative">
-                    {{ formatPercent(store.currentReport.summary.negative_ratio) }}
+                    {{
+                      formatPercent(store.currentReport.summary.negative_ratio)
+                    }}
                   </div>
                 </div>
               </div>
@@ -79,27 +110,32 @@
               <h3>{{ formatSectionName(sectionName) }}</h3>
               <div class="section-stats">
                 <el-tag type="success"
-                  >正面: {{ formatPercent(sectionData.summary.positive) }}</el-tag
+                  >正面:
+                  {{ formatPercent(sectionData.summary.positive) }}</el-tag
                 >
                 <el-tag type="info"
-                  >中性: {{ formatPercent(sectionData.summary.neutral) }}</el-tag
+                  >中性:
+                  {{ formatPercent(sectionData.summary.neutral) }}</el-tag
                 >
                 <el-tag type="danger"
-                  >负面: {{ formatPercent(sectionData.summary.negative) }}</el-tag
+                  >负面:
+                  {{ formatPercent(sectionData.summary.negative) }}</el-tag
                 >
               </div>
             </div>
 
             <div class="sentences-container">
-              <div
-                v-for="(sentence, index) in sectionData.sentences"
-                :key="index"
-                class="sentence-item"
-                :class="getSentenceClass(sentence.label)"
-                @click="selectSentence(sentence)"
+              <template
+                v-if="sectionData.sentences && sectionData.sentences.length > 0"
               >
-                {{ sentence.text }}
-              </div>
+                <sentence-explanation
+                  v-for="(sentence, index) in sectionData.sentences"
+                  :key="index"
+                  :sentence="sentence"
+                  @click="selectSentence(sentence)"
+                />
+              </template>
+              <el-empty v-else description="没有句子数据" />
             </div>
           </el-tab-pane>
         </el-tabs>
@@ -134,7 +170,11 @@
               :color="'#67C23A'"
               :format="
                 () =>
-                  `正面: ${selectedSentence ? formatPercent(selectedSentence.confidence.positive) : 'N/A'}`
+                  `正面: ${
+                    selectedSentence
+                      ? formatPercent(selectedSentence.confidence.positive)
+                      : 'N/A'
+                  }`
               "
               :stroke-width="18"
               class="sentiment-progress"
@@ -144,7 +184,11 @@
               :color="'#909399'"
               :format="
                 () =>
-                  `中性: ${selectedSentence ? formatPercent(selectedSentence.confidence.neutral) : 'N/A'}`
+                  `中性: ${
+                    selectedSentence
+                      ? formatPercent(selectedSentence.confidence.neutral)
+                      : 'N/A'
+                  }`
               "
               :stroke-width="18"
               class="sentiment-progress"
@@ -154,7 +198,11 @@
               :color="'#F56C6C'"
               :format="
                 () =>
-                  `负面: ${selectedSentence ? formatPercent(selectedSentence.confidence.negative) : 'N/A'}`
+                  `负面: ${
+                    selectedSentence
+                      ? formatPercent(selectedSentence.confidence.negative)
+                      : 'N/A'
+                  }`
               "
               :stroke-width="18"
               class="sentiment-progress"
@@ -188,6 +236,14 @@ import {
   LegendComponent,
 } from "echarts/components";
 import VChart from "vue-echarts";
+import SentenceExplanation from "@/components/SentenceExplanation.vue";
+import {
+  formatSectionName,
+  formatPercent,
+  getSentimentClass,
+  isValidReportData,
+  getMainSentiment,
+} from "@/utils/dataUtils";
 
 // 注册必要的ECharts组件
 use([
@@ -202,12 +258,13 @@ export default defineComponent({
   name: "ReportDetail",
   components: {
     VChart,
+    SentenceExplanation,
   },
   setup() {
     const router = useRouter();
     const route = useRoute();
     const store = useReportStore();
-    
+
     // 获取路由参数
     const ticker = ref(route.params.ticker as string);
     const date = ref(route.params.date as string);
@@ -279,27 +336,10 @@ export default defineComponent({
 
     // 添加主要情感计算
     const mainSentiment = computed(() => {
-      if (!store.currentReport || !store.currentReport.summary) return 'neutral';
-      
-      const summary = store.currentReport.summary;
-      const counts = {
-        'positive': summary.positive_count || 0,
-        'neutral': summary.neutral_count || 0,
-        'negative': summary.negative_count || 0
-      };
-      
-      // 找出出现最多的情感
-      let maxSentiment = 'neutral';
-      let maxCount = 0;
-      
-      for (const [sentiment, count] of Object.entries(counts)) {
-        if (count > maxCount) {
-          maxCount = count;
-          maxSentiment = sentiment;
-        }
-      }
-      
-      return maxSentiment;
+      if (!store.currentReport || !store.currentReport.summary)
+        return "neutral";
+
+      return getMainSentiment(store.currentReport);
     });
 
     // 处理句子选择
@@ -308,11 +348,7 @@ export default defineComponent({
       sentenceDrawer.value = true;
     };
 
-    // 工具函数
-    const formatPercent = (value: number) => {
-      return (value * 100).toFixed(1) + "%";
-    };
-
+    // 工具函数 - 使用工具类方法
     const getSentimentName = (sentiment: string) => {
       const map: { [key: string]: string } = {
         positive: "正面",
@@ -320,14 +356,6 @@ export default defineComponent({
         negative: "负面",
       };
       return map[sentiment] || "未知";
-    };
-
-    const getSentimentClass = (sentiment: string) => {
-      return `sentiment-${sentiment}`;
-    };
-
-    const getSentenceClass = (sentiment: string) => {
-      return `sentiment-${sentiment}`;
     };
 
     const getSentimentTagType = (sentiment: string) => {
@@ -339,17 +367,9 @@ export default defineComponent({
       return map[sentiment] || "";
     };
 
-    const formatSectionName = (section: string) => {
-      const map: { [key: string]: string } = {
-        // 使用后端实际章节名称格式
-        'Item_1': "业务概述",
-        'Item_1A': "风险因素",
-        'Item_7': "管理层讨论与分析",
-        'Item_7A': "市场风险披露",
-      };
-      return map[section] || section;
-    };
+    const getSentenceClass = getSentimentClass;
 
+    // 添加格式化日期函数
     const formatDate = (dateStr: string) => {
       // 简单格式化日期，如果需要可以增强
       return dateStr;
@@ -379,19 +399,46 @@ export default defineComponent({
       }
     };
 
+    // 添加重试功能
+    const handleRetry = async () => {
+      if (ticker.value && date.value) {
+        // 使用forceAnalyze参数强制重新分析
+        await store.fetchReportDetails(ticker.value, date.value, true);
+      }
+    };
+
     // 加载报告数据
     onMounted(async () => {
       if (ticker.value && date.value) {
-        await store.fetchReportDetails(ticker.value, date.value);
+        try {
+          await store.fetchReportDetails(ticker.value, date.value);
 
-        // 设置初始激活章节
-        if (store.currentReport && store.currentReport.sections) {
-          const sectionNames = Object.keys(store.currentReport.sections);
-          if (sectionNames.length > 0) {
-            activeSection.value = sectionNames[0];
+          // 检查数据是否有效
+          if (
+            store.currentReport &&
+            (!store.currentReport.sections ||
+              Object.keys(store.currentReport.sections).length === 0)
+          ) {
+            store.error = "报告数据无效，请重试或联系管理员";
+            return;
           }
+
+          // 设置初始激活章节
+          if (store.currentReport && store.currentReport.sections) {
+            const sectionNames = Object.keys(store.currentReport.sections);
+            if (sectionNames.length > 0) {
+              activeSection.value = sectionNames[0];
+            }
+          }
+        } catch (error) {
+          console.error("加载报告详情失败", error);
         }
       }
+    });
+
+    // 添加在script setup或script内部的适当位置
+    const isDevelopment = computed(() => {
+      return import.meta.env.MODE === "development";
     });
 
     return {
@@ -406,13 +453,14 @@ export default defineComponent({
       selectSentence,
       formatPercent,
       getSentimentName,
-      getSentimentClass,
-      getSentenceClass,
       getSentimentTagType,
+      getSentenceClass,
       formatSectionName,
       formatDate,
       goBack,
       generateExplanation,
+      isDevelopment,
+      handleRetry,
     };
   },
 });
@@ -569,5 +617,11 @@ export default defineComponent({
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.error-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 </style>
