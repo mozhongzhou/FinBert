@@ -1,4 +1,4 @@
 data/processed/*
 data/raw/*
 results/*
-*/_pycache_*
+*/_pycache_/*
